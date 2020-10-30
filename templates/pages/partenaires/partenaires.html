@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block titte %}Partenaires{% endblock titte %}
+
+{% block content %}
+<!--? Hero Start -->
+<div class="slider-area2" style="background:#010A1F;">
+    <div class="slider-height2 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap hero-cap2 pt-20 text-center">
+                        <h2 style="color: #ffffff;">Nos Partenaires</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+<div class="whole-wrap">
+    <div class="container box_1170">
+        <div class="section-top-border">
+            <h3>Logo Partenaires</h3>
+            <div class="row gallery-item">
+                <div class="col-md-4">
+                    <a href="{% static 'img/elements/g1.jpg' %}" class="img-pop-up">
+                        <div class="single-gallery-image" style="background: url(../../../static/img/elements/g1.jpg);"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

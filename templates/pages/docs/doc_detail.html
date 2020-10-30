@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block titte %}Documentation{% endblock titte %}
+
+{% block content %}
+
+
+     <!-- Hero End -->
+     <!--? Blog Area Start -->
+     <section class="blog_area single-post-area section-padding">
+        <div class="container">
+           <div class="">
+                <div class="posts-list">
+                 <div class="single-post">
+                    <!-- <div class="feature-img">
+                       <img class="img-fluid" src="assets/img/blog/single_blog_1.png" alt="">
+                    </div> -->
+                    <div class="blog_details">
+                       <h1 style="color: #2d2d2d;">
+                        {{ docs_view.question }}
+                       </h1>
+                       <ul class="blog-info-link mt-3 mb-4">
+                          <li><a href="#"><i class="fa fa-edit"></i> {{ docs_view.categorie }} </a></li>
+                       </ul>
+                       <p class="excert">
+                        {{ docs_view.reponse }}.
+                       </p>
+                    </div>
+                 </div>
+                
+              </div>
+           </div>
+        </div>
+    </section>
+     <!-- Blog Area End -->
+
+
+{% endblock content %}

@@ -1,0 +1,61 @@
+{% extends 'pages/dashboard/dashboard.html' %}
+{% load static %}
+{% block dashboard_title %}Formulaire pour partenaires{% endblock dashboard_title %}
+{% block dashboard %}
+
+<div class="card">
+    <h3 class="card-header">Remplir le formulaire de parteneuriat</h3>
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label for="company" class="col-form-label">Nom de l'entreprise</label>
+                <input id="company" type="text" class="form-control" placeholder="Nom de l'entreprise">
+            </div>
+            <div class="form-group">
+                <label for="secteur" class="col-form-label">Secteur d'activités</label>
+                <input id="secteur" type="text" class="form-control" placeholder="Secteur d'activités">
+            </div>
+            <div class="form-group">
+                <label for="description" class="col-form-label">Description</label>
+                <input id="description" type="text" class="form-control" placeholder="Description de l'entreprise">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Address Email</label>
+                <input id="inputEmail" type="email" placeholder="name@example.com" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="telephone" class="col-form-label">Téléphone</label>
+                <input id="telephone" type="number" class="form-control" placeholder="Téléphone">
+            </div>
+            <div class="form-group">
+                <label for="telephone_2" class="col-form-label">Téléphone 2</label>
+                <input id="telephone_2" type="number" class="form-control" placeholder="Téléphone 2">
+            </div>
+            <div class="custom-file mb-3">
+                <input type="file" class="custom-file-input" id="logo">
+                <label class="custom-file-label" for="logo">Inserez le Logo</label>
+            </div>
+            <div class="form-group">
+                <label for="rccm" class="col-form-label">RCCM</label>
+                <input id="rccm" type="text" class="form-control" placeholder="RCCM">
+            </div>
+            <div class="form-group">
+                <label for="id_nat" class="col-form-label">ID Nat.</label>
+                <input id="id_nat" type="text" class="form-control" placeholder="ID Nat">
+            </div>
+            <div class="form-group">
+                <label for="date" class="col-form-label">Date de création</label>
+                <input type="text" class="form-control date-inputmask" id="date" placeholder="dd/mm/yyyy">
+            </div>
+            <div class="form-group">
+                <label for="adresse">Adresse physique</label>
+                <textarea class="form-control" id="adresse" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Soumettre</button>
+        </form>
+    </div>
+</div>
+
+
+{% endblock dashboard %}

@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block titte %}Documentation{% endblock titte %}
+
+{% block content %}
+    <!--? Hero Start -->
+    <div class="slider-area2" style="background:#010A1F;">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 pt-20 text-center">
+                            <h2 style="color: #ffffff;">Documentations</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <!-- Featured_job_start -->
+    <section class="featured-job-area section-padding30 section-bg2" data-background="{% static 'img/gallery/section_bg03.png' %}">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-20">
+                        <h2>Solutions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+            {% for solutions in solutions_list %}
+                <div class="col-lg-6 col-md-12">
+                    <!-- single-job-content -->
+                    <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="job-tittle">
+                                <a href="{% url 'docs:doc_detail' solutions.slug %}"><h4>{{ solutions.question }} </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-20">
+                        <h2>Produits</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+            {% for produits in produits_list %}
+                <div class="col-lg-6 col-md-12">
+                    <!-- single-job-content -->
+                    <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="job-tittle">
+                                <a href="{% url 'docs:doc_detail' produits.slug %}"><h4>{{ produits.question }} </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-20">
+                        <h2>Partenaires</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+            {% for partenaires in partenaires_list %}
+                <div class="col-lg-6 col-md-12">
+                    <!-- single-job-content -->
+                    <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="job-tittle">
+                                <a href="{% url 'docs:doc_detail' partenaires.slug %}"><h4>{{ partenaires.question }} </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-20">
+                        <h2>Investisseurs</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                {% for investisseurs in investisseurs_list %}
+                    <div class="col-lg-6 col-md-12">
+                        <!-- single-job-content -->
+                        <div class="single-job-items mb-30">
+                            <div class="job-items">
+                                <div class="job-tittle">
+                                    <a href="{% url 'docs:doc_detail' investisseurs.slug %}"><h4>{{ investisseurs.question }} </h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </section>
+    <!-- Featured_job_end -->
+{% endblock content %}

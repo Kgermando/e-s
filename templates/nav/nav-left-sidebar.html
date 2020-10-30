@@ -1,0 +1,98 @@
+{% load static %}
+
+
+<div class="nav-left-sidebar sidebar-dark">
+    <div class="menu-list">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="d-xl-none d-lg-none" href="#">Tableau de bord</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-5" id="navbarNav">
+                {% with request.resolver_match.url_name as url_name %}
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-divider">
+                            Menu
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1">
+                                <i class="fa fa-fw fa-shopping-cart"></i>Marchés
+                            </a>
+                            <div id="submenu-1" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">E-Commerce</a>
+                                        <div id="submenu-1-2" class="collapse submenu" style="">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#" aria-disabled="true">E-Commerce</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Product List</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Product Single</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Product Checkout</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Finance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Sales</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item {% if url_name == 'dashboard' %}active{% endif %}">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2">
+                                <i class="fa fa-fw fa-edit"></i>Formulaires</a>
+                            <div id="submenu-2" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link {% if url_name == 'forms_entreprise' %}active{% endif %}" href="{% url 'dashboard:forms_entreprise' %}">Entreprises</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link {% if url_name == 'forms_artisans' %}active{% endif %}" href="{% url 'dashboard:forms_artisans' %}">Artisans</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link {% if url_name == 'forms_consultant' %}active{% endif %}" href="{% url 'dashboard:forms_consultant' %}">Consultant</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link {% if url_name == 'forms_partenaire' %}active{% endif %}" href="{% url 'dashboard:forms_partenaire' %}">Partenaires</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link {% if url_name == 'forms_inestisseurs' %}active{% endif %}" href="{% url 'dashboard:forms_inestisseurs' %}">Investisseurs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-divider">
+                            Offres
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'opportunites' %}active{% endif %}" href="{% url 'dashboard:opportunites' %}"><i class="fas fa-fw fa-star"></i> Opportunités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'annonces' %}active{% endif %}" href="{% url 'dashboard:annonces' %}"><i class="fas fa-fw fa-star"></i> Annonces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'fidelites' %}active{% endif %}" href="{% url 'dashboard:fidelites' %}"><i class="fas fa-fw fa-filter"></i> Fidelités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'marketing' %}active{% endif %}" href="{% url 'dashboard:marketing' %}"><i class="fas fa-fw fa-lightbulb"></i> Marketing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'commerciale' %}active{% endif %}" href="{% url 'dashboard:commerciale' %}"><i class="fas fa-fw fa-signal"></i> Commerciale</a>
+                        </li>
+                    </ul>
+                {% endwith %}
+            </div>
+        </nav>
+    </div>
+</div>
