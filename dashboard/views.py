@@ -11,6 +11,7 @@ def dashboard_stats(request):
     context = {}
     template_name = 'pages/dashboard/stats.html'
     return render(request, template_name, context)
+    
 
 def dashboard_forms_entreprise(request):
     if  request.method == 'POST':
@@ -147,7 +148,7 @@ def dashboard_forms_investisseurs(request):
 
 def dashboard_opportunites(request):
     opportunite = Opportunite.objects.all().order_by('-created')
-    paginator = Paginator(opportunite, 10)
+    paginator = Paginator(opportunite, 5)
     page = request.GET.get('page')
     try:
         opportunite_list = paginator.page(page)
@@ -165,7 +166,7 @@ def dashboard_opportunites(request):
 
 def dashboard_annonces(request):
     annonce = Annonce.objects.all().order_by('-created')
-    paginator = Paginator(annonce, 10)
+    paginator = Paginator(annonce, 5)
     page = request.GET.get('page')
     try:
         annonce_list = paginator.page(page)
@@ -182,7 +183,7 @@ def dashboard_annonces(request):
 
 def dashboard_fidelites(request):
     fidelite = Fidelite.objects.all().order_by('-created')
-    paginator = Paginator(fidelite, 10)
+    paginator = Paginator(fidelite, 5)
     page = request.GET.get('page')
     try:
         fidelite_list = paginator.page(page)
@@ -199,7 +200,7 @@ def dashboard_fidelites(request):
 
 def dashboard_marketing(request):
     marketing = Marketing.objects.all().order_by('-created')
-    paginator = Paginator(marketing, 10)
+    paginator = Paginator(marketing, 5)
     page = request.GET.get('page')
     try:
         marketing_list = paginator.page(page)
@@ -216,7 +217,7 @@ def dashboard_marketing(request):
 
 def dashboard_commerciale(request):
     commerciale = Commerciale.objects.all().order_by('-created')
-    paginator = Paginator(commerciale, 10)
+    paginator = Paginator(commerciale, 5)
     page = request.GET.get('page')
     try:
         commerciale_list = paginator.page(page)

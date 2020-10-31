@@ -22,15 +22,15 @@
         <div class="section-top-border">
             <!-- <h3>Logo Partenaires</h3> -->
             <div class="row gallery-item">
-                <div class="col-md-4">
-                    {% for partenaire in partenaire_list %}
+                {% for partenaire in partenaire_list %}
+                    <div class="col-md-4">
                         <a href="{{ partenaire.img_partenaire.url }}" class="img-pop-up" alt="{{ partenaire.company }}">
                             <div class="single-gallery-image" style="background: url('{{ partenaire.img_partenaire.url }}');"></div>
                         </a>
-                    {% empty %}
-                        <p>Sorry, pas de partenaire pour le moment</p>
-                    {% endfor %}
-                </div>
+                    </div>
+                {% empty %}
+                    <p>Sorry, pas de partenaire pour le moment</p>
+                {% endfor %}
             </div>
             <div class="pagination d-flex justify-content-center py-4">
                 <span class="step-links">

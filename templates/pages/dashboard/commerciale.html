@@ -5,48 +5,47 @@
 
 {% for commerciale in commerciale_list %}
     <div class="card">
-        <h5 class="card-header">{{commerciale.secteur}}</h5>
+        <h4 class="card-header text-danger"><i class="fas fa-fw fa-bell"></i>  {{commerciale.secteur|upper}}</h4>
         <div class="card-body">
             <div class="metric-value d-inline-block">
-                <h1 class="mb-1">{{commerciale.titre}}</h1>
+                <h2 class="mb-1">{{commerciale.titre}}</h2>
             </div>
             <div class="metric-label d-inline-block float-right text-secondary font-weight-bold">
-                <span class="icon-circle-small icon-box-xs text-danger bg-danger-light">
-                    {{commerciale.created | date}}
-                </span>
+                {{commerciale.created | timesince}}
             </div>
         </div>
-        <div class="card-body text-center bg-light p-t-40 p-b-40">
-            <p>{{commerciale.description}}</p>
+        <div class="card-body text-left bg-light">
+            <p>{{commerciale.description|truncatewords:50}}</p>
         </div>
         <div class="card-footer text-center bg-white">
             <a href="#" class="card-link">View Details</a>
         </div>
     </div>
-    <div class="pagination d-flex justify-content-center py-4">
-        <span class="step-links">
-            {% if commerciale_list.has_previous %}          
-                <a href="?page={{ commerciale_list.previous_page_number }}">page précédente</a>
-            {% endif %}
 
-            <span class="current">
-            {{ commerciale_list.number }}
-            </span>
-
-            {% if commerciale_list.has_next %}
-                <a href="?page={{ commerciale_list.next_page_number }}">page suivante</a>
-            {% endif %}
-        </span>
-    </div>
 {% empty %}
     <div class="card">
         <h3 class="card-header">Commerciales</h3>
         <div class="card-body">
-            <h4>Merci pour votre Inscription mais pour le moment pas d'actiités Commerciales pour vous.</h4>
+            <h4>Merci pour votre Inscription mais pour le moment pas d'commerciales pour vous.</h4>
         </div>
     </div>
 {% endfor %}
 
+<div class="pagination d-flex justify-content-center py-4">
+    <span class="step-links">
+        {% if commerciale_list.has_previous %}          
+            <a href="?page={{ commerciale_list.previous_page_number }}">page précédente</a>
+        {% endif %}
+
+        <span class="current">
+        {{ commerciale_list.number }}
+        </span>
+
+        {% if commerciale_list.has_next %}
+            <a href="?page={{ commerciale_list.next_page_number }}">page suivante</a>
+        {% endif %}
+    </span>
+</div>
 
 
 
