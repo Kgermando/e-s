@@ -3,12 +3,50 @@
 {% block dashboard_title %}Marketing{% endblock dashboard_title %}
 {% block dashboard %}
 
-<div class="card">
-    <h3 class="card-header">Marketing</h3>
-    <div class="card-body">
-        <h4>Merci pour votre Inscription mais pour le moment pas d'informations Marketing pour vous.</h4>
+{% for marketing in marketing_list %}
+    <div class="card">
+        <h5 class="card-header">{{marketing.secteur}}</h5>
+        <div class="card-body">
+            <div class="metric-value d-inline-block">
+                <h1 class="mb-1">{{marketing.titre}}</h1>
+            </div>
+            <div class="metric-label d-inline-block float-right text-secondary font-weight-bold">
+                <span class="icon-circle-small icon-box-xs text-danger bg-danger-light">
+                    {{marketing.created | date}}
+                </span>
+            </div>
+        </div>
+        <div class="card-body text-center bg-light p-t-40 p-b-40">
+            <p>{{marketing.description}}</p>
+        </div>
+        <div class="card-footer text-center bg-white">
+            <a href="#" class="card-link">View Details</a>
+        </div>
     </div>
-</div>
+    <div class="pagination d-flex justify-content-center py-4">
+        <span class="step-links">
+            {% if marketing_list.has_previous %}          
+                <a href="?page={{ marketing_list.previous_page_number }}">page précédente</a>
+            {% endif %}
+
+            <span class="current">
+            {{ marketing_list.number }}
+            </span>
+
+            {% if marketing_list.has_next %}
+                <a href="?page={{ marketing_list.next_page_number }}">page suivante</a>
+            {% endif %}
+        </span>
+    </div>
+{% empty %}
+    <div class="card">
+        <h3 class="card-header">Marketing</h3>
+        <div class="card-body">
+            <h4>Merci pour votre Inscription mais pour le moment pas d'informations Marketing pour vous.</h4>
+        </div>
+    </div>
+{% endfor %}
+
 
 
 {% endblock dashboard %}

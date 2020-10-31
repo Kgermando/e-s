@@ -14,7 +14,6 @@ class ContactForm(models.Model):
         return 'Message de ' + self.first_name + ' ' + self.last_name
 
 
-
 class Team(models.Model):
     prenom_nom = models.CharField(max_length=255)
     grade = models.CharField(max_length=255)

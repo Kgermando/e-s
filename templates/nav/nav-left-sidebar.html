@@ -22,12 +22,12 @@
                             <div id="submenu-1" class="collapse submenu" style="">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
+                                        <a class="nav-link {% if url_name == 'dashboard' %}active{% endif %}" href="{% url 'dashboard:dashboard' %}" aria-disabled="true">Statistiques</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">E-Commerce</a>
                                         <div id="submenu-1-2" class="collapse submenu" style="">
                                             <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#" aria-disabled="true">E-Commerce</a>
-                                                </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" href="#">Product List</a>
                                                 </li>
@@ -41,7 +41,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Finance</a>
+                                        <a class="nav-link" href="#">Finances et Assurances</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Sales</a>

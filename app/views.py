@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 
 from app.models import ContactForm, Team
 # Create your views here.
@@ -34,11 +34,20 @@ def contact_view(request):
 
 def about_view(request):
     """
-    docstring
+    A Propos de ES
     """
     team_list = Team.objects.all().order_by('-created')
     context = {
         'team_list': team_list
     }
     template_name = "pages/app/about.html"
+    return render(request, template_name, context)
+
+
+def historique_view(request):
+    """
+    Historique ES
+    """
+    context = {}
+    template_name = "pages/app/historique.html"
     return render(request, template_name, context)

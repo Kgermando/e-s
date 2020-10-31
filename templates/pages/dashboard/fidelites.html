@@ -3,12 +3,49 @@
 {% block dashboard_title %}Fidelités{% endblock dashboard_title %}
 {% block dashboard %}
 
-<div class="card">
-    <h3 class="card-header">Fidelités</h3>
-    <div class="card-body">
-        <h4>Merci pour votre Inscription mais pour le moment pas des points de Fidelités pour vous.</h4>
+{% for fidelite in fidelite_list %}
+    <div class="card">
+        <h5 class="card-header">{{fidelite.secteur}}</h5>
+        <div class="card-body">
+            <div class="metric-value d-inline-block">
+                <h1 class="mb-1">{{fidelite.titre}}</h1>
+            </div>
+            <div class="metric-label d-inline-block float-right text-secondary font-weight-bold">
+                <span class="icon-circle-small icon-box-xs text-danger bg-danger-light">
+                    {{fidelite.created | date}}
+                </span>
+            </div>
+        </div>
+        <div class="card-body text-center bg-light p-t-40 p-b-40">
+            <p>{{fidelite.description}}</p>
+        </div>
+        <div class="card-footer text-center bg-white">
+            <a href="#" class="card-link">View Details</a>
+        </div>
     </div>
-</div>
+    <div class="pagination d-flex justify-content-center py-4">
+        <span class="step-links">
+            {% if fidelite_list.has_previous %}          
+                <a href="?page={{ fidelite_list.previous_page_number }}">page précédente</a>
+            {% endif %}
+
+            <span class="current">
+            {{ fidelite_list.number }}
+            </span>
+
+            {% if fidelite_list.has_next %}
+                <a href="?page={{ fidelite_list.next_page_number }}">page suivante</a>
+            {% endif %}
+        </span>
+    </div>
+{% empty %}
+    <div class="card">
+        <h3 class="card-header">Fidelités</h3>
+        <div class="card-body">
+            <h4>Merci pour votre Inscription mais pour le moment pas des points de Fidelités pour vous.</h4>
+        </div>
+    </div>
+{% endfor %}
 
 
 {% endblock dashboard %}

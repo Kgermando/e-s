@@ -6,46 +6,43 @@
 <div class="card">
     <h3 class="card-header">Remplir le formulaire d'un Consultant</h3>
     <div class="card-body">
-        <form>
+        <form method="POST">
+            {% csrf_token %}
             <div class="form-group">
-                <label for="company" class="col-form-label">Nom du Consultant</label>
-                <input id="company" type="text" class="form-control" placeholder="Nom de l'entreprise">
+                <label for="company" class="col-form-label">Nom complet du Consultant</label>
+                <input name="company" id="company" type="text" class="form-control" placeholder="Nom complet du consultant">
             </div>
             <div class="form-group">
                 <label for="secteur" class="col-form-label">Secteur d'activités</label>
-                <input id="secteur" type="text" class="form-control" placeholder="Secteur d'activités">
+                <input name="secteur" id="secteur" type="text" class="form-control" placeholder="Secteur d'activités">
             </div>
             <div class="form-group">
-                <label for="secteur" class="col-form-label">Spécialisté</label>
-                <input id="secteur" type="text" class="form-control" placeholder="Spécialiste en">
+                <label for="specialite" class="col-form-label">Spécialité</label>
+                <input name="specialite" id="specialite" type="text" class="form-control" placeholder="Descrivez votre Spécialité">
             </div>
             <div class="form-group">
-                <label for="description" class="col-form-label">Description</label>
-                <input id="description" type="text" class="form-control" placeholder="Description de l'entreprise">
-            </div>
-            <div class="form-group">
-                <label for="inputEmail">Address Email</label>
-                <input id="inputEmail" type="email" placeholder="name@example.com" class="form-control">
+                <label for="email">Address Email</label>
+                <input name="email" id="email" type="email" placeholder="name@example.com" class="form-control">
             </div>
             <div class="form-group">
                 <label for="telephone" class="col-form-label">Téléphone</label>
-                <input id="telephone" type="number" class="form-control" placeholder="Téléphone">
+                <input name="telephone" id="telephone" type="number" class="form-control" placeholder="Téléphone">
             </div>
             <div class="form-group">
                 <label for="telephone_2" class="col-form-label">Téléphone 2</label>
-                <input id="telephone_2" type="number" class="form-control" placeholder="Téléphone 2">
+                <input name="telephone_2" id="telephone_2" type="number" class="form-control" placeholder="Téléphone 2">
             </div>
             <div class="custom-file mb-3">
-                <input type="file" class="custom-file-input" id="logo">
+                <input name="logo" id="logo" type="file" class="custom-file-input">
                 <label class="custom-file-label" for="logo">Inserez le Logo</label>
             </div>
             <div class="form-group">
-                <label for="date" class="col-form-label">Date de création</label>
-                <input type="text" class="form-control date-inputmask" id="date" placeholder="dd/mm/yyyy">
+                <label for="date" class="col-form-label">Date de debut d'activités</label>
+                <input type="text" class="form-control date-inputmask" name="date" id="date" placeholder="dd/mm/yyyy">
             </div>
             <div class="form-group">
                 <label for="adresse">Adresse physique</label>
-                <textarea class="form-control" id="adresse" rows="3"></textarea>
+                <textarea class="form-control" name="adresse" id="adresse" rows="3"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary btn-lg btn-block">Soumettre</button>

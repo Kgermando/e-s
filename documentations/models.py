@@ -5,6 +5,7 @@ from es.utils import unique_slug_generator
 from es.constant import CATEGORIES
 # Create your models here.
 class Documentation(models.Model):
+    img_docs = models.ImageField(upload_to='docs_img/')
     categorie =  models.CharField(max_length=300, choices=CATEGORIES)
     question = models.CharField(max_length=300)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')

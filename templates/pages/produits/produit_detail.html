@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ produit.titre }} {% endblock title %}
+
+{% block content %}
+
+   <!-- Hero End -->
+   <!--? Blog Area Start -->
+   <section class="blog_area single-post-area section-padding">
+      <div class="container">
+         <div class="">
+               <div class="posts-list">
+               <div class="single-post">
+                  <div class="feature-img">
+                     <img class="img-fluid" src="{{ produit.img.url }}" height="400px" alt="{{ produit.titre }}">
+                  </div>
+                  <div class="blog_details">
+                     <h1 class="font-weight-bold" style="color: #2d2d2d;">
+                        {{ produit.titre }}
+                     </h1>
+                     <ul class="blog-info-link mt-3 mb-4">
+                        <!-- <li><a href="#"><i class="fa fa-home"></i> {{ produit.titre }} </a></li> -->
+                     </ul>
+                     <blockquote class="generic-blockquote">
+                        “{{ produit.description }}”
+                     </blockquote>
+                     <p class="excert">
+                        {{ produit.description }}
+                     </p>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Blog Area End -->
+
+{% endblock content %}

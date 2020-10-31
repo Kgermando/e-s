@@ -24,7 +24,7 @@
                                 <li>
                                     <p>Addresse : Address goes here, your demo address.</p>
                                 </li>
-                                <li><a href="#">Phone : +243 81 44338899</a></li>
+                                <li><a href="#">Phone : +243 81 376 31 19</a></li>
                                 <li><a href="#">Email : contact@entrepeunariat.solutions</a></li>
                             </ul>
                         </div>
@@ -36,11 +36,10 @@
                         <div class="footer-tittle">
                             <h4>Lien Important</h4>
                             <ul>
-                                <li><a href="#">View Project</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Testimonial</a></li>
-                                <li><a href="#">Proparties</a></li>
-                                <li><a href="#">Support</a></li>
+                            <li><a href="{% url 'app:about' %}">A Propos de Nous</a></li>
+                                <li><a href="{% url 'app:contact' %}">Contact Us</a></li>
+                                <li><a href="{% url 'produits:produits' %}">Produits</a></li>
+                                <li><a href="{% url 'solutions:entreprise_solution' %} ">Entreprise Solutions</a></li>
                             </ul>
                         </div>
                     </div>
