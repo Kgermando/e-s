@@ -6,14 +6,6 @@ from solutions.models import Entreprise_solution, Artisans_solution, Consultance
 # from solutions.forms import EntrepriseSearchForm
 # Create your views here.
 
-# class Entreprise_solutionFilter(BaseFilter):
-#     search_fields = {
-#         'search_text' : ['nom', 'secteur_entreprise', 'fonctions_entreprise'],
-#         'search_telephone_entreprise_exact' : { 'operator' : '__exact', 'fields' : ['telephone_entreprise'] },
-#         'search_telephone_entreprise_min' : { 'operator' : '__gte', 'fields' : ['telephone_entreprise'] },
-#         'search_telephone_entreprise_max' : { 'operator' : '__lte', 'fields' : ['telephone_entreprise'] },
-#     }
-
 def search(request):        
     if request.method == 'POST':      
         book_name =  request.POST.getlist('search')      
