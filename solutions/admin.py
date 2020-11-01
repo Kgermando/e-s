@@ -8,7 +8,7 @@ from solutions.models import Entreprise_solution, Artisans_solution, Consultance
 
 class Entreprise_solutionAdmin(admin.ModelAdmin):
     list_display = (
-        'logo_entreprise',
+        'id',
         'nom',
         'secteur_entreprise',
         'fonctions_entreprise',
@@ -22,7 +22,7 @@ class Entreprise_solutionAdmin(admin.ModelAdmin):
         'fonctions_entreprise',
         )
 
-    search_fields = ['nom', 'secteur_entreprise', 'fonctions_entreprise']
+    search_fields = ['id', 'nom', 'secteur_entreprise', 'fonctions_entreprise']
 
     list_per_page = 50
 
@@ -31,7 +31,7 @@ admin.site.register(Entreprise_solution, Entreprise_solutionAdmin)
 
 class Artisans_solutionAdmin(admin.ModelAdmin):
     list_display = (
-        'logo_artisans',
+        'id',
         'nom',
         'secteur_artisans',
         'fonctions_artisans',
@@ -45,7 +45,7 @@ class Artisans_solutionAdmin(admin.ModelAdmin):
         'fonctions_artisans',
         )
 
-    search_fields = ['nom', 'secteur_artisans', 'fonctions_artisans']
+    search_fields = ['id', 'nom', 'secteur_artisans', 'fonctions_artisans']
 
     list_per_page = 50
 
@@ -54,7 +54,7 @@ admin.site.register(Artisans_solution, Artisans_solutionAdmin)
 
 class Consultance_solutionAdmin(admin.ModelAdmin):
     list_display = (
-        'logo_consultance',
+        'id',
         'nom',
         'secteur_consultance',
         'fonctions_consultance',
@@ -68,7 +68,7 @@ class Consultance_solutionAdmin(admin.ModelAdmin):
         'fonctions_consultance',
         )
 
-    search_fields = ['nom', 'secteur_consultance', 'fonctions_consultance']
+    search_fields = ['id','nom', 'secteur_consultance', 'fonctions_consultance']
 
     list_per_page = 50
 

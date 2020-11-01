@@ -17,8 +17,8 @@
                             <div class="search-solutions">
                                 <div class="container search">
                                     <form class="example" action="">
-                                        <input type="text" placeholder="Recherche une entreprise.." name="search">
-                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                        <input type="text" name="q" placeholder="Recherche une entreprise..">
+                                        <button type="submit" value="{{ query|escape }}"><i class="fa fa-search"></i></button>
                                     </form>
                                     {% with request.resolver_match.url_name as url_name %}
                                         <ul class="nav d-flex justify-content-center m-5">
@@ -43,46 +43,62 @@
     </div>
     <!-- Hero End -->
 
-    <!--? Start Sample Area -->
-    <!-- <section class="sample-text-area">
-        <div class="container box_1170">
-            <div class="section-top-border">
-                <h3 class="mb-30">Une solution pour vos projets</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="single-defination">
-                            <h4 class="mb-20">01. Solution pour Entreprises</h4>
-                            <p>Recently, the US Federal government banned online casinos from operating in America by
-                                making it illegal to
-                                transfer money to them through any US bank or payment system. As a result of this law,
-                                most of the popular
-                                online casino networks</p>
+
+    <!-- Featured_job_start -->
+    {% if query %}
+        {% if results %}
+
+            <section class="featured-job-area section-padding10 section-bg2" data-background="{% static 'img/gallery/section_bg03.png' %}">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle text-center mb-20">
+                                <h2>Résultat obtenus sur les entreprises</h2>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="single-defination">
-                            <h4 class="mb-20">02. Solution pour Artisans</h4>
-                            <p>Recently, the US Federal government banned online casinos from operating in America by
-                                making it illegal to
-                                transfer money to them through any US bank or payment system. As a result of this law,
-                                most of the popular
-                                online casino networks</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-defination">
-                            <h4 class="mb-20">03. Solution pour Consultance</h4>
-                            <p>Recently, the US Federal government banned online casinos from operating in America by
-                                making it illegal to
-                                transfer money to them through any US bank or payment system. As a result of this law,
-                                most of the popular
-                                online casino networks</p>
-                        </div>
+                    <div class="row justify-content-center">
+
+                        {% for item in results %}
+                            <div class="col-lg-9 col-md-12">
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+                                        <div class="company-img">
+                                            <a href="{% url 'solutions:entreprise_solutions_detail' item.id %}"><img src="{{ item.logo_entreprise.url }}" alt="{{ item.nom }}"></a>
+                                        </div>
+                                        <div class="job-tittle">
+                                            <a href=""><h4>{{ item.nom|escape }}</h4></a>
+                                            <ul>
+                                                <li><i class="far fa-sort-amount-down"></i>{{ item.secteur_entreprise }}</li>
+                                                <li><i class="fas fa-phone"></i>{{ item.telephone_entreprise }}</li>
+                                                <li><i class="fas fa-mail"></i>{{ item.email_entreprise }}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                        
                     </div>
                 </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Sample Area -->
+            </section>
+
+        {% else %}
+
+            <section class="featured-job-area section-padding30 section-bg2" data-background="{% static 'img/gallery/section_bg03.png' %}">
+                
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <p>😒😒😒 Désolé, votre recherche ne donne rien. Essayer autre chose</p>
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+    {% endif %} 
+
+    <!-- Featured_job_end -->
+
 
 {% endblock content %}

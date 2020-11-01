@@ -8,12 +8,12 @@
     padding: 5px 20px;
 }
 
-h2 {
+/* h2 {
     font-size: 45px;
     font-weight: 700;
     color: #ffffff;
     text-shadow: 4px 4px;
-}
+} */
 
 /* Style the search field */
 form.example input[type=text] {

@@ -19,35 +19,35 @@
 <!-- Hero End -->
 <div class="whole-wrap">
     <div class="container box_1170">
-        <div class="section-top-border">
+        <div class="section-top-border"> 
             <!-- <h3>Logo Partenaires</h3> -->
             <div class="row gallery-item">
                 {% for partenaire in partenaire_list %}
                     <div class="col-md-4">
                         <a href="{{ partenaire.img_partenaire.url }}" class="img-pop-up" alt="{{ partenaire.company }}">
-                            <div class="single-gallery-image" style="background: url('{{ partenaire.img_partenaire.url }}');"></div>
+                            <div class="single-gallery-image" style="background: url('{{ partenaire.img_partenaire.url }}'); width: 200px; height: 200px;"></div>
                         </a>
                     </div>
                 {% empty %}
                     <p>Sorry, pas de partenaire pour le moment</p>
                 {% endfor %}
             </div>
-            <div class="pagination d-flex justify-content-center py-4">
-                <span class="step-links">
-                    {% if partenaire_list.has_previous %}          
-                        <a href="?page={{ partenaire_list.previous_page_number }}">page précédente</a>
-                    {% endif %}
-        
-                    <span class="current">
-                    {{ partenaire_list.number }}
-                    </span>
-        
-                    {% if partenaire_list.has_next %}
-                        <a href="?page={{ partenaire_list.next_page_number }}">page suivante</a>
-                    {% endif %}
-                </span>
-            </div>
         </div>
+    </div>
+    <div class="pagination d-flex justify-content-center py-4">
+        <span class="step-links">
+            {% if partenaire_list.has_previous %}          
+                <a href="?page={{ partenaire_list.previous_page_number }}">page précédente</a>
+            {% endif %}
+
+            <span class="current">
+            {{ partenaire_list.number }}
+            </span>
+
+            {% if partenaire_list.has_next %}
+                <a href="?page={{ partenaire_list.next_page_number }}">page suivante</a>
+            {% endif %}
+        </span>
     </div>
 </div>
 

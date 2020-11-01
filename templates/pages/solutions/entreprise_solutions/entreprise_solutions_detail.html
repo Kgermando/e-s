@@ -1,10 +1,42 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %} {{ entreprise_solutions.name }} {% endblock title %}
+{% block title %} {{ entreprise.nom }} {% endblock title %}
 {% block solutions %}
    <link rel="stylesheet" href="{% static 'css/search.css' %}">
 {% endblock solutions %}
 
 {% block content %}
+
+     <!-- Hero End -->
+   <!--? Blog Area Start -->
+   <section class="blog_area single-post-area section-padding">
+      <div class="container">
+         <div class="">
+               <div class="posts-list">
+               <div class="single-post">
+                  <div class="feature-img">
+                     <img class="img-fluid" src="{{ entreprise.logo_entreprise.url }}" height="400px" alt="{{ entreprise.nom }}">
+                  </div>
+                  <div class="blog_details">
+                     <h1 class="font-weight-bold" style="color: #2d2d2d;">
+                        {{ entreprise.nom }}
+                     </h1>
+                     <ul class="blog-info-link mt-3 mb-4">
+                        <!-- <li><a href="#"><i class="fa fa-home"></i> {{ entreprise.titre }} </a></li> -->
+                     </ul>
+                     <blockquote class="generic-blockquote">
+                        “{{ entreprise.fonctions_entreprise }}”
+                     </blockquote>
+                     <p class="excert">
+                        {{ entreprise.description_entreprise }}
+                     </p>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Blog Area End -->
 
 {% endblock content %}

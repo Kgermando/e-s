@@ -1,5 +1,6 @@
 from django.db import models
 from django.db.models.signals import pre_save
+from django.urls import reverse
 from es.utils import unique_slug_generator_solution
 from es.constant import SECTEUR_ENTREPRISES
 # Create your models here.
@@ -15,7 +16,7 @@ class Entreprise_solution(models.Model):
     telephone_entreprise = models.DecimalField(max_digits=13, decimal_places=0) 
     telephone_2_entreprise = models.DecimalField(max_digits=13, decimal_places=0) 
     email_entreprise = models.EmailField()
-    description_entreprise = models.CharField(max_length=500)
+    description_entreprise = models.TextField()
     competence_entreprise = models.CharField(max_length=500)
     sociauFB_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
     sociauTW_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
@@ -41,7 +42,7 @@ class Artisans_solution(models.Model):
     telephone_artisans = models.DecimalField(max_digits=13, decimal_places=0) 
     telephone_2_artisans = models.DecimalField(max_digits=13, decimal_places=0) 
     email_artisans = models.EmailField()
-    description_artisans = models.CharField(max_length=500)
+    description_artisans = models.TextField()
     competence_artisans = models.CharField(max_length=500)
     sociauFB_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
     sociauTW_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
@@ -52,10 +53,10 @@ class Artisans_solution(models.Model):
         return self.nom
 
     def get_absolute_url(self):
-        return reverse("solutions:entreprise_solutions_detail", kwargs={"slug": self.slug})
+        return reverse("solutions:artisans_solution_detail", kwargs={"slug": self.slug})
 
 
-
+ 
 class Consultance_solution(models.Model):
     """
     Consultance model
@@ -68,7 +69,7 @@ class Consultance_solution(models.Model):
     telephone_consultance = models.DecimalField(max_digits=13, decimal_places=0) 
     telephone_2_consultance = models.DecimalField(max_digits=13, decimal_places=0) 
     email_consultance = models.EmailField()
-    description_consultance = models.CharField(max_length=500)
+    description_consultance = models.TextField()
     competence_consultance = models.CharField(max_length=500)
     sociauFB_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
     sociauTW_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
@@ -79,7 +80,7 @@ class Consultance_solution(models.Model):
         return self.nom
 
     def get_absolute_url(self):
-        return reverse("solutions:entreprise_solutions_detail", kwargs={"slug": self.slug})
+        return reverse("solutions:consultance_solution_detail", kwargs={"slug": self.slug})
 
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
@@ -87,3 +88,17 @@ def tag_pre_save_receiver(sender, instance, *args, **kwargs):
         instance.slug = unique_slug_generator(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Entreprise_solution)
+
+
+def tag_pre_save_receiver(sender, instance, *args, **kwargs):
+    if not instance.slug:
+        instance.slug = unique_slug_generator(instance)
+
+pre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)
+
+
+def tag_pre_save_receiver(sender, instance, *args, **kwargs):
+    if not instance.slug:
+        instance.slug = unique_slug_generator(instance)
+
+pre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)
