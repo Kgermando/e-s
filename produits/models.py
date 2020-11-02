@@ -14,7 +14,9 @@ class Produit(models.Model):
     def __str__(self):
         return self.titre
 
+
     def get_absolute_url(self):
+        from django.urls import reverse
         return reverse("produits:product_detail", kwargs={"slug": self.slug})
 
 

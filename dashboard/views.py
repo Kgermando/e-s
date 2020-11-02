@@ -1,18 +1,20 @@
 from django.shortcuts import render,redirect
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
+from django.contrib.auth.decorators import login_required
 
 
 from dashboard.models import Forms_Entreprise, Forms_Artisans, Forms_Consultant, Forms_Partenaire, \
     Forms_Investisseur, Opportunite, Annonce, Fidelite, Marketing, Commerciale
 # Create your views here.
 
+@login_required(login_url='/accounts/login/')
 def dashboard_stats(request):
     
     context = {}
     template_name = 'pages/dashboard/stats.html'
     return render(request, template_name, context)
     
-
+@login_required(login_url='/accounts/login/')
 def dashboard_forms_entreprise(request):
     if  request.method == 'POST':
         company = request.POST['company']
@@ -41,6 +43,8 @@ def dashboard_forms_entreprise(request):
     template_name = 'pages/dashboard/forms_entreprise.html'
     return render(request, template_name, context)
 
+
+@login_required(login_url='/accounts/login/')
 def dashboard_forms_artisans(request):
     if  request.method == 'POST':
         company = request.POST['company']
@@ -67,6 +71,7 @@ def dashboard_forms_artisans(request):
     return render(request, template_name, context)
 
 
+@login_required(login_url='/accounts/login/')
 def dashboard_forms_consultant(request):
     if  request.method == 'POST':
         company = request.POST['company']
@@ -94,6 +99,7 @@ def dashboard_forms_consultant(request):
     return render(request, template_name, context)
 
 
+@login_required(login_url='/accounts/login/')
 def dashboard_forms_partenaire(request):
     if  request.method == 'POST':
         company = request.POST['company']
@@ -120,6 +126,7 @@ def dashboard_forms_partenaire(request):
     return render(request, template_name, context)
 
 
+@login_required(login_url='/accounts/login/')
 def dashboard_forms_investisseurs(request):
     if  request.method == 'POST':
         company = request.POST['company']
@@ -146,6 +153,7 @@ def dashboard_forms_investisseurs(request):
     return render(request, template_name, context)
 
 
+@login_required(login_url='/accounts/login/')
 def dashboard_opportunites(request):
     opportunite = Opportunite.objects.all().order_by('-created')
     paginator = Paginator(opportunite, 5)
@@ -163,7 +171,7 @@ def dashboard_opportunites(request):
     return render(request, template_name, context)
 
 
-
+@login_required(login_url='/accounts/login/')
 def dashboard_annonces(request):
     annonce = Annonce.objects.all().order_by('-created')
     paginator = Paginator(annonce, 5)
@@ -181,6 +189,7 @@ def dashboard_annonces(request):
     return render(request, template_name, context)
 
 
+@login_required(login_url='/accounts/login/')
 def dashboard_fidelites(request):
     fidelite = Fidelite.objects.all().order_by('-created')
     paginator = Paginator(fidelite, 5)
@@ -198,6 +207,7 @@ def dashboard_fidelites(request):
     return render(request, template_name, context)
 
 
+@login_required(login_url='/accounts/login/')
 def dashboard_marketing(request):
     marketing = Marketing.objects.all().order_by('-created')
     paginator = Paginator(marketing, 5)
@@ -215,6 +225,7 @@ def dashboard_marketing(request):
     return render(request, template_name, context)
 
 
+@login_required(login_url='/accounts/login/')
 def dashboard_commerciale(request):
     commerciale = Commerciale.objects.all().order_by('-created')
     paginator = Paginator(commerciale, 5)

@@ -19,7 +19,25 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 
+from django.contrib.sitemaps.views import sitemap
+from .sitemaps import DocumentationSitemap, PartenaireSitemap, ProduitSitemap, \
+    Entreprise_solutionSitemap, Artisans_solutionSitemap, Consultance_solutionSitemap, \
+    TeamSitemap, StaticViewSitemap
+
+sitemaps = {
+    'documentation-view' : DocumentationSitemap,
+    'partenaire-view' : PartenaireSitemap,
+    'produit-view' : ProduitSitemap,
+    'entreprise_solution-view' : Entreprise_solutionSitemap,
+    'artisans_solution-view' : Artisans_solutionSitemap,
+    'consultance_solution-view' : Consultance_solutionSitemap,
+    'team-view' : TeamSitemap,
+    'static': StaticViewSitemap,
+    }
+
+
 urlpatterns = [
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps},name='django.contrib.sitemaps.views.sitemap'),
     path('app/', include('app.urls')),
     path('', include('solutions.urls')),
     path('accounts/', include('accounts.urls')),

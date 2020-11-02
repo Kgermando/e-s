@@ -7,4 +7,57 @@
 
 {% block content %}
 
+<section class="blog_area single-post-area">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="feature-img d-flex justify-content-center pb-50">
+               <img class="img-fluid" src="{{ artisans.logo_artisans.url }}" height="500px" width="300px" alt="{{ artisans.nom }}">
+            </div>
+            <ul class="blog-info-link d-flex justify-content-center">
+               <li><a href="{{ artisans.sociauTW_artisans }"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="{{ artisans.sociauFB_artisans }}"><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href="{{ artisans.sociauINS_artisans }}"><i class="fab fa-instagram"></i></a></li>
+               <li><a href="{{ artisans.sociauIN_artisans }}"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+         </div>
+         <div class="col-lg-8">
+            <div class="blog_details mb-50">
+               <h1 class="font-weight-bold pb-10" style="color: #2d2d2d;">
+                  {{ artisans.nom }}
+               </h1>
+               <h3 class="font-weight-bold pb-10" style="color: #2d2d2d;">
+                  {{ artisans.secteur_artisans }}
+               </h3>
+               <ul class="blog-info-link pb-50">
+                  <li><a href="tel://{{artisans.telephone_artisans }}"><i class="fa fa-phone"></i> {{ artisans.telephone_artisans }} </a></li>
+                  <li><a href="tel://{{artisans.telephone_2_artisans }}"><i class="fa fa-phone"></i> {{ artisans.telephone_2_artisans }} </a></li>
+                  <li><a href="mailto:{{artisans.email_artisans }}"><i class="fa fa-envelope"></i> {{ artisans.email_artisans }} </a></li>
+                  <li><a href="http://{{artisans.site_web }}"><i class="fa fa-globe"></i> {{ artisans.site_web }} </a></li>
+               </ul>
+
+               <h3 class="font-weight-bold">Competences:</h3>
+               <blockquote class="generic-blockquote">
+                  “{{ artisans.competence_artisans }}”
+               </blockquote>
+
+               <div class="pt-50">
+                  <h3 class="font-weight-bold">Description de l'artisans:</h3>
+                  <p class="excert">
+                     {{ artisans.description_artisans }}
+                  </p> 
+               </div>
+               <div class="pt-50">
+                  <h3 class="font-weight-bold">Atout:</h3>
+                  <p class="excert">
+                     {{ artisans.fonctions_artisans }}
+                  </p> 
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
 {% endblock content %}

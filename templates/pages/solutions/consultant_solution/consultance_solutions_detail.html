@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} {{ consultance.nom }} {% endblock title %}
+{% block solutions %}
+   <link rel="stylesheet" href="{% static 'css/search.css' %}">
+{% endblock solutions %}
+
+{% block content %}
+
+<section class="blog_area single-post-area">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="feature-img d-flex justify-content-center pb-50">
+               <img class="img-fluid" src="{{ consultance.logo_consultance.url }}" height="500px" width="300px" alt="{{ consultance.nom }}">
+            </div>
+            <ul class="blog-info-link d-flex justify-content-center">
+               <li><a href="{{ consultance.sociauTW_consultance }"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="{{ consultance.sociauFB_consultance }}"><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href="{{ consultance.sociauINS_consultance }}"><i class="fab fa-instagram"></i></a></li>
+               <li><a href="{{ consultance.sociauIN_consultance }}"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+         </div>
+         <div class="col-lg-8">
+            <div class="blog_details mb-50">
+               <h1 class="font-weight-bold pb-10" style="color: #2d2d2d;">
+                  {{ consultance.nom }}
+               </h1>
+               <h3 class="font-weight-bold pb-10" style="color: #2d2d2d;">
+                  {{ consultance.secteur_consultance }}
+               </h3>
+               <ul class="blog-info-link pb-50">
+                  <li><a href="tel://{{ consultance.telephone_consultance }}"><i class="fa fa-phone"></i> {{ consultance.telephone_consultance }} </a></li>
+                  <li><a href="tel://{{ consultance.telephone_2_consultance }}"><i class="fa fa-phone"></i> {{ consultance.telephone_2_consultance }} </a></li>
+                  <li><a href="mailto:{{consultance.email_consultance }}"><i class="fa fa-envelope"></i> {{ consultance.email_consultance }} </a></li>
+                  <li><a href="http://{{ consultance.site_web }}"><i class="fa fa-globe"></i> {{ consultance.site_web }} </a></li>
+               </ul>
+
+               <h3 class="font-weight-bold">Competences:</h3>
+               <blockquote class="generic-blockquote">
+                  “{{ consultance.competence_consultance }}”
+               </blockquote>
+
+               <div class="pt-50">
+                  <h3 class="font-weight-bold">Description de l'consultance:</h3>
+                  <p class="excert">
+                     {{ consultance.description_consultance }}
+                  </p> 
+               </div>
+               <div class="pt-50">
+                  <h3 class="font-weight-bold">Atout:</h3>
+                  <p class="excert">
+                     {{ consultance.fonctions_consultance }}
+                  </p> 
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+{% endblock content %}

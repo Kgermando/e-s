@@ -66,3 +66,19 @@ def unique_slug_generator_dashboard(instance, new_slug=None):
         )
         return unique_slug_generator(instance, new_slug=new_slug)
     return slug
+
+
+def unique_slug_generator_partenaire(instance, new_slug=None):
+    if new_slug is not None:
+        slug = new_slug
+    else:
+        slug = slugify(instance.company)
+    Klass = instance.__class__
+    qs_exists = Klass.objects.filter(slug=slug).exists()
+    if qs_exists:
+        new_slug = "{slug}-{randomstr}".format(
+            slug=slug,
+            randomstr=random_string_generator(size=4),
+        )
+        return unique_slug_generator(instance, new_slug=new_slug)
+    return slug

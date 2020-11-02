@@ -56,9 +56,9 @@ def artisans_solution_detail(request, id):
     """
         artisans_solution_detail
     """
-    artisans_solution = Artisans_solution.objects.get(id=id)
+    artisans = Artisans_solution.objects.get(id=id)
     context = {
-        'artisans_solution': artisans_solution
+        'artisans': artisans
     }
     template_name = 'pages/solutions/artisans_solution/artisans_solution_detail.html'
     return render(request, template_name, context)
@@ -78,17 +78,17 @@ def consultance_solution_search(request):
         'results': results,
         'query': query
     }
-    template_name = 'pages/solutions/artisans_solution/artisans_solution.html'
+    template_name = 'pages/solutions/consultant_solution/consultant_solution.html'
     return render(request, template_name, context)
 
 def consultance_solution_detail(request, id):
     """
     consultance_solution_detail
     """
-    consultance_solution = Consultance_solution.objects.get(id=id)
+    consultance = Consultance_solution.objects.get(id=id)
     context = {
-        'consultance_solution': consultance_solution
+        'consultance': consultance
     }
-    template_name = 'pages/solutions/consultant_solution/consultant_solution_detail.html'
+    template_name = 'pages/solutions/consultant_solution/consultance_solutions_detail.html'
     return render(request, template_name, context)
 

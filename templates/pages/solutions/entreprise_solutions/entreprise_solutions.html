@@ -69,11 +69,11 @@
                                             <a href="{% url 'solutions:entreprise_solutions_detail' item.id %}"><img src="{{ item.logo_entreprise.url }}" alt="{{ item.nom }}"></a>
                                         </div>
                                         <div class="job-tittle">
-                                            <a href=""><h4>{{ item.nom|escape }}</h4></a>
+                                            <a href="{% url 'solutions:entreprise_solutions_detail' item.id %}"><h4>{{ item.nom|escape }}</h4></a>
                                             <ul>
                                                 <li><i class="far fa-sort-amount-down"></i>{{ item.secteur_entreprise }}</li>
                                                 <li><i class="fas fa-phone"></i>{{ item.telephone_entreprise }}</li>
-                                                <li><i class="fas fa-mail"></i>{{ item.email_entreprise }}</li>
+                                                <li><i class="fas fa-envelope"></i>{{ item.email_entreprise }}</li>
                                             </ul>
                                         </div>
                                     </div>
