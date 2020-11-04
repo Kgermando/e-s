@@ -55,13 +55,28 @@
                                 {% with request.resolver_match.url_name as url_name %}
                                     <nav>
                                         <ul id="navigation">
-                                            <li class="{% if url_name == 'entreprise_solution' %}active{% endif %}"><a href="{% url 'solutions:entreprise_solution' %}">Solutions</a></li>
-                                            <li class="{% if url_name == 'login' %}active{% endif %}"><a href="{% url 'produits:produits' %}">Produits</a></li>
-                                            <li class="{% if url_name == 'partenaires' %}active{% endif %}"><a href="{% url 'partenaires:partenaires' %}">Partenaires</a></li>
-                                            <li class="{% if url_name == 'docs' %}active{% endif %}"><a href="{% url 'docs:docs' %}">Documentations</a></li>
+                                            <li class="{% if url_name == 'entreprise_solution' %}active{% endif %}">
+                                                <a class="{% if url_name == 'entreprise_solution' %}active{% endif %}" href="{% url 'solutions:entreprise_solution' %}">Solutions</a>
+                                            </li>
+                                            <li class="{% if url_name == 'produits' %}active{% endif %}">
+                                                <a class="{% if url_name == 'produits' %}active{% endif %}" href="{% url 'produits:produits' %}">Produits</a>
+                                            </li>
+                                            <li class="{% if url_name == 'partenaires' %}active{% endif %}">
+                                                <a class="{% if url_name == 'partenaires' %}active{% endif %}" href="{% url 'partenaires:partenaires' %}">Partenaires</a>
+                                            </li>
+                                            <li class="{% if url_name == 'docs' %}active{% endif %}">
+                                                <a class="{% if url_name == 'docs' %}active{% endif %}" href="{% url 'docs:docs' %}">Documentations</a>
+                                            </li>
+                                            <li class="{% if url_name == 'contact' %}active{% endif %}">
+                                                <a class="{% if url_name == 'contact' %}active{% endif %}" href="{% url 'app:contact' %}">Contactez-nous</a>
+                                            </li>
                                             {% if not request.user.is_authenticated %}
-                                            <li class="{% if url_name == 'login' %}active{% endif %}"><a href="{% url 'login' %}">connexion</a></li>
-                                            <li class="{% if url_name == 'register' %}active{% endif %}"><a href="{% url 'register' %}">Inscription</a></li>
+                                            <li class="{% if url_name == 'login' %}active{% endif %}">
+                                                <a class="{% if url_name == 'login' %}active{% endif %}" href="{% url 'login' %}">connexion</a>
+                                            </li>
+                                            <li class="{% if url_name == 'register' %}active{% endif %}">
+                                                <a class="{% if url_name == 'register' %}active{% endif %}" href="{% url 'register' %}">Inscription</a>
+                                            </li>
                                             {% else %}
                                             <li><a href="#">Profile</a>
                                                     <ul class="submenu">

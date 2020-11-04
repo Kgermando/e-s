@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['entrepreneuriat-solutions.com', '68.183.113.220', '*']
 
 # Application definition
 
@@ -138,7 +138,7 @@ USE_L10N = True
 USE_TZ = True
 
 # config/settings.py
-DEFAULT_FROM_EMAIL = 'contact@catsr.org'
+DEFAULT_FROM_EMAIL = 'contact@entreprisesolutions.org'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
@@ -157,12 +157,12 @@ if DEBUG == True:
 else:
     AWS_ACCESS_KEY_ID = '6ENUK64BPFCJTZPQTAO5'
     AWS_SECRET_ACCESS_KEY = 'P5rdkJRh4d+KOeRAGGRSxjthz+melq41TB+M8NLOGcQ'
-    AWS_STORAGE_BUCKET_NAME = 'entreprisesolutions-spaces'
+    AWS_STORAGE_BUCKET_NAME = 'e-s-spaces'
     AWS_S3_ENDPOINT_URL = 'https://nyc3.digitaloceanspaces.com'
     AWS_S3_OBJECT_PARAMETERS = {
         'CacheControl': 'max-age=86400',
     }
-    AWS_LOCATION = 'entreprisesolutions-spaces-static'
+    AWS_LOCATION = 'e-s-spaces-static'
 
     STATICFILES_DIRS = [
         os.path.join(BASE_DIR, 'static'),

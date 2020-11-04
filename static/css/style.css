@@ -3323,6 +3323,11 @@ hr {
   color:#EFB629;
 }
 
+.main-header .main-menu ul li.active > a {
+  color: #EFB629;
+  border-bottom: 5px solid #EFB629;
+}
+
 /* line 179, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
 .main-header .main-menu ul ul.submenu {
   position: absolute;
@@ -3447,6 +3452,11 @@ hr {
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
   color:#EFB629;
+}
+
+.mobile_menu .slicknav_menu .slicknav_nav a.active {
+  background: transparent;
+  color: #EFB629;
 }
 
 /* line 278, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
