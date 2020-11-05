@@ -156,8 +156,8 @@ if DEBUG == True:
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root/')
     
 else:
-    AWS_ACCESS_KEY_ID = '6ENUK64BPFCJTZPQTAO5'
-    AWS_SECRET_ACCESS_KEY = 'P5rdkJRh4d+KOeRAGGRSxjthz+melq41TB+M8NLOGcQ'
+    AWS_ACCESS_KEY_ID = 'FGVT4254S7UKOZ6OHYGM'
+    AWS_SECRET_ACCESS_KEY = 'Qt/PU6L4VbCG05LZp3Eo82caaX5Sd5rfgjvjfsqlWFQ'
     AWS_STORAGE_BUCKET_NAME = 'e-s-spaces'
     AWS_S3_ENDPOINT_URL = 'https://nyc3.digitaloceanspaces.com'
     AWS_S3_OBJECT_PARAMETERS = {
