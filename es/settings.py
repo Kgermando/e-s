@@ -158,12 +158,12 @@ if DEBUG == True:
 else:
     AWS_ACCESS_KEY_ID = 'FGVT4254S7UKOZ6OHYGM'
     AWS_SECRET_ACCESS_KEY = 'Qt/PU6L4VbCG05LZp3Eo82caaX5Sd5rfgjvjfsqlWFQ'
-    AWS_STORAGE_BUCKET_NAME = 'e-s-spaces'
+    AWS_STORAGE_BUCKET_NAME = 'es-spaces'
     AWS_S3_ENDPOINT_URL = 'https://nyc3.digitaloceanspaces.com'
     AWS_S3_OBJECT_PARAMETERS = {
         'CacheControl': 'max-age=86400',
     }
-    AWS_LOCATION = 'e-s-spaces-static'
+    AWS_LOCATION = 'es-spaces-static'
 
     STATICFILES_DIRS = [
         os.path.join(BASE_DIR, 'static'),
