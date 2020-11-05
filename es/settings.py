@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -148,11 +149,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 if DEBUG == True:
     STATIC_URL = '/static/'
 
-    STATICFILES_DIRS = BASE_DIR / 'static',
-    STATIC_ROOT = BASE_DIR / 'static-root'
+    STATICFILES_DIRS = os.path.join(BASE_DIR, 'static/')
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static-root/')
 
     MEDIA_URL = '/media/'
-    MEDIA_ROOT = BASE_DIR / 'media-root'
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root/')
     
 else:
     AWS_ACCESS_KEY_ID = '6ENUK64BPFCJTZPQTAO5'
