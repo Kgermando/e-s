@@ -149,11 +149,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 if DEBUG == True:
     STATIC_URL = '/static/'
 
-    STATICFILES_DIRS = os.path.join(BASE_DIR, 'static/')
-    STATIC_ROOT = os.path.join(BASE_DIR, 'static-root/')
+    STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+    STATIC_ROOT = os.path.join(BASE_DIR, "static-root")
 
     MEDIA_URL = '/media/'
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root/')
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root')
     
 else:
     AWS_ACCESS_KEY_ID = 'FGVT4254S7UKOZ6OHYGM'
