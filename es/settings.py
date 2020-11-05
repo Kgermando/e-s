@@ -160,6 +160,7 @@ else:
     AWS_SECRET_ACCESS_KEY = 'Qt/PU6L4VbCG05LZp3Eo82caaX5Sd5rfgjvjfsqlWFQ'
     AWS_STORAGE_BUCKET_NAME = 'es-spaces'
     AWS_S3_ENDPOINT_URL = 'https://nyc3.digitaloceanspaces.com'
+    AWS_DEFAULT_ACL = None
     AWS_S3_OBJECT_PARAMETERS = {
         'CacheControl': 'max-age=86400',
     }
