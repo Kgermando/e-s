@@ -156,19 +156,18 @@ if DEBUG == True:
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root')
     
 else:
-    AWS_ACCESS_KEY_ID = 'FGVT4254S7UKOZ6OHYGM'
-    AWS_SECRET_ACCESS_KEY = 'Qt/PU6L4VbCG05LZp3Eo82caaX5Sd5rfgjvjfsqlWFQ'
-    AWS_STORAGE_BUCKET_NAME = 'es-spaces'
+    AWS_ACCESS_KEY_ID = 'HKW7WII6TR2PEA2RQN62'
+    AWS_SECRET_ACCESS_KEY = '4fPeOoS4DAa9crC+rdG/mk6LGkIh1QjNxh6Eog1HWRg'
+    AWS_STORAGE_BUCKET_NAME = 'entrepreneuriat-solutions'
     AWS_S3_ENDPOINT_URL = 'https://nyc3.digitaloceanspaces.com'
-    AWS_DEFAULT_ACL = None
     AWS_S3_OBJECT_PARAMETERS = {
         'CacheControl': 'max-age=86400',
     }
-    AWS_LOCATION = 'es-spaces-static'
+    AWS_LOCATION = 'entrepreneuriat-solutions-static'
 
-    STATICFILES_DIRS = [
-        os.path.join(BASE_DIR, 'static'),
-    ]
+    # STATICFILES_DIRS = [
+    #     os.path.join(BASE_DIR, 'static'),
+    # ]
     STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
     STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
     DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
