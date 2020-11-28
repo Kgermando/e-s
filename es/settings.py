@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '68.183.113.220', '*']
 
@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+
+    "django_static_fontawesome",
 
     'handlers',
     'app',
@@ -139,7 +141,7 @@ USE_L10N = True
 USE_TZ = True
 
 # config/settings.py
-DEFAULT_FROM_EMAIL = 'contact@entreprisesolutions.org'
+DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.org'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
