@@ -34,11 +34,13 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/animated-headline.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/magnific-popup.css' %} ">
     <link rel="stylesheet" type="text/css" href="{% static 'css/fontawesome-all.min.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'fontawesome/css/all.min.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'css/themify-icons.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/slick.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/nice-select.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    {% block style %}
+        <link rel="stylesheet" type="text/css" href="{% static 'fontawesome/css/all.min.css' %}" />
+    {% endblock %}
     {% block solutions %}  {% endblock solutions %}
     {% block error %} {% endblock error %}
  
