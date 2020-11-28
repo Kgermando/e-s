@@ -46,7 +46,7 @@ urlpatterns = [
     path('partenaires/', include('partenaires.urls')),
     path('dashboard/', include('dashboard.urls')),
     path('@es/', admin.site.urls),
-    # path('media/<path>', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT,}),
+    path('newsletter/', include('newsletter.urls')),
 ]
 handler400 = 'handlers.views.handler400'
 handler403 = 'handlers.views.handler403'

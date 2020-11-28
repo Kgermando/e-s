@@ -13,10 +13,10 @@
                             </ul>
                             <div class="header-social">
                                 <ul>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a target="blank" href="https://www.instagram.com/entrepreneuriat_solutions/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a target="blank" href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a target="blank" href="https://www.linkedin.com/in/entrepreneuriat-solutions/"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a target="blank" href="https://www.youtube.com/channel/UC8iNvsnAe89YRtWLrc1dyGA?view_as=subscriber"><i class="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -72,7 +72,6 @@
                                                     <a class="{% if url_name == 'contact' %}active{% endif %}" href="{% url 'app:contact' %}">Contactez-nous</a>
                                                 </li>  
                                             </div>
-                                            
                                             {% if not request.user.is_authenticated %}
                                             <li class="{% if url_name == 'login' %}active{% endif %}">
                                                 <a class="{% if url_name == 'login' %}active{% endif %}" href="{% url 'login' %}">connexion</a>

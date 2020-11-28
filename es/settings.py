@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    
+    'tinymce',
+    'newsletter',
 
     'handlers',
     'app',
@@ -141,6 +144,12 @@ USE_TZ = True
 # config/settings.py
 DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.org'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# newsletter
+NEWSLETTER_CONFIRM_EMAIL = False
+
+# Using django-tinymce
+NEWSLETTER_RICHTEXT_WIDGET = "tinymce.widgets.TinyMCE"
 
 
 # Static files (CSS, JavaScript, Images)
