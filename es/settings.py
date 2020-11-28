@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.sitemaps',
 
-    "django_static_fontawesome",
-
     'handlers',
     'app',
     'accounts',
@@ -88,7 +86,7 @@ WSGI_APPLICATION = 'es.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-if DEBUG == True:
+if DEBUG == False:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
