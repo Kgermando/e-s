@@ -1,4 +1,5 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
+from django.contrib import messages # for message
 
 from app.models import ContactForm, Team
 # Create your views here.
@@ -26,7 +27,7 @@ def contact_view(request):
             contact_us.save()
             # send_mail(first_name, )
             messages.success(request, 'Merci! Nous avons réçu votre message')
-            return redirect('/contact')
+            return redirect('contact')
 
     template_name = 'pages/app/contact.html'
     return render(request, template_name, context=None)
