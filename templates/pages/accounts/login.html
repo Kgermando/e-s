@@ -8,31 +8,35 @@
         <div class="row">
           <div class="col-md-6 mx-auto">
             <div class="card">
-              <div class="card-header bg-primary text-white login__label">
-                <h4><i class="fa fa-sign-in fa-2x" aria-hidden="true"></i> Se Connecter</h4>
+              <div class="card-header header-btn btn-rounded login__label">
+                <h4><i class="fa fa-user fa-2x" aria-hidden="true"></i> Connectez-vous ici</h4>
               </div>
-              <div class="card-body pb-0">
+              <div class="card-body">
                   <!-- Alerts -->
                   {% include 'notifications/_alerts.html' %}
                   <form action="{% url 'login' %}" method="POST">
                       {% csrf_token %}
-                  <div class="form-group">
-                    <input type="text" name="username" placeholder="Prénom"
-                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Prénom'" required
-                    class="single-input">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" name="password" placeholder="Mot de passe"
-                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mot de passe'" required
-                    class="single-input">
-                  </div>
+                      <div class="form-group pb-3">
+                        <input type="text" name="username" placeholder="Prénom"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Prénom'" required
+                        class="single-input">
+                      </div>
+                      <div class="form-group pb-3">
+                        <input type="password" name="password" placeholder="Mot de passe"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mot de passe'" required
+                        class="single-input">
+                      </div>
 
-                  <input type="submit" value="Se Connecter" class="genric-btn success-border" style="width:100%;">
+                      <!-- <input type="submit" value="Se Connecter" class="genric-btn success-border" style="width:100%;"> -->
+                      <input type="submit" value="Se Connecter"
+                                    class="btn header-btn btn-rounded btn-4 font-weight-semibold mx-auto btn-v-4 btn-h-5"
+                                    name="submit_button" id="submit_button"
+                                    data-loading-text="Loading...">
 
-                  <div class="login__notreg pt-5">
-                    <span>Pas encore de compte?</span>
-                    <a class="text-right bg-primary" href="{% url 'register' %}">S'enregister</a>
-                  </div>
+                      <div class="login__notreg pt-5">
+                        <span>Pas encore de compte?</span>
+                        <a class="text-right font-weight-semibold text-warning" href="{% url 'register' %}">S'enregister</a>
+                      </div>
                 </form>
               </div>
             </div>

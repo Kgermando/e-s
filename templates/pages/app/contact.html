@@ -21,9 +21,9 @@
     <section class="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <h2 class="contact-title">Get in Touch</h2>
-                </div>
+                </div> -->
                 <div class="col-lg-8">
                     <form class="form-contact contact_form" method="POST">
                         {% csrf_token %}
@@ -62,8 +62,8 @@
                         {% include 'notifications/_alerts.html' %}
                         <div class="form-group mt-3">
                             <!-- <input type="submit" name="submit_button" id="submit_button" class="button button-contactForm boxed-btn"> -->
-                            <input type="submit" value="SEND MESSAGE"
-                                class="btn btn-primary btn-rounded btn-4 font-weight-semibold mx-auto btn-v-4 btn-h-5"
+                            <input type="submit" value="soumettre votre message"
+                                class="btn header-btn btn-rounded btn-4 font-weight-semibold mx-auto btn-v-4 btn-h-5"
                                 name="submit_button" id="submit_button"
                                 data-loading-text="Loading...">
                         </div>
@@ -79,14 +79,14 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3>+243 81 376 31 19</h3>
+                            <h3><a href="tel:+243813763119">Phone : +243 81 376 31 19</a></h3>
                             <p>Du Lundi au Vendredi</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
-                            <h3>contact@entrepreneuriat-solutions.com</h3>
+                            <h3><a href="mailto:contact@entrepreneuriat-solutions.com">contact@entrepreneuriat-solutions.com</a></h3>
                             <p>Envoyez votre préocupations à tout moment!</p>
                         </div>
                     </div>

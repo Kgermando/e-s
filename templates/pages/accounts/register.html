@@ -8,56 +8,55 @@
       <div class="row">
         <div class="col-md-6 mx-auto">
           <div class="card">
-            <div class="card-header bg-primary text-white login__label">
-              <h4><i class="fa fa-user-plus fa-2x" aria-hidden="true"></i> Inscriptions</h4>
+            <div class="card-header header-btn btn-rounded login__label">
+              <h4><i class="fa fa-user-plus fa-2x" aria-hidden="true"></i> Inscrivez-vous ici</h4>
             </div>
-            <div class="card-body pb-0">
+            <div class="card-body ">
                 <!-- Alerts -->
                 {% include 'notifications/_alerts.html' %}
                 <form action="{% url 'register' %}" method="POST">
                     {% csrf_token %}
-                  <div class="form-group">
+                  <div class="form-group pb-3">
                       <input type="text" name="first_name" placeholder="Nom"
                         onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nom'" required
                         class="single-input">
                   </div>
-                <div class="form-group">
+                <div class="form-group pb-3">
                   <input type="text" name="last_name" placeholder="Post-Nom"
                         onfocus="this.placeholder = ''" onblur="this.placeholder = 'Post-Nom'" required
                         class="single-input">
                 </div>
-                <div class="form-group">
+                <div class="form-group pb-3">
                   <input type="text" name="username" placeholder="Prénom"
                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Prénom'" required
                   class="single-input">
                 </div>
-                <div class="form-group">
+                <div class="form-group pb-3">
                   <input type="email" name="email" placeholder="Email address"
 										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required
 										class="single-input">
                 </div>
-                <!-- <div class="form-group">
-                  <label for="Statut">Statut</label>
-                  <select name="statut" id="Statut" class="form-control">
-                    <option>Entreprise</option>
-                    <option>Artisans</option>
-                    <option>Consultant</option>
-                  </select>
-                </div> -->
-                <div class="form-group">
+                <div class="form-group pb-3">
                   <input type="password" name="password" placeholder="Password"
                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required
                   class="single-input">
                 </div>
-                <div class="form-group">
+                <div class="form-group pb-3">
                   <input type="password" name="password2" placeholder="Répéter votre mot de passe"
-                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Répéter votre mot de passe'" required
-                  class="single-input">
+                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Répéter votre mot de passe'" required
+                    class="single-input">
                 </div>
-                <input type="submit" value="S'enregister" class="genric-btn success-border" style="width:100%;">
+
+                <!-- <input type="submit" value="S'enregister" class="genric-btn success-border" style="width:100%;"> -->
+
+                <input type="submit" value="Créez votre compte"
+                  class="btn header-btn btn-rounded btn-4 font-weight-semibold mx-auto btn-v-4 btn-h-5"
+                  name="submit_button" id="submit_button"
+                  data-loading-text="Loading...">
+                
                 <div class="login__notreg pt-5">
                   <span>Avez-vous déjà un compte?</span>
-                  <a class="text-right bg-primary" href="{% url 'login' %}">Se connecter</a>
+                  <a class="text-right font-weight-semibold text-warning" href="{% url 'login' %}">Connectez-vous ici</a>
                 </div>
               </form>
             </div>
