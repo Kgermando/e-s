@@ -142,15 +142,15 @@ USE_L10N = True
 USE_TZ = True
 
 # config/settings.py
-DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'mail.gandi.net'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'contact@entrepreneuriatsolutions.com'
-EMAIL_HOST_PASSWORD = 'derick@1234'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'mail.gandi.net'
+# EMAIL_USE_TLS = True
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'contact@entrepreneuriatsolutions.com'
+# EMAIL_HOST_PASSWORD = 'derick@1234'
 
 # newsletter
 NEWSLETTER_CONFIRM_EMAIL = False
