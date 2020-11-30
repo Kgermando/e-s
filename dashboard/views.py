@@ -30,7 +30,7 @@ def dashboard_forms_entreprise(request):
         date = request.POST['date']
         adresse = request.POST['adresse']
         #print(first_name,last_name,objet_name,email_id,phone_num,message)
-        if len(company)<3 or len(email)<3 or len(secteur)<5 or len(description)<10 or len(adresse)<10:
+        if len(company)<3:
             messages.error(request,'Svp, remplissez les champs correctement')
         else:
             forms_entreprise = Forms_Entreprise(company=company, secteur=secteur, description=description, email=email, telephone=telephone, \
@@ -58,7 +58,7 @@ def dashboard_forms_artisans(request):
         date = request.POST['date']
         adresse = request.POST['adresse']
         #print(first_name,last_name,objet_name,email_id,phone_num,message)
-        if len(company)<3 or len(email)<3 or len(secteur)<5 or len(description)<10 or len(adresse)<10:
+        if len(company)<3:
             messages.error(request,'Svp, remplissez les champs correctement')
         else:
             forms_artisans = Forms_Artisans(company=company, secteur=secteur, description=description, email=email, telephone=telephone, \
@@ -85,7 +85,7 @@ def dashboard_forms_consultant(request):
         date = request.POST['date']
         adresse = request.POST['adresse']
         #print(first_name,last_name,objet_name,email_id,phone_num,message)
-        if len(company)<3 or len(email)<3 or len(secteur)<5 or len(adresse)<10:
+        if len(company)<3:
             messages.error(request,'Svp, remplissez les champs correctement')
         else:
             forms_consultant = Forms_Consultant(company=company, secteur=secteur, specialite=specialite, email=email, telephone=telephone, \
@@ -113,7 +113,7 @@ def dashboard_forms_partenaire(request):
         logo = request.POST['logo']
         adresse = request.POST['adresse']
         #print(first_name,last_name,objet_name,email_id,phone_num,message)
-        if len(company)<3 or len(email)<3 or len(secteur)<5 or len(adresse)<10:
+        if len(company)<3:
             messages.error(request,'Svp, remplissez les champs correctement')
         else:
             forms_partenaire = Forms_Partenaire(company=company, type=type, secteur=secteur, description=description, email=email, telephone=telephone, \
@@ -140,7 +140,7 @@ def dashboard_forms_investisseurs(request):
         logo = request.POST['logo']
         adresse = request.POST['adresse']
         #print(first_name,last_name,objet_name,email_id,phone_num,message)
-        if len(company)<3 or len(email)<3 or len(secteur)<5 or len(adresse)<10:
+        if len(company)<3:
             messages.error(request,'Svp, remplissez les champs correctement')
         else:
             forms_inestisseurs = Forms_Investisseur(company=company, motivation=motivation, secteur=secteur, description=description, email=email, telephone=telephone, \
