@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages # for message
 
 
 from dashboard.models import Forms_Entreprise, Forms_Artisans, Forms_Consultant, Forms_Partenaire, \

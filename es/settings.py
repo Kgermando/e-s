@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']
 
@@ -142,8 +142,15 @@ USE_L10N = True
 USE_TZ = True
 
 # config/settings.py
-DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.org'
+DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.gandi.net'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'contact@entrepreneuriatsolutions.com'
+EMAIL_HOST_PASSWORD = 'derick@1234'
 
 # newsletter
 NEWSLETTER_CONFIRM_EMAIL = False
