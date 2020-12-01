@@ -10,7 +10,6 @@ from dashboard.models import Forms_Entreprise, Forms_Artisans, Forms_Consultant,
 
 @login_required(login_url='/accounts/login/')
 def dashboard_stats(request):
-    
     context = {}
     template_name = 'pages/dashboard/stats.html'
     return render(request, template_name, context)
@@ -38,7 +37,7 @@ def dashboard_forms_entreprise(request):
             forms_entreprise.save()
             # send_mail(first_name, )
             messages.success(request, 'Merci! Nous avons réçu votre Fiche')
-            return redirect('/forms_entreprise')
+            return redirect('/dashboard/forms_entreprise')
     
     context = {}
     template_name = 'pages/dashboard/forms_entreprise.html'
@@ -66,7 +65,7 @@ def dashboard_forms_artisans(request):
             forms_artisans.save()
             # send_mail(first_name, )
             messages.success(request, 'Merci! Nous avons réçu votre Fiche')
-            return redirect('/forms_artisans')
+            return redirect('/dashboard/forms_artisans')
     context = {}
     template_name = 'pages/dashboard/forms_artisans.html'
     return render(request, template_name, context)
@@ -93,7 +92,7 @@ def dashboard_forms_consultant(request):
             forms_consultant.save()
             # send_mail(first_name, )
             messages.success(request, 'Merci! Nous avons réçu votre Fiche')
-            return redirect('/forms_consultant')
+            return redirect('/dashboard/forms_consultant')
     
     context = {}
     template_name = 'pages/dashboard/forms_consultant.html'
@@ -121,7 +120,7 @@ def dashboard_forms_partenaire(request):
             forms_partenaire.save()
             # send_mail(first_name, )
             messages.success(request, 'Merci! Nous avons réçu votre Fiche')
-            return redirect('/forms_partenaire')
+            return redirect('/dashboard/forms_partenaire')
     context = {}
     template_name = 'pages/dashboard/forms_partenaire.html'
     return render(request, template_name, context)
@@ -148,7 +147,7 @@ def dashboard_forms_investisseurs(request):
             forms_inestisseurs.save()
             # send_mail(first_name, )
             messages.success(request, 'Merci! Nous avons réçu votre Fiche')
-            return redirect('/forms_inestisseurs')
+            return redirect('/dashboard/forms_inestisseurs')
     context = {}
     template_name = 'pages/dashboard/forms_investisseurs.html'
     return render(request, template_name, context)

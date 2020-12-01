@@ -27,7 +27,7 @@ def contact_view(request):
             contact_us.save()
             # send_mail(first_name, )
             messages.success(request, 'Merci! Nous avons réçu votre message')
-            return redirect('contact')
+            return redirect('/app/contact')
 
     template_name = 'pages/app/contact.html'
     return render(request, template_name, context=None)

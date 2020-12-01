@@ -16,16 +16,16 @@
         </div>
     </div>
 </div>
-<!-- Hero End -->
+<!-- Hero End --> 
 <div class="whole-wrap">
     <div class="container box_1170">
         <div class="section-top-border"> 
             <!-- <h3>Logo Partenaires</h3> -->
-            <div class="row gallery-item">
+            <div class="row justify-content-center gallery-item">
                 {% for partenaire in partenaire_list %}
                     <div class="col-md-4">
                         <a href="{{ partenaire.img_partenaire.url }}" class="img-pop-up" alt="{{ partenaire.company }}">
-                            <div class="single-gallery-image" style="background: url('{{ partenaire.img_partenaire.url }}'); width: 200px; height: 200px;"></div>
+                            <div class="single-gallery-image" style="background: url('{{ partenaire.img_partenaire.url }}'); width: 250px; height: 250px;"></div>
                         </a>
                     </div>
                 {% empty %}

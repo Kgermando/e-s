@@ -44,19 +44,18 @@ def register_view(request):
                 else:
                     #Looks good
                     user = User.objects.create_user(username=username, password=password, email=email, first_name=first_name, last_name=last_name)
-                    #Login after register
+                    # Login after register
                     # auth.login(request, user)
                     # messages.success(request, "You are now loged in")
                     # return redirect('index')
 
                     user.save()
-                    messages.success(request, 'Congratulations! Vous êtes maintenant enregistrée!')
-                    return redirect('dashboard:dashboard')
+                    messages.success(request, 'Congratulations! Vous êtes enregistrée! Connectez vous maintenant')
+                    return redirect('login')
         else:
-            messages.error(request, 'le mot de passe ne corresponds pas')
+            messages.error(request, 'Le mot de passe ne corresponds pas')
             return redirect('register')
     else:
-        print("False")
         return render(request, 'pages/accounts/register.html')
     
     return render(request, 'pages/accounts/register.html')

@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = False    
 
 ALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']
 
