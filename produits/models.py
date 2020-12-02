@@ -17,7 +17,7 @@ class Produit(models.Model):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse("produits:product_detail", kwargs={"slug": self.slug})
+        return reverse("produits:product_detail_id", kwargs={"id": self.id})
 
 
 # class Innovation(models.Model):

@@ -7,4 +7,5 @@ app_name = 'docs'
 urlpatterns = [
     path('', doc_view, name='docs'),
     path('doc_detail/<slug:slug>/', doc_view_detail, name='doc_detail'),
+    path('doc_detail/<int:id>/', doc_view_detail, name='doc_detail_id'),
 ]

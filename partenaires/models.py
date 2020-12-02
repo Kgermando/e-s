@@ -14,7 +14,7 @@ class Partenaire(models.Model):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse("partenaires:partenaire_detail", kwargs={"slug": self.slug})
+        return reverse("partenaires:partenaire_detail_id", kwargs={"id": self.id})
 
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):

@@ -7,4 +7,5 @@ app_name = 'partenaires'
 urlpatterns = [
     path('', partenaires_view, name='partenaires'),
     path('partenaire_detail/<slug:slug>/', partenaire_detail, name='partenaire_detail'),
+    path('partenaire_detail/<int:id>/', partenaire_detail, name='partenaire_detail_id'),
 ]
