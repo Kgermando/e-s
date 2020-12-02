@@ -52,3 +52,14 @@ def historique_view(request):
     context = {}
     template_name = "pages/app/historique.html"
     return render(request, template_name, context)
+
+def about_detail(request, slug):
+    """
+        Product detail
+    """
+    produit = Produit.objects.get(slug=slug)
+    context = {
+        'produit': produit
+    }
+    template_name = 'pages/app/about.html'
+    return render(request, template_name, context)

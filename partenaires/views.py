@@ -21,3 +21,14 @@ def partenaires_view(request):
     }
     template_name = 'pages/partenaires/partenaires.html'
     return render(request, template_name, context)
+
+def partenaire_detail(request, slug):
+    """
+        Product detail
+    """
+    produit = Produit.objects.get(slug=slug)
+    context = {
+        'produit': produit
+    }
+    template_name = 'pages/partenaires/partenaires.html'
+    return render(request, template_name, context)

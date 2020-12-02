@@ -28,7 +28,7 @@ class Entreprise_solution(models.Model):
         return self.nom
 
     def get_absolute_url(self):
-        return reverse("solutions:entreprise_solutions_detail", kwargs={"slug": self.slug})
+        return reverse("solutions:entreprise_solutions_detail", kwargs={"id": self.id})
 
 
 class Artisans_solution(models.Model):
@@ -55,7 +55,7 @@ class Artisans_solution(models.Model):
         return self.nom
 
     def get_absolute_url(self):
-        return reverse("solutions:artisans_solution_detail", kwargs={"slug": self.slug})
+        return reverse("solutions:artisans_solution_detail", kwargs={"id": self.id})
 
 
  
@@ -83,7 +83,7 @@ class Consultance_solution(models.Model):
         return self.nom
 
     def get_absolute_url(self):
-        return reverse("solutions:consultance_solutions_detail", kwargs={"slug": self.slug})
+        return reverse("solutions:consultance_solutions_detail", kwargs={"id": self.id})
 
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):

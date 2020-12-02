@@ -23,6 +23,6 @@ class Team(models.Model):
     def __str__(self):
         return self.prenom_nom
 
-    # def get_absolute_url(self):
-    #     from django.urls import reverse
-    #     return reverse("app:about", kwargs={"id": self.id}) 
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse("app:about_detail", kwargs={"id": self.id}) 
