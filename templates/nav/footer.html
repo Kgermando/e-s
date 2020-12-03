@@ -22,7 +22,7 @@
                             <h4>Contact Info</h4>
                             <ul>
                                 <li>
-                                    <p>Addresse : Gombe, Humeuble Kasaî 2è niveau, Ref/Royale.</p>
+                                    <p>Addresse : Gombe, immeuble Kasaï 2è niveau, Ref/Royale, Ville de Kinshasa, RDC.</p>
                                 </li>
                                 <li><a href="tel:+243813763119">Phone : +243 81 376 31 19</a></li>
                                 <li><a href="mailto:contact@entrepreneuriat-solutions.com">Email : contact@entrepreneuriat-solutions.com</a></li>
@@ -54,10 +54,11 @@
                         <!-- Form -->
                         <div class="footer-form" >
                             <div id="mc_embed_signup">
-                                <form enctype="multipart/form-data" method="post" action="/newsletter/entrepreneuriat-solutions/subscribe/" class="subscribe_form relative mail_part">
-                                    {% csrf_token %}
-                                    <input type="email" name="email_field" required="" id="id_email_field" placeholder="Addresse mail"
+                                <form class="form-contact contact_form" method="POST">
+                                  
+                                    <input type="email" name="email" id="email" placeholder="Addresse mail"
                                     class="placeholder hide-on-focus" >
+                                   
                                     <div class="form-icon">
                                         <button type="submit" id="id_submit" name="submit"
                                             class="email_icon newsletter-submit button-contactForm">

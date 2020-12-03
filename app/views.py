@@ -60,3 +60,17 @@ def about_detail(request, slug):
     }
     template_name = 'pages/app/about.html'
     return render(request, template_name, context)
+
+
+# def newsletter(request):
+#     if  request.method == 'POST':
+#         email = request.POST['email']
+#         contact_us = Newsletter(email=email)
+#         contact_us.save()
+#         # send_mail(first_name, )
+#         messages.success(request,'! Nous avons réçu votre email')
+#         return redirect('')
+
+#     template_name = 'nav/footer.html'
+#     return render(request, template_name, context=None)
+    

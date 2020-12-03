@@ -56,16 +56,13 @@ def dashboard_forms_artisans(request):
         logo = request.POST['logo']
         date = request.POST['date']
         adresse = request.POST['adresse']
-        #print(first_name,last_name,objet_name,email_id,phone_num,message)
-        if len(company)<3:
-            messages.error(request,'Svp, remplissez les champs correctement')
-        else:
-            forms_artisans = Forms_Artisans(company=company, secteur=secteur, description=description, email=email, telephone=telephone, \
+        
+        forms_artisans = Forms_Artisans(company=company, secteur=secteur, description=description, email=email, telephone=telephone, \
                 telephone_2=telephone_2, logo=logo, date=date, adresse=adresse)
-            forms_artisans.save()
-            # send_mail(first_name, )
-            messages.success(request, 'Merci! Nous avons réçu votre Fiche')
-            return redirect('/dashboard/forms_artisans')
+        forms_artisans.save()
+        # send_mail(first_name, )
+        messages.success(request,'! Nous avons réçu votre Fiche')
+        return redirect('/dashboard/forms_artisans')
     context = {}
     template_name = 'pages/dashboard/forms_artisans.html'
     return render(request, template_name, context)

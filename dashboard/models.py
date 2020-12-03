@@ -13,9 +13,9 @@ class Forms_Entreprise(models.Model):
     logo = models.ImageField(upload_to='entreprise_img/', blank=True)
     rccm = models.CharField(max_length=300)
     id_nat = models.CharField(max_length=300)
-    date = models.DateTimeField()
+    date = models.CharField(max_length=300)
     adresse = models.CharField(max_length=300)
-    created = models.DateTimeField(auto_now=False)
+    created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.company
@@ -28,9 +28,9 @@ class Forms_Artisans(models.Model):
     telephone = models.CharField(max_length=300)
     telephone_2 = models.CharField(max_length=300, blank=True)
     logo = models.ImageField(upload_to='artisans_img/', blank=True)
-    date = models.DateTimeField()
+    date = models.CharField(max_length=300)
     adresse = models.CharField(max_length=300)
-    created = models.DateTimeField(auto_now=False)
+    created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.company
@@ -44,9 +44,9 @@ class Forms_Consultant(models.Model):
     telephone = models.CharField(max_length=300)
     telephone_2 = models.CharField(max_length=300, blank=True)
     logo = models.ImageField(upload_to='consulant_img/')
-    date = models.DateTimeField()
+    date = models.CharField(max_length=300)
     adresse = models.CharField(max_length=300)
-    created = models.DateTimeField(auto_now=False)
+    created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.company
@@ -62,7 +62,7 @@ class Forms_Partenaire(models.Model):
     telephone_2 = models.CharField(max_length=300, blank=True)
     logo = models.ImageField(upload_to='partenaire_img/')
     adresse = models.CharField(max_length=300)
-    created = models.DateTimeField(auto_now=False)
+    created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.company
@@ -78,7 +78,7 @@ class Forms_Investisseur(models.Model):
     telephone_2 = models.CharField(max_length=300, blank=True)
     logo = models.ImageField(upload_to='investisseur_img/')
     adresse = models.CharField(max_length=300)
-    created = models.DateTimeField(auto_now=False)
+    created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.company
@@ -92,7 +92,7 @@ class Opportunite(models.Model):
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     img = models.ImageField(upload_to='opportunite_img/')
-    created = models.DateTimeField(auto_now=False)
+    created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.titre

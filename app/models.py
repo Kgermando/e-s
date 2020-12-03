@@ -26,3 +26,10 @@ class Team(models.Model):
     def get_absolute_url(self):
         from django.urls import reverse
         return reverse("app:about_detail", kwargs={"id": self.id}) 
+
+# class Newsletter(models.Model):
+#     email = models.EmailField()
+#     created = models.DateTimeField(auto_now_add=True)
+
+#     def __str__(self):
+#         return self.email

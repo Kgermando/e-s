@@ -55,3 +55,19 @@ class TeamAdmin(admin.ModelAdmin):
     list_per_page = 50
 
 admin.site.register(Team, TeamAdmin)
+
+# class NewsletterAdmin(admin.ModelAdmin):
+#     list_display = (
+#         'email',
+#         'created',
+#     )
+
+#     list_filter = (
+#         'created',
+#         )
+
+#     search_fields = ['email', 'created']
+
+#     list_per_page = 50
+
+# admin.site.register(Newsletter, NewsletterAdmin)

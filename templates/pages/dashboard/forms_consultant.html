@@ -4,6 +4,7 @@
 {% block dashboard %}
 
 <div class="card">
+    {% include 'notifications/_alerts.html' %}
     <h3 class="card-header">Remplir le formulaire d'un Consultant</h3>
     <div class="card-body">
         <form method="POST">
@@ -33,8 +34,8 @@
                 <input name="telephone_2" id="telephone_2" type="number" class="form-control" placeholder="Téléphone 2">
             </div>
             <div class="custom-file mb-3">
-                <input name="logo" id="logo" type="file" class="custom-file-input">
-                <label class="custom-file-label" for="logo">Inserez le Logo</label>
+                <label class="col-form-label" for="logo">Inserez le Logo</label>
+                <input type="file" class="form-control" name="logo" id="logo">
             </div>
             <div class="form-group">
                 <label for="date" class="col-form-label">Date de debut d'activités</label>

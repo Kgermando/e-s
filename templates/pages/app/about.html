@@ -21,6 +21,70 @@
     </div>
     <!-- Hero End -->
 
+    <!--? Services Area Start -->
+    <div class="service-area section-padding2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center">
+                        <!-- <h2>Présentation du CATSR</h2> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-20">
+                        <div class="cat-icon">
+                                <span class="">
+                                <i class="fa fa-gavel" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="{% url 'app:about' %}">Objectifs</a></h5>
+                            <p>
+                                Innover, Accompagner et Former
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-20">
+                        <div class="cat-icon">
+                            <span class="">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="{% url 'app:about' %}">Vision</a></h5>
+                            <p>
+                                Faire briller et Consolider une classe des Entrepreneurs, 
+                                investisseurs et  Entreprises Innovantes  afin de contribuer efficacement au 
+                                développement économique de notre pays. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-20">
+                            <div class="cat-icon">
+                            <span class="">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="{% url 'app:about' %}">Spécialité</a></h5>
+                            <p>
+                                Nous sommes spécialisés dans la création, les stratégies, les suivies-évaluations  et le développement des affaires .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Area End -->
+
     <!--? About Law Start-->
     <section class="about-low-area section-padding2">
         <div class="container">
@@ -29,20 +93,30 @@
                     <div class="about-caption">
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-35">
-                            <span>Entreprise Solutions</span>
+                            <span>Entrepreneuriat-Solutions</span>
                             <h2>De quoi s'agit-il?</h2>
                         </div>
                         <p>
-                            Une plateforme Entreprise Solutions congolaise et des travailleurs sociaux 
-                            de rue oeuvrant pour la valorisation du travail social de rue et la prise en charge 
-                            des personnes en situation difficile et particulièrement les enfants 
-                            en situation de rue par la vulgarisation de la loi portant protection de l'enfant 
-                            (n°09/001 du 10 janvier 2009).
+                            Aujourd’hui en République Démocratique du Congo plus particulièrement à Kinshasa plusieurs 
+                            personnes veulent entreprendre, oui beaucoup des petites et moyennes entreprises naissent 
+                            chaque jour et malheureusement beaucoup aussi meurt pour la plupart sans même avoir vu les jours.
+                            Aujourd’hui bien qu’ils existent ; leurs métiers  et bien encore leurs apport est moins considérer 
+                            ici en République Démocratique du Congo. Nous parlons Là des artisans et des consultants pourtant 
+                            ce sont des personnes très importantes dont leurs apport dans le développement d’une société est 
+                            d’une grande importance qui n’est pas à contester. L’entrepreneuriat en RDC  est malade pourtant 
+                            elle est une clef d’un développement économique exponentiel.
                         </p>
                         <p>
-                            Créée en 2008 à kinshasa grâce à l'appui de <strong>Dynamo International</strong>, Réseau International de travailleurs sociaux de la rue,
-                            le <strong>CATSR</strong> exerce ses activités à travers tout le territoire national et oeuvre dans le domaine de la protection sociale,
-                            la lutte contre l'exlusion sociale et la promotion des droits humains et ceux de l'enfant et jeune en situation de rue de particulier.
+                            Comment donc rester indifférent face à cette réalité ?voilà qui nous pousse à mettre en place ce 
+                            concept novateur pour sauver l’entrepreneuriat au Congo et faire briller les entrepreneurs ainsi 
+                            que leurs entreprises.
+                        </p>
+                        <p>
+                            Sauvé et relever l’économie de notre pays  est une urgence qui s’impose d’où plusieurs questions 
+                            méritent donc d’être posées  pour résoudre les différents problèmes qui gangrènent le domaine entrepreneurial
+                             au Congo, leurs réponses ses trouvent dans la réalisation de notre  vision <strong>«Entrepreneuriat-Solutions»</strong>  
+                             qui est un concept novatrice et qui se veut salutaire pour les entreprises et entrepreneurs congolais de 
+                             par sa spécialité et ses objectifs.   
                         </p>
                     </div>
                     <a href="{% url 'app:historique' %}" class="btn">Voir l'historique</a>
@@ -51,11 +125,11 @@
                     <!-- about-img -->
                     <div class="about-img">
                         <div class="about-font-img d-none d-lg-block">
-                            <img src="{% static 'img/gallery/blog1.png' %}" alt="A propos de Entreprise Solutions">
+                            <!-- <img src="{% static 'img/gallery/blog1.png' %}" alt="A propos de Entreprise Solutions"> -->
                         </div>
-                        <!-- <div class="about-back-img ">
-                            <img src="assets/img/gallery/about1.png" alt="">
-                        </div> -->
+                        <div class="about-back-img ">
+                            <img src="{% static 'img/gallery/blog1.png' %}" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
