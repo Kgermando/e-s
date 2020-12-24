@@ -97,8 +97,8 @@ class Opportunite(models.Model):
     def __str__(self):
         return self.titre
 
-    # def get_absolute_url(self):
-    #     return reverse("docs:doc_detail", kwargs={"slug": self.slug})
+    def get_absolute_url(self):
+        return reverse("dashboard:opportunites-detail", kwargs={"id": self.id})
 
 
 class Annonce(models.Model):
@@ -114,8 +114,8 @@ class Annonce(models.Model):
     def __str__(self):
         return self.titre
 
-    # def get_absolute_url(self):
-    #     return reverse("docs:doc_detail", kwargs={"slug": self.slug})
+    def get_absolute_url(self):
+        return reverse("dashboard:annonces-detail", kwargs={"id": self.id})
 
 class Fidelite(models.Model):
     titre = models.CharField(max_length=500)
@@ -130,8 +130,8 @@ class Fidelite(models.Model):
     def __str__(self):
         return self.titre
 
-    # def get_absolute_url(self):
-    #     return reverse("docs:doc_detail", kwargs={"slug": self.slug})
+    def get_absolute_url(self):
+        return reverse("dashboard:fidelites-detail", kwargs={"id": self.id})
 
 
 class Marketing(models.Model):
@@ -147,8 +147,8 @@ class Marketing(models.Model):
     def __str__(self):
         return self.titre
 
-    # def get_absolute_url(self):
-    #     return reverse("docs:doc_detail", kwargs={"slug": self.slug})
+    def get_absolute_url(self):
+        return reverse("dashboard:marketing-detail", kwargs={"id": self.id})
 
 
 class Commerciale(models.Model):
@@ -164,8 +164,8 @@ class Commerciale(models.Model):
     def __str__(self):
         return self.titre
 
-    # def get_absolute_url(self):
-    #     return reverse("docs:doc_detail", kwargs={"slug": self.slug})
+    def get_absolute_url(self):
+        return reverse("dashboard:commerciale-detail", kwargs={"id": self.id})
 
 
 

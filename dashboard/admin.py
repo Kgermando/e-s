@@ -39,6 +39,32 @@ class Forms_EntrepriseAdmin(admin.ModelAdmin):
 admin.site.register(Forms_Entreprise, Forms_EntrepriseAdmin)
 
 
+class Forms_ConsultantAdmin(admin.ModelAdmin):
+    list_display = (
+        'company',
+        'secteur',
+        'email',
+        'telephone',
+        'created',
+    )
+
+    list_filter = (
+        'company',
+        'secteur',
+        'email',
+        'telephone',
+        'created',
+        )
+
+    search_fields = ['company',
+        'secteur',
+        'email',
+        'telephone',]
+
+    list_per_page = 50
+
+admin.site.register(Forms_Consultant, Forms_ConsultantAdmin)
+
 class Forms_ArtisansAdmin(admin.ModelAdmin):
     list_display = (
         'company',

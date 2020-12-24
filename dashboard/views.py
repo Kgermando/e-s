@@ -167,6 +167,14 @@ def dashboard_opportunites(request):
     template_name = 'pages/dashboard/opportunites.html'
     return render(request, template_name, context)
 
+def opportunite_detail(request, id):
+    opportunite = Opportunite.objects.get(id=id)
+    context = {
+        'opportunite': opportunite
+    }
+    template_name = 'pages/dashboard/opportunite-detail.html'
+    return render(request, template_name, context)
+
 
 @login_required(login_url='/accounts/login/')
 def dashboard_annonces(request):
@@ -185,6 +193,14 @@ def dashboard_annonces(request):
     template_name = 'pages/dashboard/annonces.html'
     return render(request, template_name, context)
 
+def annonce_detail(request, id):
+    annonce = Annonce.objects.get(id=id)
+    context = {
+        'annonce': annonce
+    }
+    template_name = 'pages/dashboard/annonce-detail.html'
+    return render(request, template_name, context)
+ 
 
 @login_required(login_url='/accounts/login/')
 def dashboard_fidelites(request):
@@ -201,6 +217,14 @@ def dashboard_fidelites(request):
         'fidelite_list': fidelite_list
     }
     template_name = 'pages/dashboard/fidelites.html'
+    return render(request, template_name, context)
+
+def fidelites_detail(request, id):
+    fidelites = Fidelite.objects.get(id=id)
+    context = {
+        'fidelites': fidelites
+    }
+    template_name = 'pages/dashboard/fidelite-detail.html'
     return render(request, template_name, context)
 
 
@@ -221,6 +245,14 @@ def dashboard_marketing(request):
     template_name = 'pages/dashboard/marketing.html'
     return render(request, template_name, context)
 
+def marketing_detail(request, id):
+    marketing = Marketing.objects.get(id=id)
+    context = {
+        'marketing': marketing
+    }
+    template_name = 'pages/dashboard/marketing-detail.html'
+    return render(request, template_name, context)
+
 
 @login_required(login_url='/accounts/login/')
 def dashboard_commerciale(request):
@@ -239,3 +271,11 @@ def dashboard_commerciale(request):
     template_name = 'pages/dashboard/commerciale.html'
     return render(request, template_name, context)
 
+
+def commerciale_detail(request, id):
+    commerciale = Commerciale.objects.get(id=id)
+    context = {
+        'commerciale': commerciale
+    }
+    template_name = 'pages/dashboard/commercial-detail.html'
+    return render(request, template_name, context)

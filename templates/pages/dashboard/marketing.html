@@ -1,6 +1,6 @@
 {% extends 'pages/dashboard/dashboard.html' %}
 {% load static %}
-{% block dashboard_title %}Marketing{% endblock dashboard_title %}
+{% block dashboard_title %}Offres d'emploi{% endblock dashboard_title %}
 {% block dashboard %}
 
 {% for marketing in marketing_list %}
@@ -17,16 +17,16 @@
         <div class="card-body text-left bg-light">
             <p>{{marketing.description|truncatewords:50}}</p>
         </div>
-        <!-- <div class="card-footer text-center bg-white">
-            <a href="#" class="card-link">View Details</a>
-        </div> -->
+        <div class="card-footer text-center bg-white">
+            <a href="{% url 'dashboard:marketing-detail' marketing.id %}" class="card-link">Voir Details</a>
+        </div>
     </div>
 
 {% empty %}
     <div class="card">
-        <h3 class="card-header">Marketing</h3>
+        <h3 class="card-header">Offres d'emploi</h3>
         <div class="card-body">
-            <h4>Merci pour votre Inscription mais pour le moment pas d'marketings pour vous.</h4>
+            <h4>Merci pour votre Inscription mais pour le moment pas d'Offres d'emploi pour vous.</h4>
         </div>
     </div>
 {% endfor %}

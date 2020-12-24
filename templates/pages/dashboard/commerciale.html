@@ -17,16 +17,16 @@
         <div class="card-body text-left bg-light">
             <p>{{commerciale.description|truncatewords:50}}</p>
         </div>
-        <!-- <div class="card-footer text-center bg-white">
-            <a href="#" class="card-link">View Details</a>
-        </div> -->
+        <div class="card-footer text-center bg-white">
+            <a href="{% url 'dashboard:commerciale-detail' commerciale.id %}" class="card-link">Voir Details</a>
+        </div>
     </div>
 
 {% empty %}
     <div class="card">
         <h3 class="card-header">Commerciales</h3>
         <div class="card-body">
-            <h4>Merci pour votre Inscription mais pour le moment pas d'commerciales pour vous.</h4>
+            <h4>Merci pour le moment pas d'articles.</h4>
         </div>
     </div>
 {% endfor %}
