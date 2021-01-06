@@ -175,7 +175,7 @@ if DEBUG == True:
 
     MEDIA_URL = '/media/'
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root')
-    
+
 else:
     AWS_ACCESS_KEY_ID = 'HKW7WII6TR2PEA2RQN62'
     AWS_SECRET_ACCESS_KEY = '4fPeOoS4DAa9crC+rdG/mk6LGkIh1QjNxh6Eog1HWRg'

@@ -23,7 +23,6 @@
            <p>{{ annonce.email }}</p> 
         </div>
 
-        
         <div class="col-sm-10 pb-5">
             <h4>Téléphone:</h4>
             <p>{{ annonce.telephone }}</p>  
@@ -32,15 +31,11 @@
         <div class="col-sm-10">
            <p>Il y a {{ annonce.created| timesince }}</p> 
         </div>
-    
     </div>
     <div class="ml-3 bd-highlight" style="width: 40%;">
-        <img src="{{ annonce.img.url }}" height="250px;" width="200px;">
+        <img src="{{ annonce.img.url }}" height="300px;" width="250px;">
         <!-- <input type="file" (change)="uploadPhoto($event)" class="mt-2"/> -->
     </div>
 </div>
-    
-
-
 
 {% endblock dashboard %}
