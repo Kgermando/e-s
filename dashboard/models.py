@@ -156,6 +156,7 @@ class Commerciale(models.Model):
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     secteur = models.CharField(max_length=300)
     description = models.TextField()
+    url =  models.URLField(null=True, blank=True)
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     img = models.ImageField(upload_to='commerciale/')

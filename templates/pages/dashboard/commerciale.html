@@ -16,16 +16,16 @@
                         <div class="figure-tools">
                             <a href="#" class="tile tile-circle tile-sm mr-auto">
                                 <span class="oi-data-transfer-download"></span></a>
-                            <span class="badge badge-danger">{{commerciale.secteur|upper}}</span>
+                            <span class="badge badge-danger">{{commerciale.secteur}}</span>
                         </div>
                         <div class="figure-action">
-                            <a href="{% url 'dashboard:commerciale-detail' commerciale.id %}" class="btn btn-block btn-sm btn-primary">Visitez</a>
+                            <a href="{{commerciale.url}}" target="blank" class="btn btn-block btn-sm btn-primary">Visitez</a>
                         </div>
                     </div>
                     <!-- /.figure-img -->
                     <!-- .figure-caption -->
                     <figcaption class="figure-caption">
-                        <h6 class="figure-title"><a href="#">{{commerciale.titre |truncatewords:30}}</a></h6>
+                        <h6 class="figure-title"><a href="{% url 'dashboard:commerciale-detail' commerciale.id %}">{{commerciale.titre |truncatewords:30}}</a></h6>
                         <p class="text-muted mb-0">{{commerciale.created | timesince}}</p>
                     </figcaption>
                     <!-- /.figure-caption -->
@@ -39,7 +39,7 @@
     <div class="card">
         <h3 class="card-header">Commerciales</h3>
         <div class="card-body">
-            <h4>Merci pour le moment pas d'articles.</h4>
+            <h4>Pas d'articles.</h4>
         </div>
     </div>
 {% endfor %}

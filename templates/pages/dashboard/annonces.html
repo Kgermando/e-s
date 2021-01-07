@@ -4,24 +4,40 @@
 {% block dashboard %}
 
 {% for annonce in annonce_list %}
-    <div class="card">
-        <h4 class="card-header text-danger"><i class="fas fa-fw fa-bell"></i>  {{annonce.secteur|upper}}</h4>
-        <div class="card-body">
-            <div class="metric-value d-inline-block">
-                <h2 class="mb-1">{{annonce.titre|truncatewords:20}}</h2>
+    <div class="row">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+            <!-- .card -->
+            <div class="card card-figure">
+                <!-- .card-figure -->
+                <figure class="figure">
+                    <!-- .figure-img -->
+                    <div class="figure-img">
+                        <img class="img-fluid" src="{{ annonce.img.url }}" height="300px;" width="250px;"
+                            alt="{{annonce.titre|truncatewords:20}}">
+                        <div class="figure-tools">
+                            <a href="#" class="tile tile-circle tile-sm mr-auto">
+                                <span class="oi-data-transfer-download"></span></a>
+                            <span class="badge badge-danger">{{annonce.secteur}}</span>
+                        </div>
+                        <div class="figure-action">
+                            <a href="{% url 'dashboard:annonces-detail' annonce.id %}"
+                                class="btn btn-block btn-sm btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                    <!-- /.figure-img -->
+                    <!-- .figure-caption -->
+                    <figcaption class="figure-caption">
+                        <h6 class="figure-title"><a href="{% url 'dashboard:annonces-detail' annonce.id %}">{{annonce.titre|truncatewords:20}}</a></h6>
+                        <p class="text-muted mb-0">{{annonce.created | timesince}}</p>
+                    </figcaption>
+                    <!-- /.figure-caption -->
+                </figure>
+                <!-- /.card-figure -->
             </div>
-            <div class="metric-label d-inline-block float-right text-secondary font-weight-bold">
-                {{annonce.created | timesince}}
-            </div>
-        </div>
-        <div class="card-body text-left bg-light">
-            <p>{{annonce.description|truncatewords:50}}</p>
-        </div>
-        <div class="card-footer text-center bg-white">
-            <a href="{% url 'dashboard:annonces-detail' annonce.id %}" class="card-link">Voir Details</a>
+            <!-- /.card -->
         </div>
     </div>
-
+    
 {% empty %}
     <div class="card">
         <h3 class="card-header">Annonces</h3>

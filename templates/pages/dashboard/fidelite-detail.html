@@ -18,19 +18,18 @@
                     <h4>Description:</h4>
                     <p>{{ fidelites.description }}</p>
                 </div>
-            
+
                 <div class="col-sm-10 pb-3">
                     <h4>Email:</h4>
-                    <p>{{ fidelites.email }}</p>
+                    <p><a href="mailto:{{ fidelites.email }}">{{ fidelites.email }}</a></p>
                 </div>
-            
+                
+                <div class="col-sm-10 pb-3">
+                    <h4>Téléphone:</h4>
+                    <p><a href="tel:{{ fidelites.telephone }}">{{ fidelites.telephone }}</a></p>
+                </div>
             
                 <div class="col-sm-10 pb-5">
-                    <h4>Téléphone:</h4>
-                    <p>{{ fidelites.telephone }}</p>
-                </div>
-            
-                <div class="col-sm-10">
                     <p>Il y a {{ fidelites.created| timesince }}</p>
                 </div>
             </div>

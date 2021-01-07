@@ -16,21 +16,20 @@
                 </div>
                 <div class="col-sm-10 pb-3">
                     <h4>Description:</h4>
-                <p>{{ marketing.description }}</p> 
+                    <p>{{ marketing.description }}</p> 
                 </div>
 
                 <div class="col-sm-10 pb-3">
                     <h4>Email:</h4>
-                <p>{{ marketing.email }}</p> 
+                    <p><a href="mailto:{{ marketing.email }}">{{ marketing.email }}</a></p>
                 </div>
-
                 
-                <div class="col-sm-10 pb-5">
+                <div class="col-sm-10 pb-3">
                     <h4>Téléphone:</h4>
-                    <p>{{ marketing.telephone }}</p>  
+                    <p><a href="tel:{{ marketing.telephone }}">{{ marketing.telephone }}</a></p>
                 </div>
 
-                <div class="col-sm-10">
+                <div class="col-sm-10 pb-5">
                     <p>Il y a {{ marketing.created| timesince }}</p> 
                 </div>
             </div>
