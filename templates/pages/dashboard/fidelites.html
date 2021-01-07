@@ -9,7 +9,7 @@
         <h4 class="card-header text-danger"><i class="fas fa-fw fa-bell"></i>  {{fidelite.secteur|upper}}</h4>
         <div class="card-body">
             <div class="metric-value d-inline-block">
-                <h2 class="mb-1">{{fidelite.titre}}</h2>
+                <h2 class="mb-1">{{fidelite.titre|truncatewords:20}}</h2>
             </div>
             <div class="metric-label d-inline-block float-right text-secondary font-weight-bold">
                 {{fidelite.created | timesince}}

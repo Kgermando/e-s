@@ -5,36 +5,38 @@
 
 <div class="card d-flex flex-row bd-highlight mb-3 p-4">
 
-    <div class="form-froup row" style="width: 60%;">
-    
-        <div class="col-sm-10">
-          <h2>{{ annonce.titre }}</h2>  
+    <div class="row">
+        <div class="col-md-9">
+            <div class="form-froup row">
+                <div class="col-sm-10">
+                    <h2>{{ annonce.titre }}</h2>
+                </div>
+                <div class="col-sm-10">
+                    <h4>Secteur: {{ annonce.secteur }}</h4>
+                </div>
+                <div class="col-sm-10 pb-3">
+                    <h4>Description:</h4>
+                    <p>{{ annonce.description }}</p>
+                </div>
+            
+                <div class="col-sm-10 pb-3">
+                    <h4>Email:</h4>
+                    <p>{{ annonce.email }}</p>
+                </div>
+            
+                <div class="col-sm-10 pb-5">
+                    <h4>Téléphone:</h4>
+                    <p>{{ annonce.telephone }}</p>
+                </div>
+            
+                <div class="col-sm-10">
+                    <p>Il y a {{ annonce.created| timesince }}</p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-10">
-           <h4>Secteur: {{ annonce.secteur }}</h4> 
+        <div class="col-md-3">
+            <img src="{{ annonce.img.url }}" height="300px;" width="250px;">
         </div>
-        <div class="col-sm-10 pb-3">
-            <h4>Description:</h4>
-           <p>{{ annonce.description }}</p> 
-        </div>
-
-        <div class="col-sm-10 pb-3">
-            <h4>Email:</h4>
-           <p>{{ annonce.email }}</p> 
-        </div>
-
-        <div class="col-sm-10 pb-5">
-            <h4>Téléphone:</h4>
-            <p>{{ annonce.telephone }}</p>  
-        </div>
-
-        <div class="col-sm-10">
-           <p>Il y a {{ annonce.created| timesince }}</p> 
-        </div>
-    </div>
-    <div class="ml-3 bd-highlight" style="width: 40%;">
-        <img src="{{ annonce.img.url }}" height="300px;" width="250px;">
-        <!-- <input type="file" (change)="uploadPhoto($event)" class="mt-2"/> -->
     </div>
 </div>
 
