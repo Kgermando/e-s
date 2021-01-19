@@ -281,15 +281,15 @@ a:focus,
   text-decoration: none;
   outline: none;
 }
-
+ 
 /* line 72, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 a {
-  color: #635c5c;
-}
+  color: #4A134A;
+} 
 
 /* line 75, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 a:hover {
-  color: #fff;
+  color: #EFB629;
 }
 
 /* line 78, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
@@ -708,7 +708,7 @@ hr {
 /* button style */
 /* line 432, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .breadcrumb > .active {
-  color: #888;
+  color: #EFB629;
 }
 
 /* scrollUp */
@@ -2979,7 +2979,7 @@ hr {
   display: block;
   color: #072366;
   font-weight: 800;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 1.4;
 }
 
@@ -3682,7 +3682,7 @@ hr {
   color: #072366;
   font-size: 50px;
   font-weight: 800;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 1;
 }
 
@@ -4139,6 +4139,13 @@ hr {
   transition: 0.4s;
 }
 
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 40, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_cases.scss */
+  .single-job-items {
+    padding-bottom: 20px;
+  }
+}
+
 /* line 10, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_featured-Jobs.scss */
 .single-job-items .job-items {
   display: -webkit-box;
@@ -4167,35 +4174,39 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 16, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_featured-Jobs.scss */
   .single-job-items .company-img img {
-    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 16, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_featured-Jobs.scss */
   .single-job-items .company-img img {
-    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 29, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_featured-Jobs.scss */
   .single-job-items .job-tittle {
-    padding: 14px;
+    padding: 5px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 29, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_featured-Jobs.scss */
   .single-job-items .job-tittle {
-    padding: 14px;
+    padding: 5px;
   }
 }
 
 /* line 37, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_featured-Jobs.scss */
 .single-job-items .job-tittle a h4 {
   color: #454d72;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   margin: 26px;
   -webkit-transition: 0.4s;
@@ -4208,6 +4219,16 @@ hr {
 .single-job-items .job-tittle a h4:hover {
   color:#EFB629;
 }
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-job-items .job-tittle a h4 {
+    font-size: 14px;
+  }
+  .single-job-items .job-tittle a h4:hover {
+    color:#EFB629;
+}
+}
+
 
 /* line 49, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_featured-Jobs.scss */
 .single-job-items .job-tittle ul li {
@@ -8317,6 +8338,16 @@ del {
   border-top: 1px dotted #eee;
 }
 
+.section-top-border h2:hover {
+  color: #EFB629;
+}
+
+@media (max-width: 767px) {
+  .section-top-border h2:hover {
+    color: #EFB629;
+  }
+}
+
 /* line 1061, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_elements.scss */
 .mb-30 {
   margin-bottom: 30px;
@@ -8333,3 +8364,12 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*-------------   Customize style  --------------*/
+
+
+.search-title {
+  font-size: 15px;
+  text-transform: none;
+
+}

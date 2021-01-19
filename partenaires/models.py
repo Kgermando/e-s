@@ -19,6 +19,6 @@ class Partenaire(models.Model):
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator_produit(instance)
+        instance.slug = unique_slug_generator_partenaire(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Partenaire)

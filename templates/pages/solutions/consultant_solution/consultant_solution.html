@@ -15,7 +15,16 @@
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-20 text-center">
                             <div class="search-solutions">
-                                <div class="search">
+                                <div class="search mt-30">
+                                    <h2 class="search-title">
+                                        Bienvenue sur la plate-forme <span style="color: #EFB629;">Entrepreneuriat-Solutions</span>
+                                    </h2>
+                                    <p>
+                                        Nous vous présentons des meilleures solutions qu’offrent <span style="color: #EFB629;">les entreprises</span>, <span
+                                            style="color: #EFB629;">les artisans</span>
+                                        et <span style="color: #EFB629;">les consultants</span> à votre problème.
+                                    </p>
+
                                     <form class="example" action="">
                                         <input type="text" name="q" placeholder="Recherche un consultant..">
                                         <button type="submit" value="{{ query|escape }}"><i class="fa fa-search"></i></button>
@@ -43,37 +52,43 @@
     </div>
     <!-- Hero End -->
 
-    <!-- <div class="slider-area2">
-        <div class="slider-height2 d-flex align-items-center"></div>
-    </div> -->
+    {% if not query %}
+    <div class="slider-area2">
+        <div class="slider-height2"></div>
+    </div>
+    {% endif %}
 
 
     <!-- Featured_job_start -->
     {% if query %}
         {% if results %}
 
-            <section class="featured-job-area section-padding10 section-bg2" data-background="{% static 'img/gallery/section_bg03.png' %}">
+            <section class="section-bg2 container pt-80 pb-5" data-background="{% static 'img/section_bg03.png' %}">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
                             <!-- Section Tittle -->
-                            <div class="section-tittle text-center mb-20">
-                                <h2>Résultats obtenus sur les consultants</h2>
+                            <div class="section-tittle text-center pb-2">
+                                <h3>Résultats obtenus sur <span style="color: #EFB629;">les consultants</span>.</h3>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center">
 
                         {% for item in results %}
-                            <div class="col-lg-9 col-md-12">
+                            <div class="col-lg-9 col-md-12 pb-3">
                                 <!-- single-job-content -->
-                                <div class="single-job-items mb-30">
+                                <div class="single-job-items">
                                     <div class="job-items">
                                         <div class="company-img">
-                                            <a href="{% url 'solutions:consultance_solutions_detail' item.id %}"><img src="{{ item.logo_consultance.url }}" alt="{{ item.nom }}"></a>
+                                            <a href="{% url 'solutions:consultance_solutions_detail' item.id %}">
+                                                <img src="{{ item.logo_consultance.url }}" alt="{{ item.nom }}">
+                                            </a>
                                         </div>
                                         <div class="job-tittle">
-                                            <a href="{% url 'solutions:consultance_solutions_detail' item.id %}"><h4>{{ item.nom|escape }}</h4></a>
+                                            <a href="{% url 'solutions:consultance_solutions_detail' item.id %}">
+                                                <h4>{{ item.nom|escape }}</h4>
+                                            </a>
                                             <ul>
                                                 <li><i class="far fa-sort-amount-down"></i>{{ item.secteur_consultance }}</li>
                                                 <li><i class="fas fa-phone"></i>{{ item.telephone_consultance }}</li>
@@ -84,14 +99,13 @@
                                 </div>
                             </div>
                         {% endfor %}
-                        
                     </div>
                 </div>
             </section>
 
         {% else %}
 
-            <section class="featured-job-area section-padding30 section-bg2" data-background="{% static 'img/gallery/section_bg03.png' %}">
+            <section class="featured-job-area section-padding30 section-bg2" data-background="{% static 'img/section_bg03.png' %}">
                 
                 <div class="container">
                     <div class="row justify-content-center">

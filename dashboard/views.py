@@ -36,7 +36,7 @@ def dashboard_forms_entreprise(request):
                 telephone_2=telephone_2, logo=logo, rccm=rccm, id_nat=id_nat, date=date, adresse=adresse)
             forms_entreprise.save()
             # send_mail(first_name, )
-            messages.success(request, 'Merci! Nous avons réçu votre Fiche')
+            messages.success(request, 'Merci! Nous avons réçu votre Fiche. Vous pourrez verifier votre profil dans le moteur de recherche après 48H.')
             return redirect('/dashboard/forms_entreprise')
     
     context = {}
@@ -88,7 +88,7 @@ def dashboard_forms_consultant(request):
                 telephone_2=telephone_2, logo=logo, date=date, adresse=adresse)
             forms_consultant.save()
             # send_mail(first_name, )
-            messages.success(request, 'Merci! Nous avons réçu votre Fiche')
+            messages.success(request, 'Merci! Nous avons réçu votre Fiche. Vous pourrez verifier votre profil dans le moteur de recherche après 48H.')
             return redirect('/dashboard/forms_consultant')
     
     context = {}
@@ -116,7 +116,7 @@ def dashboard_forms_partenaire(request):
                 telephone_2=telephone_2, logo=logo, adresse=adresse)
             forms_partenaire.save()
             # send_mail(first_name, )
-            messages.success(request, 'Merci! Nous avons réçu votre Fiche')
+            messages.success(request, 'Merci! Nous avons réçu votre Fiche. Vous pourrez verifier votre profil dans le moteur de recherche après 48H.')
             return redirect('/dashboard/forms_partenaire')
     context = {}
     template_name = 'pages/dashboard/forms_partenaire.html'
@@ -143,7 +143,7 @@ def dashboard_forms_investisseurs(request):
                 telephone_2=telephone_2, logo=logo, adresse=adresse)
             forms_inestisseurs.save()
             # send_mail(first_name, )
-            messages.success(request, 'Merci! Nous avons réçu votre Fiche')
+            messages.success(request, 'Merci! Nous avons réçu votre Fiche. Vous pourrez verifier votre profil dans le moteur de recherche après 48H.')
             return redirect('/dashboard/forms_inestisseurs')
     context = {}
     template_name = 'pages/dashboard/forms_investisseurs.html'

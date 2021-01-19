@@ -3,13 +3,13 @@
 {% block title %}Partenaires{% endblock title %}
 {% block content %}
 <!--? Hero Start -->
-<div class="slider-area2" style="background:#4A134A;">
+<div class="slider-area2" data-background="{% static 'img/es-partenaire.jpg' %}">
     <div class="slider-height2 d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="hero-cap hero-cap2 pt-20 text-center">
-                        <h2 style="color: #ffffff;">Nos Partenaires</h2>
+                        <h2 style="color: #4A134A;">Nos Partenaires</h2>
                     </div>
                 </div>
             </div>
@@ -17,16 +17,19 @@
     </div>
 </div>
 <!-- Hero End --> 
+
+
+
 <div class="whole-wrap">
     <div class="container box_1170">
         <div class="section-top-border"> 
             <!-- <h3>Logo Partenaires</h3> -->
             <div class="row justify-content-center gallery-item">
                 {% for partenaire in partenaire_list %}
-                    <div class="col-md-4">
-                        <a href="{{ partenaire.img_partenaire.url }}" class="img-pop-up" alt="{{ partenaire.company }}">
-                            <div class="single-gallery-image" style="background: url('{{ partenaire.img_partenaire.url }}'); width: 250px; height: 250px;"></div>
-                        </a>
+                    <div class="col-md-3">
+                        <div class="single-gallery-image"
+                            style="background: url('{{ partenaire.img_partenaire.url }}'); width: 250px; height: 250px; "></div>
+                        <img href="{{ partenaire.img_partenaire.url }}" class="img-pop-up" alt="{{ partenaire.company }}">
                     </div>
                 {% empty %}
                     <p>Sorry, pas de partenaire pour le moment</p>

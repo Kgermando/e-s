@@ -1,8 +1,9 @@
 from django.db import models
 from django.db.models.signals import pre_save
 from django.urls import reverse
-from es.utils import unique_slug_generator_solution
+from es.utils import unique_slug_generator_solution, unique_slug_generator_solution_artisans, unique_slug_generator_solution_consultant
 from es.constant import SECTEUR_ENTREPRISES
+
 # Create your models here.
 class Entreprise_solution(models.Model):
     """
@@ -16,7 +17,7 @@ class Entreprise_solution(models.Model):
     telephone_entreprise = models.DecimalField(max_digits=13, decimal_places=0) 
     telephone_2_entreprise = models.DecimalField(max_digits=13, decimal_places=0) 
     email_entreprise = models.EmailField()
-    site_web = models.URLField()
+    site_web = models.URLField(blank=True)
     description_entreprise = models.TextField()
     competence_entreprise = models.CharField(max_length=500)
     sociauFB_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
@@ -43,7 +44,7 @@ class Artisans_solution(models.Model):
     telephone_artisans = models.DecimalField(max_digits=13, decimal_places=0) 
     telephone_2_artisans = models.DecimalField(max_digits=13, decimal_places=0) 
     email_artisans = models.EmailField()
-    site_web = models.URLField()
+    site_web = models.URLField(blank=True)
     description_artisans = models.TextField()
     competence_artisans = models.CharField(max_length=500)
     sociauFB_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
@@ -71,7 +72,7 @@ class Consultance_solution(models.Model):
     telephone_consultance = models.DecimalField(max_digits=13, decimal_places=0) 
     telephone_2_consultance = models.DecimalField(max_digits=13, decimal_places=0) 
     email_consultance = models.EmailField()
-    site_web = models.URLField()
+    site_web = models.URLField(blank=True)
     description_consultance = models.TextField()
     competence_consultance = models.CharField(max_length=500)
     sociauFB_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
@@ -88,20 +89,20 @@ class Consultance_solution(models.Model):
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator(instance)
+        instance.slug = unique_slug_generator_solution(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Entreprise_solution)
 
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator(instance)
+        instance.slug = unique_slug_generator_solution_artisans(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)
 
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator(instance)
+        instance.slug = unique_slug_generator_solution_consultant(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)

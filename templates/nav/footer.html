@@ -1,6 +1,6 @@
 {% load static %}
 
-<div class="footer-wrapper section-bg2" data-background="{% static 'img/gallery/footer_bg.png' %}">
+<div class="footer-wrapper section-bg2" data-background="{% static 'img/footer_bg.png' %}">
     <!-- Footer Top-->
     <div class="footer-area footer-padding">
         <div class="container">
@@ -22,7 +22,7 @@
                             <h4>Contact Info</h4>
                             <ul>
                                 <li>
-                                    <p>Addresse : Gombe, immeuble Kasaï 2è niveau, Ref/Royale, Ville de Kinshasa, RDC.</p>
+                                    <p>Addresse : Kinshasa/RDC.</p>
                                 </li>
                                 <li><a href="tel:+243813763119">Phone : +243 81 376 31 19</a></li>
                                 <li><a href="mailto:contact@entrepreneuriat-solutions.com">Email : contact@entrepreneuriat-solutions.com</a></li>
@@ -36,10 +36,14 @@
                         <div class="footer-tittle">
                             <h4>Liens Importants</h4>
                             <ul>
-                            <li><a href="{% url 'app:about' %}">A Propos de Nous</a></li>
-                                <li><a href="{% url 'app:contact' %}">Contact Us</a></li>
-                                <li><a href="{% url 'produits:produits' %}">Produits</a></li>
+                                <li><a href="{% url 'register' %}">Inscrivez-Vous ici.</a></li>
+                                <li><a href="{% url 'login' %}">Connectez-Vous!</a></li>
+                                <li><a href="{% url 'app:about' %}">A Propos de Nous!</a></li>
+                                <li><a href="{% url 'app:contact' %}">Contactez-Nous!</a></li>
+                                <li><a href="{% url 'produits:produits' %}">Nos Produits</a></li>
                                 <li><a href="{% url 'solutions:entreprise_solution' %} ">Entreprise Solutions</a></li>
+                                <li><a href="{% url 'solutions:artisans_solution' %} ">Trouvez des artisans</a></li>
+                                <li><a href="{% url 'solutions:consultant_solution' %} ">Trouvez des consultants.</a></li>
                             </ul>
                         </div>
                     </div>
