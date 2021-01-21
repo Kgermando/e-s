@@ -7543,7 +7543,7 @@ del {
 
 /* line 409, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_elements.scss */
 .single-gallery-image {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
