@@ -7,33 +7,11 @@ from dashboard.models import Forms_Entreprise, Forms_Artisans, Forms_Consultant,
     Forms_Investisseur, Opportunite, Annonce, Fidelite, Marketing, Commerciale
 # Register your models here.
 class Forms_EntrepriseAdmin(admin.ModelAdmin):
-    list_display = (
-        'logo',
-        'company',
-        'secteur',
-        'email',
-        'telephone',
-        'rccm',
-        'id_nat',
-        'created',
-    )
+    list_display = ('company','secteur','email','telephone','rccm','id_nat','created',)
 
-    list_filter = (
-        'company',
-        'secteur',
-        'email',
-        'telephone',
-        'rccm',
-        'id_nat',
-        'created',
-        )
+    list_filter = ('company','secteur','email','telephone','rccm','id_nat','created',)
 
-    search_fields = ['company',
-        'secteur',
-        'email',
-        'telephone',
-        'rccm',
-        'id_nat',]
+    search_fields = ['company','secteur','email','telephone','rccm','id_nat',]
 
     list_per_page = 50
 
@@ -41,55 +19,22 @@ admin.site.register(Forms_Entreprise, Forms_EntrepriseAdmin)
 
 
 class Forms_ConsultantAdmin(admin.ModelAdmin):
-    list_display = (
-        'logo',
-        'company',
-        'secteur',
-        'email',
-        'telephone',
-        'created',
-    )
+    list_display = ('company','secteur','email','telephone','created',)
 
-    list_filter = (
-        'company',
-        'secteur',
-        'email',
-        'telephone',
-        'created',
-        )
+    list_filter = ('company','secteur','email','telephone','created',)
 
-    search_fields = ['company',
-        'secteur',
-        'email',
-        'telephone',]
+    search_fields = ['company','secteur','email','telephone',]
 
     list_per_page = 50
 
 admin.site.register(Forms_Consultant, Forms_ConsultantAdmin)
 
 class Forms_ArtisansAdmin(admin.ModelAdmin):
-    list_display = (
-        'logo',
-        'company',
-        'secteur',
-        'email',
-        'telephone',
-        'created',
-    )
+    list_display = ('company','secteur','email','telephone','created',)
 
-    list_filter = (
-        'company',
-        'secteur',
-        'email',
-        'telephone',
-        'created',
-        )
+    list_filter = ('company','secteur','email','telephone','created',)
 
-    search_fields = [
-        'company',
-        'secteur',
-        'email',
-        'telephone',]
+    search_fields = ['company','secteur','email','telephone',]
 
     list_per_page = 50
 
@@ -98,7 +43,7 @@ admin.site.register(Forms_Artisans, Forms_ArtisansAdmin)
 
 class Forms_PartenaireAdmin(admin.ModelAdmin):
     list_display = (
-        'logo',
+        
         'company',
         'secteur',
         'type',
@@ -129,7 +74,7 @@ admin.site.register(Forms_Partenaire, Forms_PartenaireAdmin)
 
 class Forms_InvestisseurAdmin(admin.ModelAdmin):
     list_display = (
-        'logo',
+        
         'company',
         'secteur',
         'motivation',

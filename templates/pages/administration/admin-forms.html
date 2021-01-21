@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="section-top-border">
+            <h3 class="mb-30">Form Entreprise</h3>
+            <div class="progress-table-wrap">
+                <div class="progress-table">
+                    <div class="table-head">
+                        <div class="serial">#</div>
+                        <div class="country">company</div>
+                        <div class="visit">Secteur</div>
+                        <div class="percentage">rccm</div>
+                    </div>
+                    <div class="table-row">
+                        {% for forms_entreprise in forms_entreprise %}
+
+                            <div class="serial">{{ forms_entreprise.id }}</div>
+                            <div class="country">{{ forms_entreprise.company }}</div>
+                            <div class="visit">{{ forms_entreprise.secteur }}</div>
+                            <div class="percentage">{{ forms_entreprise.rccm }}</div>
+                        
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+

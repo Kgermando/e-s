@@ -35,7 +35,6 @@ sitemaps = {
     'static': StaticViewSitemap,
     }
 
-
 urlpatterns = [
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},name='django.contrib.sitemaps.views.sitemap'),
     path('app/', include('app.urls')),
@@ -47,7 +46,9 @@ urlpatterns = [
     path('dashboard/', include('dashboard.urls')),
     path('@es/', admin.site.urls),
     path('newsletter/', include('newsletter.urls')),
+    path('administration/', include('administration.urls')),
 ]
+
 handler400 = 'handlers.views.handler400'
 handler403 = 'handlers.views.handler403'
 handler404 = 'handlers.views.handler404'
