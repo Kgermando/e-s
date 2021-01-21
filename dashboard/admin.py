@@ -8,6 +8,7 @@ from dashboard.models import Forms_Entreprise, Forms_Artisans, Forms_Consultant,
 # Register your models here.
 class Forms_EntrepriseAdmin(admin.ModelAdmin):
     list_display = (
+        'logo',
         'company',
         'secteur',
         'email',
@@ -41,6 +42,7 @@ admin.site.register(Forms_Entreprise, Forms_EntrepriseAdmin)
 
 class Forms_ConsultantAdmin(admin.ModelAdmin):
     list_display = (
+        'logo',
         'company',
         'secteur',
         'email',
@@ -67,6 +69,7 @@ admin.site.register(Forms_Consultant, Forms_ConsultantAdmin)
 
 class Forms_ArtisansAdmin(admin.ModelAdmin):
     list_display = (
+        'logo',
         'company',
         'secteur',
         'email',
@@ -82,7 +85,8 @@ class Forms_ArtisansAdmin(admin.ModelAdmin):
         'created',
         )
 
-    search_fields = ['company',
+    search_fields = [
+        'company',
         'secteur',
         'email',
         'telephone',]
@@ -94,6 +98,7 @@ admin.site.register(Forms_Artisans, Forms_ArtisansAdmin)
 
 class Forms_PartenaireAdmin(admin.ModelAdmin):
     list_display = (
+        'logo',
         'company',
         'secteur',
         'type',
@@ -124,6 +129,7 @@ admin.site.register(Forms_Partenaire, Forms_PartenaireAdmin)
 
 class Forms_InvestisseurAdmin(admin.ModelAdmin):
     list_display = (
+        'logo',
         'company',
         'secteur',
         'motivation',
