@@ -272,14 +272,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -296,31 +288,7 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -376,6 +344,30 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -401,6 +393,46 @@
     },
     {
         "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -984,6 +1016,47 @@
         "documentation": {}
     },
     {
+        "label": "tinymce.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tinymce.models",
+        "description": "tinymce.models",
+        "detail": "tinymce.models",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
         "label": "pre_save",
         "importPath": "django.db.models.signals",
         "description": "django.db.models.signals",
@@ -1109,38 +1182,6 @@
         "description": "es.utils",
         "isExtraImport": true,
         "detail": "es.utils",
-        "documentation": {}
-    },
-    {
-        "label": "HTMLField",
-        "importPath": "tinymce",
-        "description": "tinymce",
-        "isExtraImport": true,
-        "detail": "tinymce",
-        "documentation": {}
-    },
-    {
-        "label": "HTMLField",
-        "importPath": "tinymce",
-        "description": "tinymce",
-        "isExtraImport": true,
-        "detail": "tinymce",
-        "documentation": {}
-    },
-    {
-        "label": "HTMLField",
-        "importPath": "tinymce",
-        "description": "tinymce",
-        "isExtraImport": true,
-        "detail": "tinymce",
-        "documentation": {}
-    },
-    {
-        "label": "HTMLField",
-        "importPath": "tinymce",
-        "description": "tinymce",
-        "isExtraImport": true,
-        "detail": "tinymce",
         "documentation": {}
     },
     {
@@ -2111,6 +2152,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0004_auto_20210218_1304",
+        "description": "dashboard.migrations.0004_auto_20210218_1304",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0003_commerciale_url'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='annonce',\n            name='secteur',\n        ),\n        migrations.RemoveField(",
+        "detail": "dashboard.migrations.0004_auto_20210218_1304",
+        "documentation": {}
+    },
+    {
         "label": "Forms_EntrepriseAdmin",
         "kind": 6,
         "importPath": "dashboard.admin",
@@ -2160,7 +2210,7 @@
         "kind": 6,
         "importPath": "dashboard.admin",
         "description": "dashboard.admin",
-        "peekOfCode": "class OpportuniteAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "peekOfCode": "class OpportuniteAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',\n        'email',",
         "detail": "dashboard.admin",
         "documentation": {}
     },
@@ -2169,7 +2219,7 @@
         "kind": 6,
         "importPath": "dashboard.admin",
         "description": "dashboard.admin",
-        "peekOfCode": "class AnnonceAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "peekOfCode": "class AnnonceAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',\n        'email',",
         "detail": "dashboard.admin",
         "documentation": {}
     },
@@ -2178,7 +2228,7 @@
         "kind": 6,
         "importPath": "dashboard.admin",
         "description": "dashboard.admin",
-        "peekOfCode": "class FideliteAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "peekOfCode": "class FideliteAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',\n        'email',",
         "detail": "dashboard.admin",
         "documentation": {}
     },
@@ -2187,7 +2237,7 @@
         "kind": 6,
         "importPath": "dashboard.admin",
         "description": "dashboard.admin",
-        "peekOfCode": "class MarketingAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "peekOfCode": "class MarketingAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',\n        'email',",
         "detail": "dashboard.admin",
         "documentation": {}
     },
@@ -2196,7 +2246,7 @@
         "kind": 6,
         "importPath": "dashboard.admin",
         "description": "dashboard.admin",
-        "peekOfCode": "class CommercialeAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "peekOfCode": "class CommercialeAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',\n        'email',",
         "detail": "dashboard.admin",
         "documentation": {}
     },
@@ -2277,7 +2327,7 @@
         "kind": 6,
         "importPath": "dashboard.models",
         "description": "dashboard.models",
-        "peekOfCode": "class Opportunite(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='opportunite_img/')\n    created = models.DateTimeField(auto_now=True)\n    def __str__(self):",
+        "peekOfCode": "class Opportunite(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='opportunite_img/')\n    created = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.titre",
         "detail": "dashboard.models",
         "documentation": {}
     },
@@ -2286,7 +2336,7 @@
         "kind": 6,
         "importPath": "dashboard.models",
         "description": "dashboard.models",
-        "peekOfCode": "class Annonce(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='annonce_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):",
+        "peekOfCode": "class Annonce(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='annonce_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):\n        return self.titre",
         "detail": "dashboard.models",
         "documentation": {}
     },
@@ -2295,7 +2345,7 @@
         "kind": 6,
         "importPath": "dashboard.models",
         "description": "dashboard.models",
-        "peekOfCode": "class Fidelite(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='fidelite_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):",
+        "peekOfCode": "class Fidelite(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='fidelite_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):\n        return self.titre",
         "detail": "dashboard.models",
         "documentation": {}
     },
@@ -2304,7 +2354,7 @@
         "kind": 6,
         "importPath": "dashboard.models",
         "description": "dashboard.models",
-        "peekOfCode": "class Marketing(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='marketing_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):",
+        "peekOfCode": "class Marketing(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='marketing_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):\n        return self.titre",
         "detail": "dashboard.models",
         "documentation": {}
     },
@@ -2313,7 +2363,7 @@
         "kind": 6,
         "importPath": "dashboard.models",
         "description": "dashboard.models",
-        "peekOfCode": "class Commerciale(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    url =  models.URLField(null=True, blank=True)\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='commerciale/')\n    created = models.DateTimeField(auto_now=False)",
+        "peekOfCode": "class Commerciale(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    description = HTMLField('description')\n    url =  models.URLField(null=True, blank=True)\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='commerciale/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):",
         "detail": "dashboard.models",
         "documentation": {}
     },
@@ -2534,6 +2584,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "documentations.migrations.0002_auto_20210218_1304",
+        "description": "documentations.migrations.0002_auto_20210218_1304",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('documentations', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='documentation',\n            name='reponse',\n            field=tinymce.models.HTMLField(verbose_name='reponse'),\n        ),",
+        "detail": "documentations.migrations.0002_auto_20210218_1304",
+        "documentation": {}
+    },
+    {
         "label": "DocumentationsAdmin",
         "kind": 6,
         "importPath": "documentations.admin",
@@ -2655,7 +2714,7 @@
         "kind": 5,
         "importPath": "es.settings",
         "description": "es.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "es.settings",
         "documentation": {}
     },
@@ -2664,7 +2723,7 @@
         "kind": 5,
         "importPath": "es.settings",
         "description": "es.settings",
-        "peekOfCode": "SECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "es.settings",
         "documentation": {}
     },
@@ -2673,7 +2732,7 @@
         "kind": 5,
         "importPath": "es.settings",
         "description": "es.settings",
-        "peekOfCode": "DEBUG = False    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "es.settings",
         "documentation": {}
     },
@@ -3281,6 +3340,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "produits.migrations.0002_auto_20210218_1304",
+        "description": "produits.migrations.0002_auto_20210218_1304",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('produits', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='produit',\n            name='description',\n            field=tinymce.models.HTMLField(verbose_name='description'),\n        ),",
+        "detail": "produits.migrations.0002_auto_20210218_1304",
+        "documentation": {}
+    },
+    {
         "label": "ProduitAdmin",
         "kind": 6,
         "importPath": "produits.admin",
@@ -3431,6 +3499,15 @@
         "description": "solutions.migrations.0003_auto_20210119_0731",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('solutions', '0002_auto_20201102_0705'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='artisans_solution',\n            name='site_web',\n            field=models.URLField(blank=True),\n        ),",
         "detail": "solutions.migrations.0003_auto_20210119_0731",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "solutions.migrations.0004_auto_20210218_1304",
+        "description": "solutions.migrations.0004_auto_20210218_1304",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('solutions', '0003_auto_20210119_0731'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='artisans_solution',\n            name='description_artisans',\n            field=tinymce.models.HTMLField(verbose_name='description_artisans'),\n        ),",
+        "detail": "solutions.migrations.0004_auto_20210218_1304",
         "documentation": {}
     },
     {

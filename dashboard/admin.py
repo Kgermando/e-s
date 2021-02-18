@@ -106,7 +106,6 @@ admin.site.register(Forms_Investisseur, Forms_InvestisseurAdmin)
 class OpportuniteAdmin(admin.ModelAdmin):
     list_display = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
@@ -114,14 +113,13 @@ class OpportuniteAdmin(admin.ModelAdmin):
 
     list_filter = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
         )
 
-    search_fields = ['titre',
-        'secteur',
+    search_fields = [
+        'titre',
         'email',
         'telephone',]
 
@@ -133,7 +131,6 @@ admin.site.register(Opportunite, OpportuniteAdmin)
 class AnnonceAdmin(admin.ModelAdmin):
     list_display = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
@@ -141,14 +138,13 @@ class AnnonceAdmin(admin.ModelAdmin):
 
     list_filter = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
         )
 
-    search_fields = ['titre',
-        'secteur',
+    search_fields = [
+        'titre',
         'email',
         'telephone',]
 
@@ -160,7 +156,6 @@ admin.site.register(Annonce, AnnonceAdmin)
 class FideliteAdmin(admin.ModelAdmin):
     list_display = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
@@ -168,14 +163,13 @@ class FideliteAdmin(admin.ModelAdmin):
 
     list_filter = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
         )
 
-    search_fields = ['titre',
-        'secteur',
+    search_fields = [
+        'titre',
         'email',
         'telephone',]
 
@@ -187,7 +181,6 @@ admin.site.register(Fidelite, FideliteAdmin)
 class MarketingAdmin(admin.ModelAdmin):
     list_display = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
@@ -195,14 +188,13 @@ class MarketingAdmin(admin.ModelAdmin):
 
     list_filter = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
         )
 
-    search_fields = ['titre',
-        'secteur',
+    search_fields = [
+        'titre',
         'email',
         'telephone',]
 
@@ -214,7 +206,6 @@ admin.site.register(Marketing, MarketingAdmin)
 class CommercialeAdmin(admin.ModelAdmin):
     list_display = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
@@ -222,14 +213,13 @@ class CommercialeAdmin(admin.ModelAdmin):
 
     list_filter = (
         'titre',
-        'secteur',
         'email',
         'telephone',
         'created',
         )
 
-    search_fields = ['titre',
-        'secteur',
+    search_fields = [
+        'titre',
         'email',
         'telephone',]
 

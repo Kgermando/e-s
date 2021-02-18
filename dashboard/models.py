@@ -1,4 +1,5 @@
 from django.db import models
+from tinymce import HTMLField
 from django.db.models.signals import pre_save
 from es.utils import (
     unique_slug_generator_dashboard_Opportunite,
@@ -8,7 +9,7 @@ from es.utils import (
     unique_slug_generator_dashboard_Commerciale
 )
 
-from tinymce import HTMLField
+
 
 # Create your models here.
 class Forms_Entreprise(models.Model):
@@ -95,7 +96,6 @@ class Forms_Investisseur(models.Model):
 class Opportunite(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
-    secteur = models.CharField(max_length=300)
     description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
@@ -112,7 +112,6 @@ class Opportunite(models.Model):
 class Annonce(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
-    secteur = models.CharField(max_length=300)
     description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
@@ -128,7 +127,6 @@ class Annonce(models.Model):
 class Fidelite(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
-    secteur = models.CharField(max_length=300)
     description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
@@ -145,7 +143,6 @@ class Fidelite(models.Model):
 class Marketing(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
-    secteur = models.CharField(max_length=300)
     description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
@@ -162,7 +159,6 @@ class Marketing(models.Model):
 class Commerciale(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
-    secteur = models.CharField(max_length=300)
     description = HTMLField('description')
     url =  models.URLField(null=True, blank=True)
     email = models.EmailField()

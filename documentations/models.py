@@ -1,10 +1,10 @@
 from django.db import models
+from tinymce import HTMLField
 from django.db.models.signals import pre_save
 from es.utils import unique_slug_generator
 
-from tinymce import HTMLField
-
 from es.constant import CATEGORIES
+
 # Create your models here.
 class Documentation(models.Model):
     img_docs = models.ImageField(upload_to='docs_img/')
