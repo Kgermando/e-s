@@ -159,6 +159,8 @@ USE_TZ = True
 NEWSLETTER_CONFIRM_EMAIL = False
 
 # Using django-tinymce
+TINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/9uefa29mghxxv68ohq2qhnr7wz86r3mxche6tiotda03zpj0/tinymce/4/tinymce.min.js'
+TINYMCE_COMPRESSOR = False
 NEWSLETTER_RICHTEXT_WIDGET = "tinymce.widgets.TinyMCE"
 
 

@@ -1,0 +1,3724 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "isExtraImport": true,
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_view",
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "isExtraImport": true,
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "isExtraImport": true,
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "widgets",
+        "importPath": "django.contrib.admin",
+        "description": "django.contrib.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Entreprise",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Entreprise",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Artisans",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Consultant",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Partenaire",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Investisseur",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Entreprise",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Artisans",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Consultant",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Partenaire",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Entreprise",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Artisans",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Consultant",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Partenaire",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "forms_download",
+        "importPath": "administration.views",
+        "description": "administration.views",
+        "isExtraImport": true,
+        "detail": "administration.views",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "home_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "contact_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "about_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "historique_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "about_detail",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Opportunite",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Annonce",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Fidelite",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Marketing",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Commerciale",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_partenaire",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_produit",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_solution",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_solution_artisans",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_solution_consultant",
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "isExtraImport": true,
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_stats",
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "isExtraImport": true,
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_forms_entreprise",
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "isExtraImport": true,
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "isExtraImport": true,
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Documentation",
+        "importPath": "documentations.models",
+        "description": "documentations.models",
+        "isExtraImport": true,
+        "detail": "documentations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Documentation",
+        "importPath": "documentations.models",
+        "description": "documentations.models",
+        "isExtraImport": true,
+        "detail": "documentations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Documentation",
+        "importPath": "documentations.models",
+        "description": "documentations.models",
+        "isExtraImport": true,
+        "detail": "documentations.models",
+        "documentation": {}
+    },
+    {
+        "label": "CATEGORIES",
+        "importPath": "es.constant",
+        "description": "es.constant",
+        "isExtraImport": true,
+        "detail": "es.constant",
+        "documentation": {}
+    },
+    {
+        "label": "SECTEUR_ENTREPRISES",
+        "importPath": "es.constant",
+        "description": "es.constant",
+        "isExtraImport": true,
+        "detail": "es.constant",
+        "documentation": {}
+    },
+    {
+        "label": "doc_view",
+        "importPath": "documentations.views",
+        "description": "documentations.views",
+        "isExtraImport": true,
+        "detail": "documentations.views",
+        "documentation": {}
+    },
+    {
+        "label": "doc_view_detail",
+        "importPath": "documentations.views",
+        "description": "documentations.views",
+        "isExtraImport": true,
+        "detail": "documentations.views",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Sitemap",
+        "importPath": "django.contrib.sitemaps",
+        "description": "django.contrib.sitemaps",
+        "isExtraImport": true,
+        "detail": "django.contrib.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "Partenaire",
+        "importPath": "partenaires.models",
+        "description": "partenaires.models",
+        "isExtraImport": true,
+        "detail": "partenaires.models",
+        "documentation": {}
+    },
+    {
+        "label": "Partenaire",
+        "importPath": "partenaires.models",
+        "description": "partenaires.models",
+        "isExtraImport": true,
+        "detail": "partenaires.models",
+        "documentation": {}
+    },
+    {
+        "label": "Partenaire",
+        "importPath": "partenaires.models",
+        "description": "partenaires.models",
+        "isExtraImport": true,
+        "detail": "partenaires.models",
+        "documentation": {}
+    },
+    {
+        "label": "Produit",
+        "importPath": "produits.models",
+        "description": "produits.models",
+        "isExtraImport": true,
+        "detail": "produits.models",
+        "documentation": {}
+    },
+    {
+        "label": "Produit",
+        "importPath": "produits.models",
+        "description": "produits.models",
+        "isExtraImport": true,
+        "detail": "produits.models",
+        "documentation": {}
+    },
+    {
+        "label": "Produit",
+        "importPath": "produits.models",
+        "description": "produits.models",
+        "isExtraImport": true,
+        "detail": "produits.models",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solution",
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "isExtraImport": true,
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "sitemap",
+        "importPath": "django.contrib.sitemaps.views",
+        "description": "django.contrib.sitemaps.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.sitemaps.views",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "RequestContext",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
+        "label": "page_not_found",
+        "importPath": "django.views.defaults",
+        "description": "django.views.defaults",
+        "isExtraImport": true,
+        "detail": "django.views.defaults",
+        "documentation": {}
+    },
+    {
+        "label": "partenaires_view",
+        "importPath": "partenaires.views",
+        "description": "partenaires.views",
+        "isExtraImport": true,
+        "detail": "partenaires.views",
+        "documentation": {}
+    },
+    {
+        "label": "partenaire_detail",
+        "importPath": "partenaires.views",
+        "description": "partenaires.views",
+        "isExtraImport": true,
+        "detail": "partenaires.views",
+        "documentation": {}
+    },
+    {
+        "label": "produits_view",
+        "importPath": "produits.views",
+        "description": "produits.views",
+        "isExtraImport": true,
+        "detail": "produits.views",
+        "documentation": {}
+    },
+    {
+        "label": "products_detail",
+        "importPath": "produits.views",
+        "description": "produits.views",
+        "isExtraImport": true,
+        "detail": "produits.views",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "JSONParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http.response",
+        "description": "django.http.response",
+        "isExtraImport": true,
+        "detail": "django.http.response",
+        "documentation": {}
+    },
+    {
+        "label": "EntrepriseSolutionSerializer",
+        "importPath": "solutions.serializers",
+        "description": "solutions.serializers",
+        "isExtraImport": true,
+        "detail": "solutions.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ArtisansSolutionSerializer",
+        "importPath": "solutions.serializers",
+        "description": "solutions.serializers",
+        "isExtraImport": true,
+        "detail": "solutions.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ConsultanceSolutionserializer",
+        "importPath": "solutions.serializers",
+        "description": "solutions.serializers",
+        "isExtraImport": true,
+        "detail": "solutions.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "default_storage",
+        "importPath": "django.core.files.storage",
+        "description": "django.core.files.storage",
+        "isExtraImport": true,
+        "detail": "django.core.files.storage",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "importPath": "django.conf.urls",
+        "description": "django.conf.urls",
+        "isExtraImport": true,
+        "detail": "django.conf.urls",
+        "documentation": {}
+    },
+    {
+        "label": "entreprise_solution_search",
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "isExtraImport": true,
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "entreprise_solutions_detail",
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "isExtraImport": true,
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "isExtraImport": true,
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "entrepriseSolutionApi",
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "isExtraImport": true,
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "artisansSolutionApi",
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "isExtraImport": true,
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "consultantSolutionApi",
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "isExtraImport": true,
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "SaveFile",
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "isExtraImport": true,
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "management",
+        "importPath": "django.core",
+        "description": "django.core",
+        "isExtraImport": true,
+        "detail": "django.core",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "Surlex",
+        "importPath": "surlex",
+        "description": "surlex",
+        "isExtraImport": true,
+        "detail": "surlex",
+        "documentation": {}
+    },
+    {
+        "label": "OptionParser",
+        "importPath": "optparse",
+        "description": "optparse",
+        "isExtraImport": true,
+        "detail": "optparse",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "accounts.admin",
+        "description": "accounts.admin",
+        "peekOfCode": "admin.site.site_header = 'CCNSC-RDC ADMIN'\nadmin.site.site_title = \"Interface d'administration des comptes\"\n# Register your models here.",
+        "detail": "accounts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "accounts.admin",
+        "description": "accounts.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration des comptes\"\n# Register your models here.",
+        "detail": "accounts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "accounts.apps",
+        "description": "accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    name = 'accounts'",
+        "detail": "accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "accounts.urls",
+        "description": "accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login', login_view, name='login'),\n    path('register', register_view, name='register'), \n    path('logout', logout_view, name='logout'),\n]",
+        "detail": "accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        username = request.POST['username']\n        password = request.POST['password']\n        user = auth.authenticate(username=username, password=password)\n        if user is not None:\n            auth.login(request, user)\n            messages.success(request, \"Vous êtes maintenant authentifié! Allez dans Formulaire \\\n             pour ajouter votre Entreprise, Artisans, Consultant, partenaire et Investisseur \")\n            return redirect('dashboard:dashboard')",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_view",
+        "kind": 2,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "def register_view(request):\n    if request.method == 'POST':\n        # Get form vales\n        first_name = request.POST['first_name']\n        last_name = request.POST['last_name']\n        username = request.POST['username']\n        email = request.POST['email']\n        # statut = request.POST['statut']\n        password = request.POST['password']\n        password2 = request.POST['password2']",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "def logout_view(request):\n    if request.method == 'GET':\n        auth.logout(request)\n        messages.success(request, \"Vous êtes déconnecté.\")\n        return redirect('login')\n    else:\n        return redirect('solutions:entreprise_solution')",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "AdministrationConfig",
+        "kind": 6,
+        "importPath": "administration.apps",
+        "description": "administration.apps",
+        "peekOfCode": "class AdministrationConfig(AppConfig):\n    name = 'administration'",
+        "detail": "administration.apps",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "administration.urls",
+        "description": "administration.urls",
+        "peekOfCode": "app_name = 'administration'\nurlpatterns = [\n    path('', forms_download, name='forms_download'),\n]",
+        "detail": "administration.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "administration.urls",
+        "description": "administration.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', forms_download, name='forms_download'),\n]",
+        "detail": "administration.urls",
+        "documentation": {}
+    },
+    {
+        "label": "forms_download",
+        "kind": 2,
+        "importPath": "administration.views",
+        "description": "administration.views",
+        "peekOfCode": "def forms_download(request):\n    \"\"\"\n    docstring \n    \"\"\"\n    forms_entreprise = Forms_Entreprise.objects.all().order_by('-created')\n    forms_artisans = Forms_Artisans.objects.all().order_by('-created')\n    forms_consultant = Forms_Consultant.objects.all().order_by('-created')\n    forms_partenaire = Forms_Partenaire.objects.all().order_by('-created')\n    forms_investisseur = Forms_Investisseur.objects.all().order_by('-created')\n    context = {",
+        "detail": "administration.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.migrations.0001_initial",
+        "description": "app.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ContactForm',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('first_name', models.CharField(max_length=255)),",
+        "detail": "app.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ContactAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class ContactAdmin(admin.ModelAdmin):\n    list_display = (\n        'first_name',\n        'last_name',\n        'objet_name',\n        'email_id',\n        'phone_num',\n        'created',\n    )\n    list_filter = (",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TeamAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class TeamAdmin(admin.ModelAdmin):\n    list_display = (\n        'img_profile',\n        'prenom_nom',\n        'grade',\n        'created',\n    )\n    list_filter = (\n        'prenom_nom',\n        'grade',",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "admin.site.site_header = 'ENTREPRISES SOLUTIONS ADMIN'\nadmin.site.site_title = \"Interface d'administration APP\"\nfrom app.models import ContactForm, Team\n# Register your models here.\nclass ContactAdmin(admin.ModelAdmin):\n    list_display = (\n        'first_name',\n        'last_name',\n        'objet_name',\n        'email_id',",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration APP\"\nfrom app.models import ContactForm, Team\n# Register your models here.\nclass ContactAdmin(admin.ModelAdmin):\n    list_display = (\n        'first_name',\n        'last_name',\n        'objet_name',\n        'email_id',\n        'phone_num',",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "kind": 6,
+        "importPath": "app.apps",
+        "description": "app.apps",
+        "peekOfCode": "class AppConfig(AppConfig):\n    name = 'app'",
+        "detail": "app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class ContactForm(models.Model):\n    first_name = models.CharField(max_length=255)\n    last_name = models.CharField(max_length=255)\n    objet_name = models.CharField(max_length=255)\n    email_id = models.CharField(max_length=101)\n    phone_num = models.CharField(max_length=15)\n    message = models.TextField()\n    created = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return 'Message de ' + self.first_name + ' ' + self.last_name",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Team(models.Model):\n    prenom_nom = models.CharField(max_length=255)\n    grade = models.CharField(max_length=255)\n    img_profile = models.ImageField(upload_to='team_img/')\n    created = models.DateTimeField(auto_now_add=False)\n    def __str__(self):\n        return self.prenom_nom\n    def get_absolute_url(self):\n        from django.urls import reverse\n        return reverse(\"app:about_detail\", kwargs={\"id\": self.id}) ",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "app.urls",
+        "description": "app.urls",
+        "peekOfCode": "app_name = 'app'\nurlpatterns = [\n    path('', home_view, name='home'),\n    path('contact', contact_view, name='contact'),\n    path('about', about_view, name='about'),\n    path('about_detail/<slug:slug>/', about_detail, name='about_detail'),\n    path('historique', historique_view, name='historique')\n]",
+        "detail": "app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.urls",
+        "description": "app.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', home_view, name='home'),\n    path('contact', contact_view, name='contact'),\n    path('about', about_view, name='about'),\n    path('about_detail/<slug:slug>/', about_detail, name='about_detail'),\n    path('historique', historique_view, name='historique')\n]",
+        "detail": "app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def home_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    context = {}\n    template_name = 'pages/app/home.html'\n    return render(request, template_name, context)\ndef contact_view(request):\n    if  request.method == 'POST':\n        first_name = request.POST['first_name']",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "contact_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def contact_view(request):\n    if  request.method == 'POST':\n        first_name = request.POST['first_name']\n        last_name = request.POST['last_name']\n        objet_name = request.POST['objet_name']\n        email_id = request.POST['email_id']\n        phone_num = request.POST['phone_num']\n        message = request.POST['message']\n        #print(first_name,last_name,objet_name,email_id,phone_num,message)\n        contact_us = ContactForm(first_name=first_name,last_name=last_name,objet_name=objet_name,email_id=email_id,phone_num=phone_num,message=message)",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "about_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def about_view(request):\n    \"\"\"\n    A Propos de ES\n    \"\"\"\n    team_list = Team.objects.all().order_by('-created')\n    context = {\n        'team_list': team_list\n    }\n    template_name = \"pages/app/about.html\"\n    return render(request, template_name, context)",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "historique_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def historique_view(request):\n    \"\"\"\n    Historique ES\n    \"\"\"\n    context = {}\n    template_name = \"pages/app/historique.html\"\n    return render(request, template_name, context)\ndef about_detail(request, slug):\n    \"\"\"\n        Product detail",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "about_detail",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def about_detail(request, slug):\n    \"\"\"\n        Product detail\n    \"\"\"\n    produit = Produit.objects.get(slug=slug)\n    context = {\n        'produit': produit\n    }\n    template_name = 'pages/app/about.html'\n    return render(request, template_name, context)",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0001_initial",
+        "description": "dashboard.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Annonce',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('titre', models.CharField(max_length=500)),",
+        "detail": "dashboard.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0002_auto_20201203_1929",
+        "description": "dashboard.migrations.0002_auto_20201203_1929",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='forms_artisans',\n            name='created',\n            field=models.DateTimeField(auto_now=True),\n        ),",
+        "detail": "dashboard.migrations.0002_auto_20201203_1929",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0003_commerciale_url",
+        "description": "dashboard.migrations.0003_commerciale_url",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0002_auto_20201203_1929'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='commerciale',\n            name='url',\n            field=models.URLField(blank=True, null=True),\n        ),",
+        "detail": "dashboard.migrations.0003_commerciale_url",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_EntrepriseAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class Forms_EntrepriseAdmin(admin.ModelAdmin):\n    list_display = ('company','secteur','email','telephone','rccm','id_nat','created',)\n    list_filter = ('company','secteur','email','telephone','rccm','id_nat','created',)\n    search_fields = ['company','secteur','email','telephone','rccm','id_nat',]\n    list_per_page = 50\nadmin.site.register(Forms_Entreprise, Forms_EntrepriseAdmin)\nclass Forms_ConsultantAdmin(admin.ModelAdmin):\n    list_display = ('company','secteur','email','telephone','created',)\n    list_filter = ('company','secteur','email','telephone','created',)\n    search_fields = ['company','secteur','email','telephone',]",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_ConsultantAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class Forms_ConsultantAdmin(admin.ModelAdmin):\n    list_display = ('company','secteur','email','telephone','created',)\n    list_filter = ('company','secteur','email','telephone','created',)\n    search_fields = ['company','secteur','email','telephone',]\n    list_per_page = 50\nadmin.site.register(Forms_Consultant, Forms_ConsultantAdmin)\nclass Forms_ArtisansAdmin(admin.ModelAdmin):\n    list_display = ('company','secteur','email','telephone','created',)\n    list_filter = ('company','secteur','email','telephone','created',)\n    search_fields = ['company','secteur','email','telephone',]",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_ArtisansAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class Forms_ArtisansAdmin(admin.ModelAdmin):\n    list_display = ('company','secteur','email','telephone','created',)\n    list_filter = ('company','secteur','email','telephone','created',)\n    search_fields = ['company','secteur','email','telephone',]\n    list_per_page = 50\nadmin.site.register(Forms_Artisans, Forms_ArtisansAdmin)\nclass Forms_PartenaireAdmin(admin.ModelAdmin):\n    list_display = (\n        'company',\n        'secteur',",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_PartenaireAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class Forms_PartenaireAdmin(admin.ModelAdmin):\n    list_display = (\n        'company',\n        'secteur',\n        'type',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_InvestisseurAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class Forms_InvestisseurAdmin(admin.ModelAdmin):\n    list_display = (\n        'company',\n        'secteur',\n        'motivation',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OpportuniteAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class OpportuniteAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AnnonceAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class AnnonceAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "FideliteAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class FideliteAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MarketingAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class MarketingAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CommercialeAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class CommercialeAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'secteur',\n        'email',\n        'telephone',\n        'created',\n    )\n    list_filter = (\n        'titre',",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "admin.site.site_header = 'ENTREPRISES SOLUTIONS ADMIN'\nadmin.site.site_title = \"Interface d'administration Dashboard\"\nfrom dashboard.models import Forms_Entreprise, Forms_Artisans, Forms_Consultant, Forms_Partenaire, \\\n    Forms_Investisseur, Opportunite, Annonce, Fidelite, Marketing, Commerciale\n# Register your models here.\nclass Forms_EntrepriseAdmin(admin.ModelAdmin):\n    list_display = ('company','secteur','email','telephone','rccm','id_nat','created',)\n    list_filter = ('company','secteur','email','telephone','rccm','id_nat','created',)\n    search_fields = ['company','secteur','email','telephone','rccm','id_nat',]\n    list_per_page = 50",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration Dashboard\"\nfrom dashboard.models import Forms_Entreprise, Forms_Artisans, Forms_Consultant, Forms_Partenaire, \\\n    Forms_Investisseur, Opportunite, Annonce, Fidelite, Marketing, Commerciale\n# Register your models here.\nclass Forms_EntrepriseAdmin(admin.ModelAdmin):\n    list_display = ('company','secteur','email','telephone','rccm','id_nat','created',)\n    list_filter = ('company','secteur','email','telephone','rccm','id_nat','created',)\n    search_fields = ['company','secteur','email','telephone','rccm','id_nat',]\n    list_per_page = 50\nadmin.site.register(Forms_Entreprise, Forms_EntrepriseAdmin)",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DashboardConfig",
+        "kind": 6,
+        "importPath": "dashboard.apps",
+        "description": "dashboard.apps",
+        "peekOfCode": "class DashboardConfig(AppConfig):\n    name = 'dashboard'",
+        "detail": "dashboard.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Entreprise",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Forms_Entreprise(models.Model):\n    company = models.CharField(max_length=300)\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    telephone_2 = models.CharField(max_length=300, blank=True)\n    logo = models.ImageField(upload_to='entreprise_img/', blank=True)\n    rccm = models.CharField(max_length=300)\n    id_nat = models.CharField(max_length=300)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Artisans",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Forms_Artisans(models.Model):\n    company = models.CharField(max_length=300)\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    telephone_2 = models.CharField(max_length=300, blank=True)\n    logo = models.ImageField(upload_to='artisans_img/', blank=True)\n    date = models.CharField(max_length=300)\n    adresse = models.CharField(max_length=300)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Consultant",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Forms_Consultant(models.Model):\n    company = models.CharField(max_length=300)\n    secteur = models.CharField(max_length=300)\n    specialite = models.CharField(max_length=300)\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    telephone_2 = models.CharField(max_length=300, blank=True)\n    logo = models.ImageField(upload_to='consulant_img/')\n    date = models.CharField(max_length=300)\n    adresse = models.CharField(max_length=300)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Partenaire",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Forms_Partenaire(models.Model):\n    company = models.CharField(max_length=300)\n    type = models.CharField(max_length=300)\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    telephone_2 = models.CharField(max_length=300, blank=True)\n    logo = models.ImageField(upload_to='partenaire_img/')\n    adresse = models.CharField(max_length=300)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Forms_Investisseur",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Forms_Investisseur(models.Model):\n    company = models.CharField(max_length=300)\n    motivation = models.CharField(max_length=300)\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    telephone_2 = models.CharField(max_length=300, blank=True)\n    logo = models.ImageField(upload_to='investisseur_img/')\n    adresse = models.CharField(max_length=300)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Opportunite",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Opportunite(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='opportunite_img/')\n    created = models.DateTimeField(auto_now=True)\n    def __str__(self):",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Annonce",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Annonce(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='annonce_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Fidelite",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Fidelite(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='fidelite_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Marketing",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Marketing(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='marketing_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Commerciale",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Commerciale(models.Model):\n    titre = models.CharField(max_length=500)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur = models.CharField(max_length=300)\n    description = HTMLField('description')\n    url =  models.URLField(null=True, blank=True)\n    email = models.EmailField()\n    telephone = models.CharField(max_length=300)\n    img = models.ImageField(upload_to='commerciale/')\n    created = models.DateTimeField(auto_now=False)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Opportunite(instance)\npre_save.connect(tag_pre_save_receiver, sender=Opportunite)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Annonce(instance)\npre_save.connect(tag_pre_save_receiver, sender=Annonce) \ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Annonce(instance)\npre_save.connect(tag_pre_save_receiver, sender=Annonce) \ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Fidelite(instance)\npre_save.connect(tag_pre_save_receiver, sender=Fidelite)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Fidelite(instance)\npre_save.connect(tag_pre_save_receiver, sender=Fidelite)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Marketing(instance)\npre_save.connect(tag_pre_save_receiver, sender=Marketing)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Marketing(instance)\npre_save.connect(tag_pre_save_receiver, sender=Marketing)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Commerciale(instance)\npre_save.connect(tag_pre_save_receiver, sender=Commerciale)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_dashboard_Commerciale(instance)\npre_save.connect(tag_pre_save_receiver, sender=Commerciale)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "dashboard.urls",
+        "description": "dashboard.urls",
+        "peekOfCode": "app_name = 'dashboard'\nurlpatterns = [\n    path('', dashboard_stats, name='dashboard'),\n    path('forms_entreprise/', dashboard_forms_entreprise, name='forms_entreprise'),\n    path('forms_artisans/', dashboard_forms_artisans, name='forms_artisans'),\n    path('forms_consultant/', dashboard_forms_consultant, name='forms_consultant'),\n    path('forms_partenaire/', dashboard_forms_partenaire, name='forms_partenaire'),\n    path('forms_inestisseurs/', dashboard_forms_investisseurs, name='forms_inestisseurs'),\n    path('opportunites/', dashboard_opportunites, name='opportunites'),\n    path('opportunites/<int:id>', opportunite_detail, name='opportunites-detail'),",
+        "detail": "dashboard.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "dashboard.urls",
+        "description": "dashboard.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', dashboard_stats, name='dashboard'),\n    path('forms_entreprise/', dashboard_forms_entreprise, name='forms_entreprise'),\n    path('forms_artisans/', dashboard_forms_artisans, name='forms_artisans'),\n    path('forms_consultant/', dashboard_forms_consultant, name='forms_consultant'),\n    path('forms_partenaire/', dashboard_forms_partenaire, name='forms_partenaire'),\n    path('forms_inestisseurs/', dashboard_forms_investisseurs, name='forms_inestisseurs'),\n    path('opportunites/', dashboard_opportunites, name='opportunites'),\n    path('opportunites/<int:id>', opportunite_detail, name='opportunites-detail'),\n    path('annonces/', dashboard_annonces, name='annonces'),",
+        "detail": "dashboard.urls",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_stats",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_stats(request):\n    context = {}\n    template_name = 'pages/dashboard/stats.html'\n    return render(request, template_name, context)\n@login_required(login_url='/accounts/login/') \ndef dashboard_forms_entreprise(request):\n    if  request.method == 'POST':\n        company = request.POST['company']\n        secteur = request.POST['secteur']\n        description = request.POST['description']",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_forms_entreprise",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_forms_entreprise(request):\n    if  request.method == 'POST':\n        company = request.POST['company']\n        secteur = request.POST['secteur']\n        description = request.POST['description']\n        email = request.POST['email']\n        telephone = request.POST['telephone']\n        telephone_2 = request.POST['telephone_2']\n        logo = request.POST['logo']\n        rccm = request.POST['rccm']",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_forms_artisans",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_forms_artisans(request):\n    if  request.method == 'POST':\n        company = request.POST['company']\n        secteur = request.POST['secteur']\n        description = request.POST['description']\n        email = request.POST['email']\n        telephone = request.POST['telephone']\n        telephone_2 = request.POST['telephone_2']\n        logo = request.POST['logo']\n        date = request.POST['date']",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_forms_consultant",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_forms_consultant(request):\n    if  request.method == 'POST':\n        company = request.POST['company']\n        secteur = request.POST['secteur']\n        specialite = request.POST['specialite']\n        email = request.POST['email']\n        telephone = request.POST['telephone']\n        telephone_2 = request.POST['telephone_2']\n        logo = request.POST['logo']\n        date = request.POST['date']",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_forms_partenaire",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_forms_partenaire(request):\n    if  request.method == 'POST':\n        company = request.POST['company']\n        type = request.POST['type']\n        secteur = request.POST['secteur']\n        description = request.POST['description']\n        email = request.POST['email']\n        telephone = request.POST['telephone']\n        telephone_2 = request.POST['telephone_2']\n        logo = request.POST['logo']",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_forms_investisseurs",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_forms_investisseurs(request):\n    if  request.method == 'POST':\n        company = request.POST['company']\n        motivation = request.POST['motivation']\n        secteur = request.POST['secteur']\n        description = request.POST['description']\n        email = request.POST['email']\n        telephone = request.POST['telephone']\n        telephone_2 = request.POST['telephone_2']\n        logo = request.POST['logo']",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_opportunites",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_opportunites(request):\n    opportunite = Opportunite.objects.all().order_by('-created')\n    paginator = Paginator(opportunite, 5)\n    page = request.GET.get('page')\n    try:\n        opportunite_list = paginator.page(page)\n    except PageNotAnInteger:\n        opportunite_list = paginator.page(1)\n    except EmptyPage:\n        opportunite_list = paginator.page(paginator.num_pages)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "opportunite_detail",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def opportunite_detail(request, id):\n    opportunite = Opportunite.objects.get(id=id)\n    context = {\n        'opportunite': opportunite\n    }\n    template_name = 'pages/dashboard/opportunite-detail.html'\n    return render(request, template_name, context)\n@login_required(login_url='/accounts/login/')\ndef dashboard_annonces(request):\n    annonce = Annonce.objects.all().order_by('-created')",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_annonces",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_annonces(request):\n    annonce = Annonce.objects.all().order_by('-created')\n    paginator = Paginator(annonce, 5)\n    page = request.GET.get('page')\n    try:\n        annonce_list = paginator.page(page)\n    except PageNotAnInteger:\n        annonce_list = paginator.page(1)\n    except EmptyPage:\n        annonce_list = paginator.page(paginator.num_pages)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "annonce_detail",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def annonce_detail(request, id):\n    annonce = Annonce.objects.get(id=id)\n    context = {\n        'annonce': annonce\n    }\n    template_name = 'pages/dashboard/annonce-detail.html'\n    return render(request, template_name, context)\n@login_required(login_url='/accounts/login/')\ndef dashboard_fidelites(request):\n    fidelite = Fidelite.objects.all().order_by('-created')",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_fidelites",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_fidelites(request):\n    fidelite = Fidelite.objects.all().order_by('-created')\n    paginator = Paginator(fidelite, 5)\n    page = request.GET.get('page')\n    try:\n        fidelite_list = paginator.page(page)\n    except PageNotAnInteger:\n        fidelite_list = paginator.page(1)\n    except EmptyPage:\n        fidelite_list = paginator.page(paginator.num_pages)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "fidelites_detail",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def fidelites_detail(request, id):\n    fidelites = Fidelite.objects.get(id=id)\n    context = {\n        'fidelites': fidelites\n    }\n    template_name = 'pages/dashboard/fidelite-detail.html'\n    return render(request, template_name, context)\n@login_required(login_url='/accounts/login/')\ndef dashboard_marketing(request):\n    marketing = Marketing.objects.all().order_by('-created')",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_marketing",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_marketing(request):\n    marketing = Marketing.objects.all().order_by('-created')\n    paginator = Paginator(marketing, 5)\n    page = request.GET.get('page')\n    try:\n        marketing_list = paginator.page(page)\n    except PageNotAnInteger:\n        marketing_list = paginator.page(1)\n    except EmptyPage:\n        marketing_list = paginator.page(paginator.num_pages)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "marketing_detail",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def marketing_detail(request, id):\n    marketing = Marketing.objects.get(id=id)\n    context = {\n        'marketing': marketing\n    }\n    template_name = 'pages/dashboard/marketing-detail.html'\n    return render(request, template_name, context)\n@login_required(login_url='/accounts/login/')\ndef dashboard_commerciale(request):\n    commerciale = Commerciale.objects.all().order_by('-created')",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_commerciale",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard_commerciale(request):\n    commerciale = Commerciale.objects.all().order_by('-created')\n    paginator = Paginator(commerciale, 5)\n    page = request.GET.get('page')\n    try:\n        commerciale_list = paginator.page(page)\n    except PageNotAnInteger:\n        commerciale_list = paginator.page(1)\n    except EmptyPage:\n        commerciale_list = paginator.page(paginator.num_pages)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "commerciale_detail",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def commerciale_detail(request, id):\n    commerciale = Commerciale.objects.get(id=id)\n    context = {\n        'commerciale': commerciale\n    }\n    template_name = 'pages/dashboard/commercial-detail.html'\n    return render(request, template_name, context)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "documentations.migrations.0001_initial",
+        "description": "documentations.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Documentation',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('img_docs', models.ImageField(upload_to='docs_img/')),",
+        "detail": "documentations.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentationsAdmin",
+        "kind": 6,
+        "importPath": "documentations.admin",
+        "description": "documentations.admin",
+        "peekOfCode": "class DocumentationsAdmin(admin.ModelAdmin):\n    list_display = (\n        'categorie',\n        'question',\n    )\n    list_filter = (\n        'categorie',\n        'question',\n        )\n    search_fields = ['categorie', 'question',]",
+        "detail": "documentations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "documentations.admin",
+        "description": "documentations.admin",
+        "peekOfCode": "admin.site.site_header = 'ENTREPRISES SOLUTIONS ADMIN'\nadmin.site.site_title = \"Interface d'administration documentations\"\n# Register your models here.\nclass DocumentationsAdmin(admin.ModelAdmin):\n    list_display = (\n        'categorie',\n        'question',\n    )\n    list_filter = (\n        'categorie',",
+        "detail": "documentations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "documentations.admin",
+        "description": "documentations.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration documentations\"\n# Register your models here.\nclass DocumentationsAdmin(admin.ModelAdmin):\n    list_display = (\n        'categorie',\n        'question',\n    )\n    list_filter = (\n        'categorie',\n        'question',",
+        "detail": "documentations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentationsConfig",
+        "kind": 6,
+        "importPath": "documentations.apps",
+        "description": "documentations.apps",
+        "peekOfCode": "class DocumentationsConfig(AppConfig):\n    name = 'documentations'",
+        "detail": "documentations.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Documentation",
+        "kind": 6,
+        "importPath": "documentations.models",
+        "description": "documentations.models",
+        "peekOfCode": "class Documentation(models.Model):\n    img_docs = models.ImageField(upload_to='docs_img/')\n    categorie =  models.CharField(max_length=300, choices=CATEGORIES)\n    question = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    reponse = HTMLField('reponse')\n    def __str__(self):\n        return self.question\n    def get_absolute_url(self):\n        from django.urls import reverse",
+        "detail": "documentations.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "documentations.models",
+        "description": "documentations.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator(instance)\npre_save.connect(tag_pre_save_receiver, sender=Documentation)",
+        "detail": "documentations.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "documentations.urls",
+        "description": "documentations.urls",
+        "peekOfCode": "app_name = 'docs'\nurlpatterns = [\n    path('', doc_view, name='docs'),\n    path('doc_detail/<slug:slug>/', doc_view_detail, name='doc_detail'),\n    path('doc_detail/<int:id>/', doc_view_detail, name='doc_detail_id'),\n]",
+        "detail": "documentations.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "documentations.urls",
+        "description": "documentations.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', doc_view, name='docs'),\n    path('doc_detail/<slug:slug>/', doc_view_detail, name='doc_detail'),\n    path('doc_detail/<int:id>/', doc_view_detail, name='doc_detail_id'),\n]",
+        "detail": "documentations.urls",
+        "documentation": {}
+    },
+    {
+        "label": "doc_view",
+        "kind": 2,
+        "importPath": "documentations.views",
+        "description": "documentations.views",
+        "peekOfCode": "def doc_view(request):\n    \"\"\"\n    All docs\n    \"\"\"\n    doc_list = Documentation.objects.all()\n    solutions_list = Documentation.objects.filter(categorie='SOLUTIONS')\n    produits_list = Documentation.objects.filter(categorie='PRODUITS')\n    partenaires_list = Documentation.objects.filter(categorie='PARTENAIRES')\n    investisseurs_list = Documentation.objects.filter(categorie='INVESTISSEURS')\n    context = {",
+        "detail": "documentations.views",
+        "documentation": {}
+    },
+    {
+        "label": "doc_view_detail",
+        "kind": 2,
+        "importPath": "documentations.views",
+        "description": "documentations.views",
+        "peekOfCode": "def doc_view_detail(request, slug):\n    \"\"\"\n    Vue detail de la documentation\n    \"\"\"\n    docs_view = Documentation.objects.get(slug=slug)\n    context = {\n        'docs_view': docs_view\n    }\n    template_name = 'pages/docs/doc_detail.html'\n    return render(request, template_name, context)",
+        "detail": "documentations.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "es.asgi",
+        "description": "es.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "es.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "CATEGORIES",
+        "kind": 5,
+        "importPath": "es.constant",
+        "description": "es.constant",
+        "peekOfCode": "CATEGORIES = [\n    ('SOLUTIONS', 'SOLUTIONS'),\n    ('PRODUITS', 'PRODUITS'),\n    ('PARTENAIRES', 'PARTENAIRES'),\n    ('INVESTISSEURS', 'INVESTISSEURS'),\n]\nSECTEUR_ENTREPRISES = [\n    ('Agroalimentaire', 'Agroalimentaire'),\n    ('Banque / Assurance', 'Banque / Assurance'),\n    ('Bois / Papier / Carton / Imprimerie', 'Bois / Papier / Carton / Imprimerie'),",
+        "detail": "es.constant",
+        "documentation": {}
+    },
+    {
+        "label": "SECTEUR_ENTREPRISES",
+        "kind": 5,
+        "importPath": "es.constant",
+        "description": "es.constant",
+        "peekOfCode": "SECTEUR_ENTREPRISES = [\n    ('Agroalimentaire', 'Agroalimentaire'),\n    ('Banque / Assurance', 'Banque / Assurance'),\n    ('Bois / Papier / Carton / Imprimerie', 'Bois / Papier / Carton / Imprimerie'),\n    ('BTP / Matériaux de construction', 'BTP / Matériaux de construction'),\n    ('Chimie / Parachimie', 'Chimie / Parachimie'),\n    ('Commerce / Négoce / Distribution', 'Commerce / Négoce / Distribution'),\n    ('Édition / Communication / Multimédia', 'Édition / Communication / Multimédia'),\n    ('Électronique / Électricité', 'Électronique / Électricité'),\n    ('Études et conseils', 'Études et conseils'),",
+        "detail": "es.constant",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "SECRET_KEY = '+f5fyu0r#w*n%$0mueny8x$jj#qk!dxwpk4v@e_1c&le3f&hr@'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "DEBUG = False    \nALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['entrepreneuriat-solutions.com', 'www.entrepreneuriat-solutions.com', '138.197.210.173', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',\n    'django.contrib.sitemaps',\n    'tinymce',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SITE_ID",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "SITE_ID = 1\nCORS_ORIGIN_ALLOW_ALL = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_ALLOW_ALL",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "ROOT_URLCONF = 'es.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'es.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.1/ref/settings/#databases\nif DEBUG == True:\n    DATABASES = {\n        'default': {\n            'ENGINE': 'django.db.backends.sqlite3',\n            'NAME': BASE_DIR / 'db.sqlite3',\n        }\n    }",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'Africa/Kinshasa'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# config/settings.py\n# DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'mail.gandi.net'",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "TIME_ZONE = 'Africa/Kinshasa'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# config/settings.py\n# DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'mail.gandi.net'\n# EMAIL_USE_TLS = True",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# config/settings.py\n# DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'mail.gandi.net'\n# EMAIL_USE_TLS = True\n# EMAIL_PORT = 587",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# config/settings.py\n# DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'mail.gandi.net'\n# EMAIL_USE_TLS = True\n# EMAIL_PORT = 587\n# EMAIL_HOST_USER = 'contact@entrepreneuriatsolutions.com'",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "USE_TZ = True\n# config/settings.py\n# DEFAULT_FROM_EMAIL = 'contact@entrepreneuriatsolutions.com'\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'mail.gandi.net'\n# EMAIL_USE_TLS = True\n# EMAIL_PORT = 587\n# EMAIL_HOST_USER = 'contact@entrepreneuriatsolutions.com'\n# EMAIL_HOST_PASSWORD = 'derick@1234'",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "NEWSLETTER_CONFIRM_EMAIL",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "NEWSLETTER_CONFIRM_EMAIL = False\n# Using django-tinymce\nTINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/9uefa29mghxxv68ohq2qhnr7wz86r3mxche6tiotda03zpj0/tinymce/4/tinymce.min.js'\nTINYMCE_COMPRESSOR = False\nNEWSLETTER_RICHTEXT_WIDGET = \"tinymce.widgets.TinyMCE\"\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nif DEBUG == True:\n    STATIC_URL = '/static/'\n    STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TINYMCE_JS_URL",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "TINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/9uefa29mghxxv68ohq2qhnr7wz86r3mxche6tiotda03zpj0/tinymce/4/tinymce.min.js'\nTINYMCE_COMPRESSOR = False\nNEWSLETTER_RICHTEXT_WIDGET = \"tinymce.widgets.TinyMCE\"\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nif DEBUG == True:\n    STATIC_URL = '/static/'\n    STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n    STATIC_ROOT = os.path.join(BASE_DIR, \"static-root\")\n    MEDIA_URL = '/media/'",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TINYMCE_COMPRESSOR",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "TINYMCE_COMPRESSOR = False\nNEWSLETTER_RICHTEXT_WIDGET = \"tinymce.widgets.TinyMCE\"\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nif DEBUG == True:\n    STATIC_URL = '/static/'\n    STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n    STATIC_ROOT = os.path.join(BASE_DIR, \"static-root\")\n    MEDIA_URL = '/media/'\n    MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root')",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "NEWSLETTER_RICHTEXT_WIDGET",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "NEWSLETTER_RICHTEXT_WIDGET = \"tinymce.widgets.TinyMCE\"\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nif DEBUG == True:\n    STATIC_URL = '/static/'\n    STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n    STATIC_ROOT = os.path.join(BASE_DIR, \"static-root\")\n    MEDIA_URL = '/media/'\n    MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root')\nelse:",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentationSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class DocumentationSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Documentation.objects.all()\nclass PartenaireSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Partenaire.objects.all()",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "PartenaireSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class PartenaireSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Partenaire.objects.all()\nclass ProduitSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Produit.objects.all()",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "ProduitSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class ProduitSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Produit.objects.all()\nclass Entreprise_solutionSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Entreprise_solution.objects.all()",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solutionSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class Entreprise_solutionSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Entreprise_solution.objects.all()\nclass Artisans_solutionSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Artisans_solution.objects.all()",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solutionSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class Artisans_solutionSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Artisans_solution.objects.all()\nclass Consultance_solutionSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Consultance_solution.objects.all()",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solutionSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class Consultance_solutionSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Consultance_solution.objects.all()\nclass TeamSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Team.objects.all()",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "TeamSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class TeamSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Team.objects.all()\nclass StaticViewSitemap(Sitemap):\n    priority = 1.0\n    changefreq = 'daily'\n    def items(self):\n        return ['app:about', 'app:contact', 'login', 'register']",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "StaticViewSitemap",
+        "kind": 6,
+        "importPath": "es.sitemaps",
+        "description": "es.sitemaps",
+        "peekOfCode": "class StaticViewSitemap(Sitemap):\n    priority = 1.0\n    changefreq = 'daily'\n    def items(self):\n        return ['app:about', 'app:contact', 'login', 'register']\n    def location(self, item):\n        return reverse(item)",
+        "detail": "es.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "sitemaps",
+        "kind": 5,
+        "importPath": "es.urls",
+        "description": "es.urls",
+        "peekOfCode": "sitemaps = {\n    'documentation-view' : DocumentationSitemap,\n    'partenaire-view' : PartenaireSitemap,\n    'produit-view' : ProduitSitemap,\n    'entreprise_solution-view' : Entreprise_solutionSitemap,\n    'artisans_solution-view' : Artisans_solutionSitemap,\n    'consultance_solution-view' : Consultance_solutionSitemap,\n    'team-view' : TeamSitemap,\n    'static': StaticViewSitemap,\n    }",
+        "detail": "es.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "es.urls",
+        "description": "es.urls",
+        "peekOfCode": "urlpatterns = [\n    path('sitemap.xml', sitemap, {'sitemaps': sitemaps},name='django.contrib.sitemaps.views.sitemap'),\n    path('app/', include('app.urls')),\n    path('', include('solutions.urls')),\n    path('accounts/', include('accounts.urls')),\n    path('produits/', include('produits.urls')),\n    path('documentations/', include('documentations.urls')),\n    path('partenaires/', include('partenaires.urls')),\n    path('dashboard/', include('dashboard.urls')),\n    path('@es/', admin.site.urls),",
+        "detail": "es.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler400",
+        "kind": 5,
+        "importPath": "es.urls",
+        "description": "es.urls",
+        "peekOfCode": "handler400 = 'handlers.views.handler400'\nhandler403 = 'handlers.views.handler403'\nhandler404 = 'handlers.views.handler404'\nhandler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "es.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler403",
+        "kind": 5,
+        "importPath": "es.urls",
+        "description": "es.urls",
+        "peekOfCode": "handler403 = 'handlers.views.handler403'\nhandler404 = 'handlers.views.handler404'\nhandler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "es.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 5,
+        "importPath": "es.urls",
+        "description": "es.urls",
+        "peekOfCode": "handler404 = 'handlers.views.handler404'\nhandler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "es.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler500",
+        "kind": 5,
+        "importPath": "es.urls",
+        "description": "es.urls",
+        "peekOfCode": "handler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "es.urls",
+        "documentation": {}
+    },
+    {
+        "label": "random_string_generator",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def random_string_generator(size=10, chars=string.ascii_lowercase + string.digits):\n    return ''.join(random.choice(chars) for _ in range(size))\ndef unique_slug_generator(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.question)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.question)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_solution",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_solution(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.nom)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_solution_artisans",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_solution_artisans(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.nom)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_solution_consultant",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_solution_consultant(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.nom)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_produit",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_produit(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_partenaire",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_partenaire(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.company) \n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Opportunite",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_dashboard_Opportunite(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Annonce",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_dashboard_Annonce(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Fidelite",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_dashboard_Fidelite(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Marketing",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_dashboard_Marketing(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_dashboard_Commerciale",
+        "kind": 2,
+        "importPath": "es.utils",
+        "description": "es.utils",
+        "peekOfCode": "def unique_slug_generator_dashboard_Commerciale(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "es.utils",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "es.wsgi",
+        "description": "es.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "es.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "HandlersConfig",
+        "kind": 6,
+        "importPath": "handlers.apps",
+        "description": "handlers.apps",
+        "peekOfCode": "class HandlersConfig(AppConfig):\n    name = 'handlers'",
+        "detail": "handlers.apps",
+        "documentation": {}
+    },
+    {
+        "label": "handler400",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler400(request, exception):\n\treturn render(request,  template_name='error/400.html')\n\tresponse.status_code = 400\n\treturn response\n#Permission denied\ndef handler403(request, exception):\n\treturn render(request,  template_name='error/403.html')\n\tresponse.status_code = 403\n\treturn response\n#Page not found",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler403",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler403(request, exception):\n\treturn render(request,  template_name='error/403.html')\n\tresponse.status_code = 403\n\treturn response\n#Page not found\ndef handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')\n\tresponse.status_code = 404\n\treturn response\n#Server error",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')\n\tresponse.status_code = 404\n\treturn response\n#Server error\ndef handler500(request):\n\treturn render(request,  template_name='error/500.html')\n\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler500",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler500(request):\n\treturn render(request,  template_name='error/500.html')\n\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 400\n\treturn response\n#Permission denied\ndef handler403(request, exception):\n\treturn render(request,  template_name='error/403.html')\n\tresponse.status_code = 403\n\treturn response\n#Page not found\ndef handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 403\n\treturn response\n#Page not found\ndef handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')\n\tresponse.status_code = 404\n\treturn response\n#Server error\ndef handler500(request):\n\treturn render(request,  template_name='error/500.html')",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 404\n\treturn response\n#Server error\ndef handler500(request):\n\treturn render(request,  template_name='error/500.html')\n\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "partenaires.migrations.0001_initial",
+        "description": "partenaires.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Partenaire',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('company', models.CharField(max_length=300)),",
+        "detail": "partenaires.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PartenaireAdmin",
+        "kind": 6,
+        "importPath": "partenaires.admin",
+        "description": "partenaires.admin",
+        "peekOfCode": "class PartenaireAdmin(admin.ModelAdmin):\n    list_display = (\n        'company',\n        'created',\n    )\n    list_filter = (\n        'company',\n        'created',\n        )\n    search_fields = ['company']",
+        "detail": "partenaires.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "partenaires.admin",
+        "description": "partenaires.admin",
+        "peekOfCode": "admin.site.site_header = 'ENTREPRISES SOLUTIONS ADMIN'\nadmin.site.site_title = \"Interface d'administration Dashboard\"\nfrom partenaires.models import Partenaire\n# Register your models here.\nclass PartenaireAdmin(admin.ModelAdmin):\n    list_display = (\n        'company',\n        'created',\n    )\n    list_filter = (",
+        "detail": "partenaires.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "partenaires.admin",
+        "description": "partenaires.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration Dashboard\"\nfrom partenaires.models import Partenaire\n# Register your models here.\nclass PartenaireAdmin(admin.ModelAdmin):\n    list_display = (\n        'company',\n        'created',\n    )\n    list_filter = (\n        'company',",
+        "detail": "partenaires.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PartenairesConfig",
+        "kind": 6,
+        "importPath": "partenaires.apps",
+        "description": "partenaires.apps",
+        "peekOfCode": "class PartenairesConfig(AppConfig):\n    name = 'partenaires'",
+        "detail": "partenaires.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Partenaire",
+        "kind": 6,
+        "importPath": "partenaires.models",
+        "description": "partenaires.models",
+        "peekOfCode": "class Partenaire(models.Model):\n    company = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    img_partenaire = models.ImageField(upload_to='partenaire_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):\n        return self.company\n    def get_absolute_url(self):\n        from django.urls import reverse\n        return reverse(\"partenaires:partenaire_detail_id\", kwargs={\"id\": self.id})",
+        "detail": "partenaires.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "partenaires.models",
+        "description": "partenaires.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_partenaire(instance)\npre_save.connect(tag_pre_save_receiver, sender=Partenaire)",
+        "detail": "partenaires.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "partenaires.urls",
+        "description": "partenaires.urls",
+        "peekOfCode": "app_name = 'partenaires'\nurlpatterns = [\n    path('', partenaires_view, name='partenaires'),\n    path('partenaire_detail/<slug:slug>/', partenaire_detail, name='partenaire_detail'),\n    path('partenaire_detail/<int:id>/', partenaire_detail, name='partenaire_detail_id'),\n]",
+        "detail": "partenaires.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "partenaires.urls",
+        "description": "partenaires.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', partenaires_view, name='partenaires'),\n    path('partenaire_detail/<slug:slug>/', partenaire_detail, name='partenaire_detail'),\n    path('partenaire_detail/<int:id>/', partenaire_detail, name='partenaire_detail_id'),\n]",
+        "detail": "partenaires.urls",
+        "documentation": {}
+    },
+    {
+        "label": "partenaires_view",
+        "kind": 2,
+        "importPath": "partenaires.views",
+        "description": "partenaires.views",
+        "peekOfCode": "def partenaires_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    partenaire = Partenaire.objects.all().order_by('-created')\n    paginator = Paginator(partenaire, 12)\n    page = request.GET.get('page')\n    try:\n        partenaire_list = paginator.page(page)\n    except PageNotAnInteger:",
+        "detail": "partenaires.views",
+        "documentation": {}
+    },
+    {
+        "label": "partenaire_detail",
+        "kind": 2,
+        "importPath": "partenaires.views",
+        "description": "partenaires.views",
+        "peekOfCode": "def partenaire_detail(request, slug):\n    \"\"\"\n        Product detail\n    \"\"\"\n    produit = Produit.objects.get(slug=slug)\n    context = {\n        'produit': produit\n    }\n    template_name = 'pages/partenaires/partenaires.html'\n    return render(request, template_name, context)",
+        "detail": "partenaires.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "produits.migrations.0001_initial",
+        "description": "produits.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Produit',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('titre', models.CharField(max_length=300)),",
+        "detail": "produits.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ProduitAdmin",
+        "kind": 6,
+        "importPath": "produits.admin",
+        "description": "produits.admin",
+        "peekOfCode": "class ProduitAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'resume',\n        'created',\n    )\n    list_filter = (\n        'titre',\n        'created',\n        )",
+        "detail": "produits.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "produits.admin",
+        "description": "produits.admin",
+        "peekOfCode": "admin.site.site_header = 'ENTREPRISES SOLUTIONS ADMIN'\nadmin.site.site_title = \"Interface d'administration PRODUIT\"\nfrom produits.models import Produit\n# Register your models here.\nclass ProduitAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'resume',\n        'created',\n    )",
+        "detail": "produits.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "produits.admin",
+        "description": "produits.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration PRODUIT\"\nfrom produits.models import Produit\n# Register your models here.\nclass ProduitAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'resume',\n        'created',\n    )\n    list_filter = (",
+        "detail": "produits.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ProduitsConfig",
+        "kind": 6,
+        "importPath": "produits.apps",
+        "description": "produits.apps",
+        "peekOfCode": "class ProduitsConfig(AppConfig):\n    name = 'produits'",
+        "detail": "produits.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Produit",
+        "kind": 6,
+        "importPath": "produits.models",
+        "description": "produits.models",
+        "peekOfCode": "class Produit(models.Model):\n    titre = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    resume = models.TextField(max_length=300)\n    description = HTMLField('description')\n    img = models.ImageField(upload_to='produit_img/')\n    created = models.DateTimeField(auto_now=False)\n    def __str__(self):\n        return self.titre\n    def get_absolute_url(self):",
+        "detail": "produits.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "produits.models",
+        "description": "produits.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_produit(instance)\npre_save.connect(tag_pre_save_receiver, sender=Produit)",
+        "detail": "produits.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "produits.urls",
+        "description": "produits.urls",
+        "peekOfCode": "app_name = 'produits'\nurlpatterns = [\n    path('', produits_view, name='produits'),\n    path('produit_detail/<slug:slug>/', products_detail, name='product_detail'),\n    path('produit_detail/<int:id>/', products_detail, name='product_detail_id'),\n]",
+        "detail": "produits.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "produits.urls",
+        "description": "produits.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', produits_view, name='produits'),\n    path('produit_detail/<slug:slug>/', products_detail, name='product_detail'),\n    path('produit_detail/<int:id>/', products_detail, name='product_detail_id'),\n]",
+        "detail": "produits.urls",
+        "documentation": {}
+    },
+    {
+        "label": "produits_view",
+        "kind": 2,
+        "importPath": "produits.views",
+        "description": "produits.views",
+        "peekOfCode": "def produits_view(request):\n    \"\"\"\n    Product list\n    \"\"\"\n    produit = Produit.objects.all().order_by('created')\n    paginator = Paginator(produit, 9)\n    page = request.GET.get('page')\n    try:\n        produit_list = paginator.page(page)\n    except PageNotAnInteger:",
+        "detail": "produits.views",
+        "documentation": {}
+    },
+    {
+        "label": "products_detail",
+        "kind": 2,
+        "importPath": "produits.views",
+        "description": "produits.views",
+        "peekOfCode": "def products_detail(request, slug):\n    \"\"\"\n        Product detail\n    \"\"\"\n    produit = Produit.objects.get(slug=slug)\n    context = {\n        'produit': produit\n    }\n    template_name = 'pages/produits/produit_detail.html'\n    return render(request, template_name, context)",
+        "detail": "produits.views",
+        "documentation": {}
+    },
+    {
+        "label": "entrepriseSolutionApi",
+        "kind": 2,
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "peekOfCode": "def entrepriseSolutionApi(request, id=0):\n    if request.method=='GET':\n        entrepriseSolution = Entreprise_solution.objects.all()\n        entrepriseSolution_serializer = EntrepriseSolutionSerializer(entrepriseSolution, many=True)\n        return JsonResponse(entrepriseSolution_serializer.data, safe=False)\n    elif request.method=='POST':\n        entrepriseSolution_data=JSONParser().parse(request)\n        entrepriseSolution_serializer = EntrepriseSolutionSerializer(data=entrepriseSolution_data)\n        if entrepriseSolution_serializer.is_valid():\n            entrepriseSolution_serializer.save()",
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "artisansSolutionApi",
+        "kind": 2,
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "peekOfCode": "def artisansSolutionApi(request, id=0):\n    if request.method=='GET':\n        artisanSolution = Artisans_solution.objects.all()\n        artisansSolutionSerializer = ArtisansSolutionSerializer(artisanSolution, many=True)\n        return JsonResponse(artisansSolutionSerializer.data, safe = False)\n    elif request.method == 'POST':\n        artisanSolution_data = JSONParser().parse(request)\n        artisansSolutionSerializer = ArtisansSolutionSerializer(data = artisanSolution_data)\n        if artisansSolutionSerializer.is_valid():\n            artisansSolutionSerializer.save()",
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "consultantSolutionApi",
+        "kind": 2,
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "peekOfCode": "def consultantSolutionApi(request, id=0):\n    if request.method=='GET':\n        consultantSolution = Consultance_solution.objects.all()\n        consultantSolutionSerializer = ConsultanceSolutionserializer(consultantSolution, many=True)\n        return JsonResponse(consultantSolutionSerializer.data, safe=False)\n    elif request.method == 'POST':\n        consutantSolution_data = JSONParser().parse(request)\n        consultantSolutionSerializer = ConsultanceSolutionserializer(data = consutantSolution_data)\n        if artisansSolutionSerializer.is_valid():\n            artisansSolutionSerializer.save()",
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "SaveFile",
+        "kind": 2,
+        "importPath": "solutions.api.views",
+        "description": "solutions.api.views",
+        "peekOfCode": "def SaveFile(request):\n    file=request.FILES['uploadedFile']\n    file_name = default_storage.save(file.name,file)\n    return JsonResponse(file_name,safe=False)",
+        "detail": "solutions.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "solutions.migrations.0001_initial",
+        "description": "solutions.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Artisans_solution',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nom', models.CharField(max_length=300)),",
+        "detail": "solutions.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "solutions.migrations.0002_auto_20201102_0705",
+        "description": "solutions.migrations.0002_auto_20201102_0705",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('solutions', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='artisans_solution',\n            name='site_web',\n            field=models.URLField(default=django.utils.timezone.now),\n            preserve_default=False,",
+        "detail": "solutions.migrations.0002_auto_20201102_0705",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "solutions.migrations.0003_auto_20210119_0731",
+        "description": "solutions.migrations.0003_auto_20210119_0731",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('solutions', '0002_auto_20201102_0705'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='artisans_solution',\n            name='site_web',\n            field=models.URLField(blank=True),\n        ),",
+        "detail": "solutions.migrations.0003_auto_20210119_0731",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solutionAdmin",
+        "kind": 6,
+        "importPath": "solutions.admin",
+        "description": "solutions.admin",
+        "peekOfCode": "class Entreprise_solutionAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'nom',\n        'secteur_entreprise',\n        'fonctions_entreprise',\n        'telephone_entreprise',\n        'email_entreprise',\n    )\n    list_filter = (",
+        "detail": "solutions.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solutionAdmin",
+        "kind": 6,
+        "importPath": "solutions.admin",
+        "description": "solutions.admin",
+        "peekOfCode": "class Artisans_solutionAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'nom',\n        'secteur_artisans',\n        'fonctions_artisans',\n        'telephone_artisans',\n        'email_artisans',\n    )\n    list_filter = (",
+        "detail": "solutions.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solutionAdmin",
+        "kind": 6,
+        "importPath": "solutions.admin",
+        "description": "solutions.admin",
+        "peekOfCode": "class Consultance_solutionAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'nom',\n        'secteur_consultance',\n        'fonctions_consultance',\n        'telephone_consultance',\n        'email_consultance',\n    )\n    list_filter = (",
+        "detail": "solutions.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "solutions.admin",
+        "description": "solutions.admin",
+        "peekOfCode": "admin.site.site_header = 'ENTREPRISES SOLUTIONS ADMIN'\nadmin.site.site_title = \"Interface d'administration Solutions\"\nfrom solutions.models import Entreprise_solution, Artisans_solution, Consultance_solution\n# Register your models here.\nclass Entreprise_solutionAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'nom',\n        'secteur_entreprise',\n        'fonctions_entreprise',",
+        "detail": "solutions.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "solutions.admin",
+        "description": "solutions.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration Solutions\"\nfrom solutions.models import Entreprise_solution, Artisans_solution, Consultance_solution\n# Register your models here.\nclass Entreprise_solutionAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'nom',\n        'secteur_entreprise',\n        'fonctions_entreprise',\n        'telephone_entreprise',",
+        "detail": "solutions.admin",
+        "documentation": {}
+    },
+    {
+        "label": "SolutionsConfig",
+        "kind": 6,
+        "importPath": "solutions.apps",
+        "description": "solutions.apps",
+        "peekOfCode": "class SolutionsConfig(AppConfig):\n    name = 'solutions'",
+        "detail": "solutions.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Entreprise_solution",
+        "kind": 6,
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "peekOfCode": "class Entreprise_solution(models.Model):\n    \"\"\"\n    Entreprise model\n    \"\"\"\n    nom = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur_entreprise = models.CharField(max_length=300, choices=SECTEUR_ENTREPRISES)\n    fonctions_entreprise = models.CharField(max_length=500)\n    logo_entreprise = models.ImageField(upload_to= 'entreprise_solution_img/')\n    telephone_entreprise = models.DecimalField(max_digits=13, decimal_places=0) ",
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Artisans_solution",
+        "kind": 6,
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "peekOfCode": "class Artisans_solution(models.Model):\n    \"\"\"\n    Artisans model\n    \"\"\"\n    nom = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur_artisans = models.CharField(max_length=300, choices=SECTEUR_ENTREPRISES)\n    fonctions_artisans = models.CharField(max_length=500)\n    logo_artisans = models.ImageField(upload_to= 'entreprise_solution_img/')\n    telephone_artisans = models.DecimalField(max_digits=13, decimal_places=0) ",
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Consultance_solution",
+        "kind": 6,
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "peekOfCode": "class Consultance_solution(models.Model):\n    \"\"\"\n    Consultance model\n    \"\"\"\n    nom = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    secteur_consultance = models.CharField(max_length=300, choices=SECTEUR_ENTREPRISES)\n    fonctions_consultance = models.CharField(max_length=500)\n    logo_consultance = models.ImageField(upload_to= 'entreprise_solution_img/')\n    telephone_consultance = models.DecimalField(max_digits=13, decimal_places=0) ",
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution(instance)\npre_save.connect(tag_pre_save_receiver, sender=Entreprise_solution)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_artisans(instance)\npre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:",
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_artisans(instance)\npre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_consultant(instance)\npre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)",
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "solutions.models",
+        "description": "solutions.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_consultant(instance)\npre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)",
+        "detail": "solutions.models",
+        "documentation": {}
+    },
+    {
+        "label": "EntrepriseSolutionSerializer",
+        "kind": 6,
+        "importPath": "solutions.serializers",
+        "description": "solutions.serializers",
+        "peekOfCode": "class EntrepriseSolutionSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Entreprise_solution\n        fields = (\n            'id', 'nom', 'secteur_entreprise', 'fonctions_entreprise', 'logo_entreprise',\n            'telephone_entreprise', 'telephone_2_entreprise', 'email_entreprise', 'site_web',\n            'description_entreprise', 'competence_entreprise', 'sociauFB_entreprise',\n            'sociauTW_entreprise', 'sociauINS_entreprise', 'sociauIN_entreprise'\n        )\nclass ArtisansSolutionSerializer(serializers.ModelSerializer):",
+        "detail": "solutions.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ArtisansSolutionSerializer",
+        "kind": 6,
+        "importPath": "solutions.serializers",
+        "description": "solutions.serializers",
+        "peekOfCode": "class ArtisansSolutionSerializer(serializers.ModelSerializer):\n    class Meta: \n        model = Artisans_solution\n        fields = ( \n            'nom', 'secteur_artisans', 'fonctions_artisans', 'logo_artisans', 'telephone_artisans',\n            'telephone_2_artisans', 'email_artisans', 'site_web', 'description_artisans', 'competence_artisans',\n            'sociauFB_artisans', 'sociauTW_artisans', 'sociauINS_artisans', 'sociauIN_artisans'\n        )\nclass ConsultanceSolutionserializer(serializers.ModelSerializer):\n    class Meta: ",
+        "detail": "solutions.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ConsultanceSolutionserializer",
+        "kind": 6,
+        "importPath": "solutions.serializers",
+        "description": "solutions.serializers",
+        "peekOfCode": "class ConsultanceSolutionserializer(serializers.ModelSerializer):\n    class Meta: \n        model = Consultance_solution\n        fields = (\n            'nom', 'secteur_consultance', 'fonctions_consultance', 'fonctions_consultance', 'logo_consultance',\n            'telephone_consultance', 'telephone_2_consultance', 'email_consultance', 'site_web', 'description_consultance',\n            'competence_consultance', 'sociauFB_consultance', 'sociauTW_consultance', 'sociauINS_consultance',\n            'sociauIN_consultance',\n        )",
+        "detail": "solutions.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "solutions.urls",
+        "description": "solutions.urls",
+        "peekOfCode": "app_name = 'solutions'\nurlpatterns = [\n    path('', entreprise_solution_search, name='entreprise_solution'),\n    path('entreprise_solution/entreprise_solution/<int:id>/', entreprise_solutions_detail, name='entreprise_solutions_detail'),\n    path('artisans_solution/', artisans_solution_search, name='artisans_solution'),\n    path('artisans_solution/artisans_solution_detail/<int:id>/', artisans_solution_detail, name='artisans_solution_detail'),\n    path('consultant_solution/', consultance_solution_search, name='consultant_solution'),\n    path('consultant_solution/consultance_solutions_detail/<int:id>/', consultance_solution_detail, name='consultance_solutions_detail'),\n    url(r'^entreprise_solution/$', entrepriseSolutionApi),\n    url(r'^entreprise_solution/([0-9]+)$', entrepriseSolutionApi),",
+        "detail": "solutions.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "solutions.urls",
+        "description": "solutions.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', entreprise_solution_search, name='entreprise_solution'),\n    path('entreprise_solution/entreprise_solution/<int:id>/', entreprise_solutions_detail, name='entreprise_solutions_detail'),\n    path('artisans_solution/', artisans_solution_search, name='artisans_solution'),\n    path('artisans_solution/artisans_solution_detail/<int:id>/', artisans_solution_detail, name='artisans_solution_detail'),\n    path('consultant_solution/', consultance_solution_search, name='consultant_solution'),\n    path('consultant_solution/consultance_solutions_detail/<int:id>/', consultance_solution_detail, name='consultance_solutions_detail'),\n    url(r'^entreprise_solution/$', entrepriseSolutionApi),\n    url(r'^entreprise_solution/([0-9]+)$', entrepriseSolutionApi),\n    url(r'^artisans_solution/$', artisansSolutionApi),",
+        "detail": "solutions.urls",
+        "documentation": {}
+    },
+    {
+        "label": "entreprise_solution_search",
+        "kind": 2,
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "peekOfCode": "def entreprise_solution_search(request):\n    query = request.GET.get('q', '')\n    #The empty string handles an empty \"request\"\n    if query:\n            queryset = (Q(nom__icontains=query)| Q(secteur_entreprise__icontains=query)| Q(description_entreprise__icontains=query)| Q(competence_entreprise__icontains=query))\n            results = Entreprise_solution.objects.filter(queryset).distinct()\n    else:\n        results = []\n    context = {\n        'results': results,",
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "entreprise_solutions_detail",
+        "kind": 2,
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "peekOfCode": "def entreprise_solutions_detail(request, id):\n    \"\"\"\n    entreprise_solution_ detail\n    \"\"\"\n    entreprise = Entreprise_solution.objects.get(id=id)\n    context = {\n        'entreprise': entreprise\n    }\n    template_name = 'pages/solutions/entreprise_solutions/entreprise_solutions_detail.html'\n    return render(request, template_name, context)",
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "artisans_solution_search",
+        "kind": 2,
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "peekOfCode": "def artisans_solution_search(request):\n    query = request.GET.get('q', '')\n    #The empty string handles an empty \"request\"\n    if query:\n            queryset = (Q(nom__icontains=query)| Q(secteur_artisans__icontains=query)| Q(description_artisans__icontains=query)| Q(competence_artisans__icontains=query))\n            results = Artisans_solution.objects.filter(queryset).distinct()\n    else:\n        results = []\n    context = {\n        'results': results,",
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "artisans_solution_detail",
+        "kind": 2,
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "peekOfCode": "def artisans_solution_detail(request, id):\n    \"\"\"\n        artisans_solution_detail\n    \"\"\"\n    artisans = Artisans_solution.objects.get(id=id)\n    context = {\n        'artisans': artisans\n    }\n    template_name = 'pages/solutions/artisans_solution/artisans_solution_detail.html'\n    return render(request, template_name, context)",
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "consultance_solution_search",
+        "kind": 2,
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "peekOfCode": "def consultance_solution_search(request):\n    query = request.GET.get('q', '')\n    #The empty string handles an empty \"request\"\n    if query:\n            queryset = (Q(nom__icontains=query)| Q(secteur_consultance__icontains=query)| Q(description_consultance__icontains=query)| Q(competence_consultance__icontains=query))\n            results = Consultance_solution.objects.filter(queryset).distinct()\n    else:\n        results = []\n    context = {\n        'results': results,",
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "consultance_solution_detail",
+        "kind": 2,
+        "importPath": "solutions.views",
+        "description": "solutions.views",
+        "peekOfCode": "def consultance_solution_detail(request, id):\n    \"\"\"\n    consultance_solution_detail\n    \"\"\"\n    consultance = Consultance_solution.objects.get(id=id)\n    context = {\n        'consultance': consultance\n    }\n    template_name = 'pages/solutions/consultant_solution/consultance_solutions_detail.html'\n    return render(request, template_name, context)",
+        "detail": "solutions.views",
+        "documentation": {}
+    },
+    {
+        "label": "importlib_load_entry_point",
+        "kind": 2,
+        "importPath": "venv.Scripts.autopep8-script",
+        "description": "venv.Scripts.autopep8-script",
+        "peekOfCode": "def importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')\n    matches = (\n        entry_point\n        for entry_point in distribution(dist_name).entry_points\n        if entry_point.group == group and entry_point.name == name\n    )\n    return next(matches).load()\nglobals().setdefault('load_entry_point', importlib_load_entry_point)\nif __name__ == '__main__':",
+        "detail": "venv.Scripts.autopep8-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.autopep8-script",
+        "description": "venv.Scripts.autopep8-script",
+        "peekOfCode": "__requires__ = 'autopep8==1.5.4'\ntry:\n    from importlib.metadata import distribution\nexcept ImportError:\n    try:\n        from importlib_metadata import distribution\n    except ImportError:\n        from pkg_resources import load_entry_point\ndef importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')",
+        "detail": "venv.Scripts.autopep8-script",
+        "documentation": {}
+    },
+    {
+        "label": "importlib_load_entry_point",
+        "kind": 2,
+        "importPath": "venv.Scripts.change_tz-script",
+        "description": "venv.Scripts.change_tz-script",
+        "peekOfCode": "def importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')\n    matches = (\n        entry_point\n        for entry_point in distribution(dist_name).entry_points\n        if entry_point.group == group and entry_point.name == name\n    )\n    return next(matches).load()\nglobals().setdefault('load_entry_point', importlib_load_entry_point)\nif __name__ == '__main__':",
+        "detail": "venv.Scripts.change_tz-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.change_tz-script",
+        "description": "venv.Scripts.change_tz-script",
+        "peekOfCode": "__requires__ = 'python-card-me==0.9.3'\ntry:\n    from importlib.metadata import distribution\nexcept ImportError:\n    try:\n        from importlib_metadata import distribution\n    except ImportError:\n        from pkg_resources import load_entry_point\ndef importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')",
+        "detail": "venv.Scripts.change_tz-script",
+        "documentation": {}
+    },
+    {
+        "label": "importlib_load_entry_point",
+        "kind": 2,
+        "importPath": "venv.Scripts.ics_diff-script",
+        "description": "venv.Scripts.ics_diff-script",
+        "peekOfCode": "def importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')\n    matches = (\n        entry_point\n        for entry_point in distribution(dist_name).entry_points\n        if entry_point.group == group and entry_point.name == name\n    )\n    return next(matches).load()\nglobals().setdefault('load_entry_point', importlib_load_entry_point)\nif __name__ == '__main__':",
+        "detail": "venv.Scripts.ics_diff-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.ics_diff-script",
+        "description": "venv.Scripts.ics_diff-script",
+        "peekOfCode": "__requires__ = 'python-card-me==0.9.3'\ntry:\n    from importlib.metadata import distribution\nexcept ImportError:\n    try:\n        from importlib_metadata import distribution\n    except ImportError:\n        from pkg_resources import load_entry_point\ndef importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')",
+        "detail": "venv.Scripts.ics_diff-script",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.jp",
+        "description": "venv.Scripts.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "venv.Scripts.jp",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.surlex2regex",
+        "description": "venv.Scripts.surlex2regex",
+        "peekOfCode": "def main():\n    parser = OptionParser()\n    parser.set_usage('surlex2regex.py <surlex>')\n    if len(sys.argv) == 1:\n        argv = ['-h']\n    else:\n        argv = sys.argv[1:]\n    options, args = parser.parse_args(argv)\n    print (Surlex(args[0]).translate())\nif __name__ == '__main__':",
+        "detail": "venv.Scripts.surlex2regex",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'es.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

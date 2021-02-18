@@ -4,6 +4,8 @@ from django.urls import reverse
 from es.utils import unique_slug_generator_solution, unique_slug_generator_solution_artisans, unique_slug_generator_solution_consultant
 from es.constant import SECTEUR_ENTREPRISES
 
+from tinymce import HTMLField
+
 # Create your models here.
 class Entreprise_solution(models.Model):
     """
@@ -18,7 +20,7 @@ class Entreprise_solution(models.Model):
     telephone_2_entreprise = models.DecimalField(max_digits=13, decimal_places=0) 
     email_entreprise = models.EmailField()
     site_web = models.URLField(blank=True)
-    description_entreprise = models.TextField()
+    description_entreprise = HTMLField('description_entreprise')
     competence_entreprise = models.CharField(max_length=500)
     sociauFB_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
     sociauTW_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
@@ -45,7 +47,7 @@ class Artisans_solution(models.Model):
     telephone_2_artisans = models.DecimalField(max_digits=13, decimal_places=0) 
     email_artisans = models.EmailField()
     site_web = models.URLField(blank=True)
-    description_artisans = models.TextField()
+    description_artisans = HTMLField('description_artisans')
     competence_artisans = models.CharField(max_length=500)
     sociauFB_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
     sociauTW_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
@@ -73,7 +75,7 @@ class Consultance_solution(models.Model):
     telephone_2_consultance = models.DecimalField(max_digits=13, decimal_places=0) 
     email_consultance = models.EmailField()
     site_web = models.URLField(blank=True)
-    description_consultance = models.TextField()
+    description_consultance = HTMLField('description_consultance')
     competence_consultance = models.CharField(max_length=500)
     sociauFB_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte Facebook et collez le ici')
     sociauTW_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')

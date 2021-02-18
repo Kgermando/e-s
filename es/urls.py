@@ -47,6 +47,7 @@ urlpatterns = [
     path('@es/', admin.site.urls),
     path('newsletter/', include('newsletter.urls')),
     path('administration/', include('administration.urls')),
+    path('tinymce/', include('tinymce.urls')),
 ]
 
 handler400 = 'handlers.views.handler400'
@@ -56,3 +57,4 @@ handler500 = 'handlers.views.handler500'
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

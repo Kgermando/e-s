@@ -14,7 +14,7 @@ def dashboard_stats(request):
     template_name = 'pages/dashboard/stats.html'
     return render(request, template_name, context)
     
-@login_required(login_url='/accounts/login/')
+@login_required(login_url='/accounts/login/') 
 def dashboard_forms_entreprise(request):
     if  request.method == 'POST':
         company = request.POST['company']

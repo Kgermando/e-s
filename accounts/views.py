@@ -12,7 +12,8 @@ def login_view(request):
 
         if user is not None:
             auth.login(request, user)
-            messages.success(request, "Vous êtes maintenant authentifié!")
+            messages.success(request, "Vous êtes maintenant authentifié! Allez dans Formulaire \
+             pour ajouter votre Entreprise, Artisans, Consultant, partenaire et Investisseur ")
             return redirect('dashboard:dashboard')
         else:
             messages.error(request, "les informations d'identification invalides, vérifier votre prénom")

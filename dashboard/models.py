@@ -1,12 +1,20 @@
 from django.db import models
 from django.db.models.signals import pre_save
-from es.utils import unique_slug_generator_dashboard
+from es.utils import (
+    unique_slug_generator_dashboard_Opportunite,
+    unique_slug_generator_dashboard_Annonce,
+    unique_slug_generator_dashboard_Fidelite,
+    unique_slug_generator_dashboard_Marketing,
+    unique_slug_generator_dashboard_Commerciale
+)
+
+from tinymce import HTMLField
 
 # Create your models here.
 class Forms_Entreprise(models.Model):
     company = models.CharField(max_length=300)
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     telephone_2 = models.CharField(max_length=300, blank=True)
@@ -23,7 +31,7 @@ class Forms_Entreprise(models.Model):
 class Forms_Artisans(models.Model):
     company = models.CharField(max_length=300)
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     telephone_2 = models.CharField(max_length=300, blank=True)
@@ -56,7 +64,7 @@ class Forms_Partenaire(models.Model):
     company = models.CharField(max_length=300)
     type = models.CharField(max_length=300)
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     telephone_2 = models.CharField(max_length=300, blank=True)
@@ -72,7 +80,7 @@ class Forms_Investisseur(models.Model):
     company = models.CharField(max_length=300)
     motivation = models.CharField(max_length=300)
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     telephone_2 = models.CharField(max_length=300, blank=True)
@@ -88,7 +96,7 @@ class Opportunite(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     img = models.ImageField(upload_to='opportunite_img/')
@@ -105,7 +113,7 @@ class Annonce(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     img = models.ImageField(upload_to='annonce_img/')
@@ -121,7 +129,7 @@ class Fidelite(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     img = models.ImageField(upload_to='fidelite_img/')
@@ -138,7 +146,7 @@ class Marketing(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
     img = models.ImageField(upload_to='marketing_img/')
@@ -155,7 +163,7 @@ class Commerciale(models.Model):
     titre = models.CharField(max_length=500)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     secteur = models.CharField(max_length=300)
-    description = models.TextField()
+    description = HTMLField('description')
     url =  models.URLField(null=True, blank=True)
     email = models.EmailField()
     telephone = models.CharField(max_length=300)
@@ -173,30 +181,30 @@ class Commerciale(models.Model):
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator_dashboard(instance)
+        instance.slug = unique_slug_generator_dashboard_Opportunite(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Opportunite)
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator_dashboard(instance)
+        instance.slug = unique_slug_generator_dashboard_Annonce(instance)
 
-pre_save.connect(tag_pre_save_receiver, sender=Annonce)
+pre_save.connect(tag_pre_save_receiver, sender=Annonce) 
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator_dashboard(instance)
+        instance.slug = unique_slug_generator_dashboard_Fidelite(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Fidelite)
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator_dashboard(instance)
+        instance.slug = unique_slug_generator_dashboard_Marketing(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Marketing)
 
 def tag_pre_save_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
-        instance.slug = unique_slug_generator_dashboard(instance)
+        instance.slug = unique_slug_generator_dashboard_Commerciale(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Commerciale)
