@@ -312,6 +312,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -2593,6 +2617,24 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "documentations.migrations.0003_auto_20210218_1416",
+        "description": "documentations.migrations.0003_auto_20210218_1416",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('documentations', '0002_auto_20210218_1304'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='documentation',\n            name='reponse',\n            field=models.TextField(),\n        ),",
+        "detail": "documentations.migrations.0003_auto_20210218_1416",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "documentations.migrations.0004_auto_20210218_1417",
+        "description": "documentations.migrations.0004_auto_20210218_1417",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('documentations', '0003_auto_20210218_1416'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='documentation',\n            name='reponse',\n            field=tinymce.models.HTMLField(verbose_name='reponse'),\n        ),",
+        "detail": "documentations.migrations.0004_auto_20210218_1417",
+        "documentation": {}
+    },
+    {
         "label": "DocumentationsAdmin",
         "kind": 6,
         "importPath": "documentations.admin",
@@ -2633,7 +2675,7 @@
         "kind": 6,
         "importPath": "documentations.models",
         "description": "documentations.models",
-        "peekOfCode": "class Documentation(models.Model):\n    img_docs = models.ImageField(upload_to='docs_img/')\n    categorie =  models.CharField(max_length=300, choices=CATEGORIES)\n    question = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    reponse = HTMLField('reponse')\n    def __str__(self):\n        return self.question\n    def get_absolute_url(self):\n        from django.urls import reverse",
+        "peekOfCode": "class Documentation(models.Model):\n    img_docs = models.ImageField(upload_to='docs_img/')\n    categorie =  models.CharField(max_length=300, choices=CATEGORIES)\n    reponse = HTMLField('reponse')\n    question = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    def __str__(self):\n        return self.question\n    def get_absolute_url(self):\n        from django.urls import reverse",
         "detail": "documentations.models",
         "documentation": {}
     },

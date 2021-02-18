@@ -9,13 +9,12 @@ from es.constant import CATEGORIES
 class Documentation(models.Model):
     img_docs = models.ImageField(upload_to='docs_img/')
     categorie =  models.CharField(max_length=300, choices=CATEGORIES)
+    reponse = HTMLField('reponse')
     question = models.CharField(max_length=300)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
-    reponse = HTMLField('reponse')
 
     def __str__(self):
         return self.question
-
 
     def get_absolute_url(self):
         from django.urls import reverse

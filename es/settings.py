@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'tinymce',
     'newsletter',
     'rest_framework',
+    'storages',
     # 'corsheaders',
 
     'handlers',
