@@ -22,9 +22,9 @@
                        <ul class="blog-info-link mt-3 mb-4">
                           <li><a href="#"><i class="fa fa-edit"></i> {{ docs_view.categorie }} </a></li>
                        </ul>
-                       <p class="excert">
-                        {{ docs_view.reponse }}.
-                       </p>
+                       <div class="excert">
+                        {{ docs_view.reponse | safe}}
+                       </div>
                     </div>
                  </div>
                 

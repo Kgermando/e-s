@@ -47,8 +47,14 @@
     {% block error %} {% endblock error %}
     
     {% block partenaire %}{% endblock partenaire %}
+
     <!-- google search console -->
     <meta name="google-site-verification" content="2-6-MUan15fP5mbuybNSl5OgICV7E1LnLp52nyWjCVI" />
+
+    {% load google_analytics_tags %}
+    <div style="display:none">
+        <img src="{% google_analytics %}" width="0" height="0" />
+    </div>
  
 </head>
 <body>

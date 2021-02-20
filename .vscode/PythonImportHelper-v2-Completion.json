@@ -616,6 +616,14 @@
         "documentation": {}
     },
     {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -1955,7 +1963,7 @@
         "kind": 2,
         "importPath": "accounts.views",
         "description": "accounts.views",
-        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        username = request.POST['username']\n        password = request.POST['password']\n        user = auth.authenticate(username=username, password=password)\n        if user is not None:\n            auth.login(request, user)\n            messages.success(request, \"Vous êtes maintenant authentifié! Allez dans Formulaire \\\n             pour ajouter votre Entreprise, Artisans, Consultant, partenaire et Investisseur \")\n            return redirect('dashboard:dashboard')",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        username = request.POST['username']\n        password = request.POST['password']\n        user = auth.authenticate(username=username, password=password)\n        if user is not None:\n            auth.login(request, user)\n            messages.success(request,\"! vous êtes authentifiés!! À présent nous vous convions \\\n                à aller dans l’onglet formulaire pour remplir le formulaire qui correspond à votre profil afin que vous \\\n                soyez retrouvable dans le moteur de cherche comme entreprise,artisan ou consultant. Si vous avez besoin \\",
         "detail": "accounts.views",
         "documentation": {}
     },
@@ -2801,7 +2809,7 @@
         "kind": 5,
         "importPath": "es.settings",
         "description": "es.settings",
-        "peekOfCode": "SITE_ID = 1\nCORS_ORIGIN_ALLOW_ALL = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "peekOfCode": "SITE_ID = 1\nCORS_ORIGIN_ALLOW_ALL = True\nGOOGLE_ANALYTICS = {\n    'google_analytics_id': 'G-4JCJ538Q72',\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    # 'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',",
         "detail": "es.settings",
         "documentation": {}
     },
@@ -2810,7 +2818,16 @@
         "kind": 5,
         "importPath": "es.settings",
         "description": "es.settings",
-        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\nGOOGLE_ANALYTICS = {\n    'google_analytics_id': 'G-4JCJ538Q72',\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    # 'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',",
+        "detail": "es.settings",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_ANALYTICS",
+        "kind": 5,
+        "importPath": "es.settings",
+        "description": "es.settings",
+        "peekOfCode": "GOOGLE_ANALYTICS = {\n    'google_analytics_id': 'G-4JCJ538Q72',\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    # 'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
         "detail": "es.settings",
         "documentation": {}
     },
@@ -2819,7 +2836,7 @@
         "kind": 5,
         "importPath": "es.settings",
         "description": "es.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    # 'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
         "detail": "es.settings",
         "documentation": {}
     },

@@ -12,11 +12,14 @@ def login_view(request):
 
         if user is not None:
             auth.login(request, user)
-            messages.success(request, "Vous êtes maintenant authentifié! Allez dans Formulaire \
-             pour ajouter votre Entreprise, Artisans, Consultant, partenaire et Investisseur ")
+            messages.success(request,"! vous êtes authentifiés!! À présent nous vous convions \
+                à aller dans l’onglet formulaire pour remplir le formulaire qui correspond à votre profil afin que vous \
+                soyez retrouvable dans le moteur de cherche comme entreprise,artisan ou consultant. Si vous avez besoin \
+                d’un partenariat ou vous êtes investisseur faites le même exercice en remplissant le formulaire qui vous \
+                convient toujours en déroulant le menu dans l’onglet formulaire .")
             return redirect('dashboard:dashboard')
         else:
-            messages.error(request, "les informations d'identification invalides, vérifier votre prénom")
+            messages.error(request, "les informations d'identifications sont invalides, vérifier votre prénom")
             return redirect('login')
     return render(request, 'pages/accounts/login.html')
 

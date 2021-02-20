@@ -21,12 +21,12 @@
                      <ul class="blog-info-link mt-3 mb-4">
                         <!-- <li><a href="#"><i class="fa fa-home"></i> {{ produit.titre }} </a></li> -->
                      </ul>
-                     <blockquote class="generic-blockquote" style="text-align: justify;">
+                     <!-- <blockquote class="generic-blockquote" style="text-align: justify;">
                         “{{ produit.resume }}”
-                     </blockquote>
-                     <p class="excert" style="text-align: justify;">
-                        {{ produit.description }}
-                     </p>
+                     </blockquote> -->
+                     <div class="excert">
+                        {{ produit.description | safe }}
+                     </div>
                   </div>
                </div>
                

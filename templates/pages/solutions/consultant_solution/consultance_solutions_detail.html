@@ -42,10 +42,10 @@
                </blockquote>
 
                <div class="pt-50">
-                  <h3 class="font-weight-bold">Description de l'consultance:</h3>
-                  <p class="excert">
-                     {{ consultance.description_consultance }}
-                  </p> 
+                  <!-- <h3 class="font-weight-bold">Description de la consultance:</h3> -->
+                  <div class="excert">
+                     {{ consultance.description_consultance | safe }}
+                  </div> 
                </div>
                <div class="pt-50">
                   <h3 class="font-weight-bold">Atout:</h3>

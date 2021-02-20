@@ -40,10 +40,11 @@ INSTALLED_APPS = [
     
 
     'tinymce',
-    'newsletter',
+    # 'newsletter',
     'rest_framework',
     'storages',
     # 'corsheaders',
+    'google_analytics',
 
     'handlers',
     'app',
@@ -59,10 +60,14 @@ SITE_ID = 1
 
 CORS_ORIGIN_ALLOW_ALL = True
 
+GOOGLE_ANALYTICS = {
+    'google_analytics_id': 'G-4JCJ538Q72',
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    # 'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',

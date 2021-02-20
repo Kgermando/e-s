@@ -42,16 +42,16 @@
                   </blockquote>
 
                   <div class="pt-50">
-                     <h3 class="font-weight-bold">Description de l'entreprise:</h3>
-                     <p class="excert" style="text-align: justify;">
-                        {{ entreprise.description_entreprise }}
-                     </p> 
+                     <!-- <h3 class="font-weight-bold">Description de l'entreprise:</h3> -->
+                     <div class="excert" >
+                        {{ entreprise.description_entreprise | safe}}
+                     </div> 
                   </div>
                   <div class="pt-50">
                      <h3 class="font-weight-bold">Atout:</h3>
                      <p class="excert" style="text-align: justify;">
                         {{ entreprise.fonctions_entreprise }}
-                     </p> 
+                     </p>
                   </div>
                </div>
             </div>
