@@ -27,6 +27,9 @@ def entreprise_solutions_detail(request, id):
     entreprise_solution_ detail
     """
     entreprise = Entreprise_solution.objects.get(id=id)
+    entreprise.page_vues = entreprise.page_vues+1
+    entreprise.save()
+
     context = {
         'entreprise': entreprise
     }
@@ -57,6 +60,8 @@ def artisans_solution_detail(request, id):
         artisans_solution_detail
     """
     artisans = Artisans_solution.objects.get(id=id)
+    artisans.page_vues = artisans.page_vues+1
+    artisans.save()
     context = {
         'artisans': artisans
     }
@@ -86,6 +91,8 @@ def consultance_solution_detail(request, id):
     consultance_solution_detail
     """
     consultance = Consultance_solution.objects.get(id=id)
+    consultance.page_vues = consultance.page_vues+1
+    consultance.save()
     context = {
         'consultance': consultance
     }

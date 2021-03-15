@@ -464,6 +464,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -1194,22 +1210,6 @@
     },
     {
         "label": "unique_slug_generator_solution",
-        "importPath": "es.utils",
-        "description": "es.utils",
-        "isExtraImport": true,
-        "detail": "es.utils",
-        "documentation": {}
-    },
-    {
-        "label": "unique_slug_generator_solution_artisans",
-        "importPath": "es.utils",
-        "description": "es.utils",
-        "isExtraImport": true,
-        "detail": "es.utils",
-        "documentation": {}
-    },
-    {
-        "label": "unique_slug_generator_solution_consultant",
         "importPath": "es.utils",
         "description": "es.utils",
         "isExtraImport": true,
@@ -3120,24 +3120,6 @@
         "documentation": {}
     },
     {
-        "label": "unique_slug_generator_solution_artisans",
-        "kind": 2,
-        "importPath": "es.utils",
-        "description": "es.utils",
-        "peekOfCode": "def unique_slug_generator_solution_artisans(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.nom)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
-        "detail": "es.utils",
-        "documentation": {}
-    },
-    {
-        "label": "unique_slug_generator_solution_consultant",
-        "kind": 2,
-        "importPath": "es.utils",
-        "description": "es.utils",
-        "peekOfCode": "def unique_slug_generator_solution_consultant(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.nom)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
-        "detail": "es.utils",
-        "documentation": {}
-    },
-    {
         "label": "unique_slug_generator_produit",
         "kind": 2,
         "importPath": "es.utils",
@@ -3570,6 +3552,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "solutions.migrations.0005_auto_20210315_2346",
+        "description": "solutions.migrations.0005_auto_20210315_2346",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('solutions', '0004_auto_20210218_1304'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='artisans_solution',\n            name='page_vues',\n            field=models.IntegerField(default=0, verbose_name='Nombre des vues'),\n        ),",
+        "detail": "solutions.migrations.0005_auto_20210315_2346",
+        "documentation": {}
+    },
+    {
         "label": "Entreprise_solutionAdmin",
         "kind": 6,
         "importPath": "solutions.admin",
@@ -3655,25 +3646,7 @@
         "kind": 2,
         "importPath": "solutions.models",
         "description": "solutions.models",
-        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution(instance)\npre_save.connect(tag_pre_save_receiver, sender=Entreprise_solution)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_artisans(instance)\npre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:",
-        "detail": "solutions.models",
-        "documentation": {}
-    },
-    {
-        "label": "tag_pre_save_receiver",
-        "kind": 2,
-        "importPath": "solutions.models",
-        "description": "solutions.models",
-        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_artisans(instance)\npre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)\ndef tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_consultant(instance)\npre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)",
-        "detail": "solutions.models",
-        "documentation": {}
-    },
-    {
-        "label": "tag_pre_save_receiver",
-        "kind": 2,
-        "importPath": "solutions.models",
-        "description": "solutions.models",
-        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution_consultant(instance)\npre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_solution(instance)\npre_save.connect(tag_pre_save_receiver, sender=Entreprise_solution)\npre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)\npre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)",
         "detail": "solutions.models",
         "documentation": {}
     },
@@ -3736,7 +3709,7 @@
         "kind": 2,
         "importPath": "solutions.views",
         "description": "solutions.views",
-        "peekOfCode": "def entreprise_solutions_detail(request, id):\n    \"\"\"\n    entreprise_solution_ detail\n    \"\"\"\n    entreprise = Entreprise_solution.objects.get(id=id)\n    context = {\n        'entreprise': entreprise\n    }\n    template_name = 'pages/solutions/entreprise_solutions/entreprise_solutions_detail.html'\n    return render(request, template_name, context)",
+        "peekOfCode": "def entreprise_solutions_detail(request, id):\n    \"\"\"\n    entreprise_solution_ detail\n    \"\"\"\n    entreprise = Entreprise_solution.objects.get(id=id)\n    entreprise.page_vues = entreprise.page_vues+1\n    entreprise.save()\n    context = {\n        'entreprise': entreprise\n    }",
         "detail": "solutions.views",
         "documentation": {}
     },
@@ -3754,7 +3727,7 @@
         "kind": 2,
         "importPath": "solutions.views",
         "description": "solutions.views",
-        "peekOfCode": "def artisans_solution_detail(request, id):\n    \"\"\"\n        artisans_solution_detail\n    \"\"\"\n    artisans = Artisans_solution.objects.get(id=id)\n    context = {\n        'artisans': artisans\n    }\n    template_name = 'pages/solutions/artisans_solution/artisans_solution_detail.html'\n    return render(request, template_name, context)",
+        "peekOfCode": "def artisans_solution_detail(request, id):\n    \"\"\"\n        artisans_solution_detail\n    \"\"\"\n    artisans = Artisans_solution.objects.get(id=id)\n    artisans.page_vues = artisans.page_vues+1\n    artisans.save()\n    context = {\n        'artisans': artisans\n    }",
         "detail": "solutions.views",
         "documentation": {}
     },
@@ -3772,7 +3745,7 @@
         "kind": 2,
         "importPath": "solutions.views",
         "description": "solutions.views",
-        "peekOfCode": "def consultance_solution_detail(request, id):\n    \"\"\"\n    consultance_solution_detail\n    \"\"\"\n    consultance = Consultance_solution.objects.get(id=id)\n    context = {\n        'consultance': consultance\n    }\n    template_name = 'pages/solutions/consultant_solution/consultance_solutions_detail.html'\n    return render(request, template_name, context)",
+        "peekOfCode": "def consultance_solution_detail(request, id):\n    \"\"\"\n    consultance_solution_detail\n    \"\"\"\n    consultance = Consultance_solution.objects.get(id=id)\n    consultance.page_vues = consultance.page_vues+1\n    consultance.save()\n    context = {\n        'consultance': consultance\n    }",
         "detail": "solutions.views",
         "documentation": {}
     },

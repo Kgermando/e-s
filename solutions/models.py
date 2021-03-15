@@ -1,7 +1,7 @@
 from django.db import models
 from django.db.models.signals import pre_save
 from django.urls import reverse
-from es.utils import unique_slug_generator_solution, unique_slug_generator_solution_artisans, unique_slug_generator_solution_consultant
+from es.utils import unique_slug_generator_solution
 from es.constant import SECTEUR_ENTREPRISES
 
 from tinymce import HTMLField
@@ -26,6 +26,7 @@ class Entreprise_solution(models.Model):
     sociauTW_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
     sociauINS_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte Instagram et collez le ici')
     sociauIN_entreprise = models.URLField(blank=True, help_text='Copiez le lien de compte LinkedIN et collez le ici')
+    page_vues = models.IntegerField(default=0, verbose_name="Nombre des vues")
 
     def __str__(self):
         return self.nom
@@ -53,6 +54,7 @@ class Artisans_solution(models.Model):
     sociauTW_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
     sociauINS_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte Instagram et collez le ici')
     sociauIN_artisans = models.URLField(blank=True, help_text='Copiez le lien de compte LinkedIN et collez le ici')
+    page_vues = models.IntegerField(default=0, verbose_name="Nombre des vues")
 
     def __str__(self):
         return self.nom
@@ -81,6 +83,7 @@ class Consultance_solution(models.Model):
     sociauTW_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte Twitter et collez le ici')
     sociauINS_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte Instagram et collez le ici')
     sociauIN_consultance = models.URLField(blank=True, help_text='Copiez le lien de compte LinkedIN et collez le ici')
+    page_vues = models.IntegerField(default=0, verbose_name="Nombre des vues")
 
     def __str__(self):
         return self.nom
@@ -94,17 +97,5 @@ def tag_pre_save_receiver(sender, instance, *args, **kwargs):
         instance.slug = unique_slug_generator_solution(instance)
 
 pre_save.connect(tag_pre_save_receiver, sender=Entreprise_solution)
-
-
-def tag_pre_save_receiver(sender, instance, *args, **kwargs):
-    if not instance.slug:
-        instance.slug = unique_slug_generator_solution_artisans(instance)
-
 pre_save.connect(tag_pre_save_receiver, sender=Artisans_solution)
-
-
-def tag_pre_save_receiver(sender, instance, *args, **kwargs):
-    if not instance.slug:
-        instance.slug = unique_slug_generator_solution_consultant(instance)
-
 pre_save.connect(tag_pre_save_receiver, sender=Consultance_solution)
